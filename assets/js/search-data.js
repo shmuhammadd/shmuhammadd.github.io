@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-",
+        },{id: "post-hausanlp-weekly-study-group",
       
-        title: "",
+        title: "HausaNLP weekly study group",
       
-      description: "",
+      description: "Weekly Hausa NLP study group sessions and discussions.",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/2015-03-15-formatting-and-links/";
+          window.location.href = "/blog/2025/formatting-and-links/";
         
       },
     },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
