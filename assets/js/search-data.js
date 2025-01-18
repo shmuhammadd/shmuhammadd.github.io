@@ -385,15 +385,17 @@ ninja.data = [{
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-afrihate-a-multilingual-collection-of-hate-speech-and-abusive-language-datasets-for-african-languages",
+          title: 'AfriHate: A Multilingual Collection of Hate Speech and Abusive Language Datasets for African...',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/afrihate-release/";
+            },},{id: "news-joining-imperial-college-london-as-a-google-deepmind-academic-fellow",
+          title: 'Joining Imperial College London as a Google DeepMind Academic Fellow',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/deepmind-academic-fellow/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
