@@ -382,10 +382,7 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-afrihate-a-multilingual-collection-of-hate-speech-and-abusive-language-datasets-for-african-languages",
+    },{id: "news-afrihate-a-multilingual-collection-of-hate-speech-and-abusive-language-datasets-for-african-languages",
           title: 'AfriHate: A Multilingual Collection of Hate Speech and Abusive Language Datasets for African...',
           description: "",
           section: "News",handler: () => {
