@@ -12,7 +12,3 @@ This exciting fellowship supports early-career researchers in advancing the fiel
 
 Read more about my fellowship on the **Imperial College London website**:  
 [Computing welcomes Dr. Shamsuddeen Muhammad as Google DeepMind Academic Fellow](https://www.imperial.ac.uk/news/252813/computing-welcomes-dr-shamsuddeen-muhammad-google/)
-
----
-
-**Shamsuddeen Hassan Muhammad**
