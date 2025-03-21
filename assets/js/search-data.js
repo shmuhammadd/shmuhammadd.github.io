@@ -56,12 +56,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-03-16/";
-            },},{id: "news-teaching-nlp-at-aims-cameroon",
-          title: 'Teaching NLP at AIMS Cameroon',
+            },},{id: "news-i-will-be-attending-naccl-2025-in-albuquerque-new-mexico-april-30-may-7-2025-to-present-the-afrihate-paper",
+          title: 'I will be attending NACCL 2025 in Albuquerque, New Mexico (April 30–May 7,...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025-03-20/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
