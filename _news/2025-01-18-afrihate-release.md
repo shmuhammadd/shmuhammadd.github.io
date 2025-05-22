@@ -4,6 +4,8 @@ title: "AfriHate: A Multilingual Collection of Hate Speech and Abusive Language 
 date: 2025-01-15
 categories: [news, research]
 tags: [AfriHate, hate speech, African languages, NLP]
+published: true
+
 ---
 
 We are excited to announce the release of our paper: **AfriHate: A Multilingual Collection of Hate Speech and Abusive Language Datasets for African Languages**.
