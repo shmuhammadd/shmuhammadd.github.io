@@ -41,12 +41,7 @@ ninja.data = [{
           window.location.href = "/blog/2025/formatting-and-links/";
         
       },
-    },{id: "news-two-papers-accepted-at-acl2024",
-          title: 'Two papers accepted at ACL2024',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025-05-22/";
-            },},{id: "news-joining-imperial-college-london-as-a-google-deepmind-academic-fellow",
+    },{id: "news-joining-imperial-college-london-as-a-google-deepmind-academic-fellow",
           title: 'Joining Imperial College London as a Google DeepMind Academic Fellow',
           description: "",
           section: "News",handler: () => {
@@ -72,6 +67,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-05-05/";
+            },},{id: "news-two-papers-accepted-at-acl2024",
+          title: 'Two papers accepted at ACL2024',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-05-22/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
