@@ -30,18 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-hausanlp-weekly-study-group",
-      
-        title: "HausaNLP weekly study group",
-      
-      description: "Weekly Hausa NLP study group sessions and discussions.",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/formatting-and-links/";
-        
-      },
-    },{id: "news-joining-imperial-college-london-as-a-google-deepmind-academic-fellow",
+        },{id: "news-joining-imperial-college-london-as-a-google-deepmind-academic-fellow",
           title: 'Joining Imperial College London as a Google DeepMind Academic Fellow',
           description: "",
           section: "News",handler: () => {
