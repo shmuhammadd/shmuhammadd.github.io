@@ -59,9 +59,6 @@ ninja.data = [{
             },},{id: "news-i-will-be-attending-naccl-2025-in-albuquerque-new-mexico-april-30-may-7-2025-to-present-the-afrihate-paper",
           title: 'I will be attending NACCL 2025 in Albuquerque, New Mexico (April 30–May 7,...',
           description: "",
-          section: "News",},{id: "news-",
-          title: '',
-          description: "",
           section: "News",},{id: "news-four-papers-accepted-at-africanlp-2025",
           title: 'Four Papers Accepted at AfricaNLP 2025',
           description: "",
@@ -71,7 +68,7 @@ ninja.data = [{
           title: 'Two papers accepted at ACL2024',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2025-05-22/";
+              window.location.href = "/news/2025-05-20/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
