@@ -8,6 +8,7 @@ categories: sample-posts
 thumbnail: assets/img/9.jpg
 disqus_comments: true
 features: false
+published: false
 ---
 
 We kick off our Hausa NLP study group today. The study group will meet every Monday at 3pm in the lab. We will be discussing the challenges of NLP for Hausa and how to overcome them. We will also be reviewing the latest papers in the field.
