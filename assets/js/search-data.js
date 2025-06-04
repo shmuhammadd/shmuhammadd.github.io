@@ -58,8 +58,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-05-20/";
-            },},{id: "news-i-will-be-teaching-a-course-on-natural-language-processing-nlp-in-the-ai-for-science-master-s-program-at-the-african-institute-for-mathematical-sciences-aims-in-south-africa-from-november-24-to-december-12-2025",
-          title: 'I will be teaching a course on Natural Language Processing (NLP) in the...',
+            },},{id: "news-i-will-be-teaching-natural-language-processing-nlp-in-the-ai-for-science-master-s-program-at-the-african-institute-for-mathematical-sciences-aims-in-south-africa-from-november-24-to-december-12-2025",
+          title: 'I will be teaching Natural Language Processing (NLP) in the AI for Science...',
+          description: "",
+          section: "News",},{id: "news-i-will-be-teaching-natural-language-processing-nlp-at-the-african-institute-for-mathematical-sciences-aims-camerron-from-febuary-23-to-march-14-2025",
+          title: 'I will be teaching Natural Language Processing (NLP) at the African Institute for...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
