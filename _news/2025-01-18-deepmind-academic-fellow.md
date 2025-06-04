@@ -4,6 +4,8 @@ title: "Joining Imperial College London as a Google DeepMind Academic Fellow"
 date: 2024-01-18
 categories: [news, AI, fellowship]
 tags: [DeepMind, AI, fellowship, research, Imperial College London]
+published: true
+
 ---
 
 I have joined **Imperial College London** as a **Google DeepMind Academic Fellow**! This fellowship supports early-career researchers in AI and machine learning. 
