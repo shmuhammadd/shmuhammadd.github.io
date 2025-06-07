@@ -40,8 +40,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/afrihate-release/";
-            },},{id: "news-teaching-nlp-at-aims-cameroon",
-          title: 'Teaching NLP at AIMS Cameroon',
+            },},{id: "news-",
+          title: '',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-03-16/";
@@ -64,7 +64,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-teaching-natural-language-processing-nlp-at-the-african-institute-for-mathematical-sciences-aims-camerron-from-febuary-23-to-march-14-2025",
           title: 'I will be teaching Natural Language Processing (NLP) at the African Institute for...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-",
+          title: '',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-06-07/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
