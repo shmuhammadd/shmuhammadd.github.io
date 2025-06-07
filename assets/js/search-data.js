@@ -64,7 +64,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-teaching-natural-language-processing-nlp-at-the-african-institute-for-mathematical-sciences-aims-camerron-from-febuary-23-to-march-14-2025",
           title: 'I will be teaching Natural Language Processing (NLP) at the African Institute for...',
           description: "",
-          section: "News",},{id: "news-i-will-be-giving-a-keynote-speech-at-the-york-st-john-university-to-talk-about-the-future-of-ai-in-africa",
+          section: "News",},{id: "news-i-will-be-giving-a-keynote-speech-at-the-york-st-john-university-on-19th-june-2025",
           title: 'I will be giving a keynote speech at the York St John University...',
           description: "",
           section: "News",},{id: "projects-project-1",
