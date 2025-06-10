@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-bio",
+          title: "Bio",
+          description: "Shamsuddeen Hassan Muhammad Bio.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/biography/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -29,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-bio",
-          title: "Bio",
-          description: "Shamsuddeen Hassan Muhammad Bio.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/biography/";
           },
         },{id: "news-joining-imperial-college-london-as-a-google-deepmind-academic-fellow",
           title: 'Joining Imperial College London as a Google DeepMind Academic Fellow',
