@@ -47,6 +47,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-06-01/";
+            },},{id: "news-two-papers-accepted-at-naacl2025",
+          title: 'Two papers accepted at NAACL2025',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-02-01/";
             },},{id: "news-",
           title: '',
           description: "",
@@ -60,8 +65,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-05-05/";
-            },},{id: "news-two-papers-accepted-at-acl2024",
-          title: 'Two papers accepted at ACL2024',
+            },},{id: "news-two-papers-accepted-at-acl2025",
+          title: 'Two papers accepted at ACL2025',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-05-20/";
