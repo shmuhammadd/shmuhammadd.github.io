@@ -42,11 +42,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/deepmind-academic-fellow/";
-            },},{id: "news-afrihate-a-multilingual-collection-of-hate-speech-and-abusive-language-datasets-for-african-languages",
-          title: 'AfriHate: A Multilingual Collection of Hate Speech and Abusive Language Datasets for African...',
+            },},{id: "news-co-organizing-semeval-2025-shared-task-on-emotion-detection",
+          title: 'Co-Organizing SemEval-2025 Shared Task on Emotion Detection',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/afrihate-release/";
+              window.location.href = "/news/2024-06-01/";
             },},{id: "news-",
           title: '',
           description: "",
