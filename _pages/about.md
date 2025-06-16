@@ -26,6 +26,6 @@ My research focuses on Natural Language Processing (NLP) for low-resource Africa
 
 I am deeply passionate about diversity and inclusion. To further this cause, I co-founded the [HausaNLP](https://hausanlp.github.io/) research group, which aims to advance research and development in the Hausa language, one of the most widely spoken languages in Africa. I also founded the [Arewa Data Science Academy](https://arewadatascience.github.io/), which seeks to democratize data science and AI education by providing free data science and machine learning training to underserved students.
 
-If you have any questions regarding my research or want to collaborate feel free to contact me anytime.
+If you have any questions regarding my research or want to collaborate feel free to contact me anytime. <a href="mailto:shamsuddeen2004@gmail.com" style="display: inline-block; padding: 8px 16px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">Contact Me</a>
 
 
