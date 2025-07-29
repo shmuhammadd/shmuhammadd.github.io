@@ -37,13 +37,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "news-joining-imperial-college-london-as-a-google-deepmind-academic-fellow",
           title: 'Joining Imperial College London as a Google DeepMind Academic Fellow',
           description: "",
