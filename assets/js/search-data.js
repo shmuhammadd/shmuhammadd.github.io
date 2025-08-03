@@ -91,7 +91,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-brighter-bridging-the-gap-in-human-annotated-textual-emotion-recognition-datasets-for-28-languages-has-been-awarded-the-best-resource-award-at-acl-2025-see-the-project-page-for-more-details",
           title: 'Our paper “BRIGHTER: BRIdging the Gap in Human-Annotated Textual Emotion Recognition Datasets for...',
           description: "",
-          section: "News",},{id: "news-our-semeval-task-semeval-2025-task-11-bridging-the-gap-in-text-based-emotion-detection-has-been-awarded-the-best-semeval-task-award-at-acl-2025",
+          section: "News",},{id: "news-our-semeval-task-semeval-2025-task-11-bridging-the-gap-in-text-based-emotion-detection-has-been-awarded-the-best-semeval2025-task-award-at-acl-2025",
           title: 'Our SemEval task “SemEval-2025 Task 11: Bridging the Gap in Text-Based Emotion Detection”...',
           description: "",
           section: "News",},{id: "projects-project-1",
