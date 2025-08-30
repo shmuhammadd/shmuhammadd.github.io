@@ -94,7 +94,15 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-brighter-bridging-the-gap-in-human-annotated-textual-emotion-recognition-datasets-for-28-languages-has-been-awarded-the-best-resource-award-at-acl-2025-see-the-project-page-for-more-details",
           title: 'Our paper “BRIGHTER: BRIdging the Gap in Human-Annotated Textual Emotion Recognition Datasets for...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-our-paper-the-state-of-large-language-models-for-african-languages-progress-and-challenges-has-been-awarded-the-best-paper-award-at-deep-learning-indaba-dli-2025-dli-is-the-largest-machine-learning-and-artificial-intelligence-ai-gathering-in-africa-the-paper-reveals-that-african-languages-remain-significantly-underrepresented-in-current-language-models-out-of-over-2-000-languages-only-about-42-have-any-support-in-existing-llms-primarily-those-with-large-speaker-populations-or-official-status-major-challenges-include-severe-data-scarcity-morphological-complexity-a-lack-of-standardized-orthographies-and-limited-computational-resources",
+          title: 'Our paper, “The State of Large Language Models for African Languages: Progress and...',
+          description: "",
+          section: "News",},{id: "news-two-papers-accepted-at-emnlp-2025",
+          title: 'Two papers accepted at EMNLP 2025',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-08-25/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
