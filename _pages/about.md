@@ -30,7 +30,6 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 
 If you have any questions regarding my research or want to collaborate feel free to contact me anytime. <a href="mailto:shamsuddeen2004@gmail.com" style="display: inline-block; padding: 8px 16px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">Contact Me</a>
 
-
 <h2>🏆 Awards & Recognitions</h2>
 
 <p style="font-size:1.05rem; text-align:justify;">
@@ -49,7 +48,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>BRIGHTER: Textual Emotion Recognition Datasets for 28 Languages</em>
         </a><br>
-        Recognized as <strong>Best Resource Paper</strong> at <em>ACL 2025</em> for advancing multilingual emotion datasets.
+        Recognized as <strong>Best Resource Paper</strong> at <em>ACL 2025</em>.
       </p>
     </div>
   </div>
@@ -61,7 +60,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>Task 11: Bridging the Gap in Text-Based Emotion Detection</em>
         </a><br>
-        Awarded <strong>Best Task Paper</strong> for designing a multilingual benchmark on emotion detection.
+        Awarded <strong>Best Task Paper</strong> for multilingual emotion detection.
       </p>
     </div>
   </div>
@@ -75,7 +74,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>IrokoBench: A New Benchmark for African Languages in the Age of LLMs</em>
         </a><br>
-        Received <strong>Outstanding Paper</strong> at <em>NAACL 2025</em> for contributions to LLM evaluation in African languages.
+        Received <strong>Outstanding Paper</strong> at <em>NAACL 2025</em>.
       </p>
     </div>
   </div>
@@ -87,7 +86,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>The State of Large Language Models for African Languages</em>
         </a><br>
-        Honored as <strong>Best Paper</strong> at <em>Deep Learning Indaba 2025</em>, Africa’s largest ML and AI gathering.
+        Honored as <strong>Best Paper</strong> at <em>Deep Learning Indaba 2025</em>.
       </p>
     </div>
   </div>
@@ -149,7 +148,6 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
 
 <!-- ========== 2020 AWARD + VIEW PUBLICATIONS CARD ========== -->
 <div class="row">
-  <!-- Left: last award -->
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #607D8B;">
       <h5><strong>Wikimedia Research Award — EMNLP 2020 (Findings)</strong></h5>
@@ -157,12 +155,11 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>Participatory Research for Low-Resourced Machine Translation</em>
         </a><br>
-        Awarded for impactful collaboration with Wikimedia Foundation to enhance low-resource MT.
+        Awarded for impactful collaboration with Wikimedia Foundation on low-resource MT.
       </p>
     </div>
   </div>
 
-  <!-- Right: View Publications Card -->
   <div class="col-md-6 d-flex align-items-center justify-content-center">
     <div class="card shadow-sm text-center p-4 mb-3 rounded viewpub-card">
       <h5 class="fw-bold mb-2">Explore My Research</h5>
@@ -176,66 +173,62 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
   </div>
 </div>
 
-<!-- ========== LINK + THEME STYLING ========== -->
+<!-- ========== STYLING ========== -->
 <style>
-/* Clickable paper link style */
+/* ===== Paper Links ===== */
 .award-link {
-  color: #1b8ef2;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  font-weight: 500;
-  transition: all 0.2s ease;
+  color:#1b8ef2;
+  text-decoration:underline;
+  text-underline-offset:3px;
+  font-weight:500;
+  transition:all .2s ease;
 }
 .award-link:hover {
-  color: #0d6efd;
-  text-shadow: 0 0 8px rgba(29,155,240,0.4);
-  text-decoration-thickness: 2px;
+  color:#0d6efd;
+  text-shadow:0 0 6px rgba(29,155,240,.4);
+  text-decoration-thickness:2px;
 }
-html[data-theme="dark"] .award-link {
-  color: #66b0ff;
-}
-html[data-theme="dark"] .award-link:hover {
-  color: #9ad3ff;
-  text-shadow: 0 0 10px rgba(118,201,255,0.6);
+html[data-theme="dark"] .award-link{color:#66b0ff;}
+html[data-theme="dark"] .award-link:hover{
+  color:#9ad3ff;
+  text-shadow:0 0 10px rgba(118,201,255,.6);
 }
 
-/* View Publications Card */
-html[data-theme="light"] .viewpub-card {
-  background: linear-gradient(135deg, #0366d6, #1b8ef2);
-  color: white;
-  border-left: 4px solid #0366d6;
-  box-shadow: 0 2px 8px rgba(3,102,214,0.25);
+/* ===== View Publications Card ===== */
+html[data-theme="light"] .viewpub-card{
+  background:linear-gradient(135deg,#0366d6,#1b8ef2);
+  color:#fff;
+  border-left:4px solid #0366d6;
+  box-shadow:0 2px 8px rgba(3,102,214,.25);
 }
-html[data-theme="dark"] .viewpub-card {
-  background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
-  color: #f5f5f5;
-  border-left: 4px solid #1b8ef2;
-  box-shadow: 0 2px 8px rgba(27,142,242,0.15);
+html[data-theme="dark"] .viewpub-card{
+  background:linear-gradient(135deg,#1a1a1a,#2a2a2a);
+  color:#f5f5f5;
+  border-left:4px solid #1b8ef2;
+  box-shadow:0 2px 8px rgba(27,142,242,.15);
 }
 
-/* Publication button (light/dark adaptive) */
-.viewpub-btn {
-  background-color: white;
-  color: #0366d6;
-  font-weight: 600;
-  border-radius: 6px;
-  padding: 8px 20px;
-  text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
+/* ===== Button Style ===== */
+.viewpub-btn{
+  background-color:#fff;
+  color:#0366d6;
+  font-weight:600;
+  border-radius:6px;
+  padding:8px 20px;
+  text-decoration:none;
+  transition:background-color .3s,color .3s;
 }
-html[data-theme="dark"] .viewpub-btn {
-  background-color: #1b8ef2;
-  color: white;
+html[data-theme="dark"] .viewpub-btn{
+  background-color:#1b8ef2;
+  color:#fff;
 }
-.viewpub-btn:hover {
-  background-color: #0255b6;
-  color: white;
-}
-html[data-theme="dark"] .viewpub-btn:hover {
-  background-color: white;
-  color: #0255b6;
+.viewpub-btn:hover{background-color:#0255b6;color:#fff;}
+html[data-theme="dark"] .viewpub-btn:hover{
+  background-color:#fff;
+  color:#0255b6;
 }
 </style>
+
 
 
 
