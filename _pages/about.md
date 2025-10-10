@@ -33,10 +33,9 @@ If you have any questions regarding my research or want to collaborate feel free
 <h2>🏆 Awards & Recognitions</h2>
 
 <p style="font-size:1.05rem; text-align:justify;">
-Over the years, my research and community contributions have been recognized with multiple
-awards at top-tier venues and workshops in <strong>Natural Language Processing (NLP)</strong>
-and <strong>Artificial Intelligence (AI)</strong>.
-Below are selected distinctions that highlight my ongoing contributions to African NLP.
+My research and community contributions have received several awards at top-tier venues in 
+<strong>Natural Language Processing (NLP)</strong> and <strong>Artificial Intelligence (AI)</strong>, 
+recognizing impactful work in multilingual and African language technologies.
 </p>
 
 <!-- ========== 2025 AWARDS ========== -->
@@ -48,7 +47,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>BRIGHTER: Textual Emotion Recognition Datasets for 28 Languages</em>
         </a><br>
-        Recognized as <strong>Best Resource Paper</strong> at <em>ACL 2025</em>.
+        <em>ACL 2025</em>.
       </p>
     </div>
   </div>
@@ -60,7 +59,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>Task 11: Bridging the Gap in Text-Based Emotion Detection</em>
         </a><br>
-        Awarded <strong>Best Task Paper</strong> for multilingual emotion detection.
+        <em>Best Task Paper</em>, <em>SemEval 2025</em>.
       </p>
     </div>
   </div>
@@ -74,7 +73,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>IrokoBench: A New Benchmark for African Languages in the Age of LLMs</em>
         </a><br>
-        Received <strong>Outstanding Paper</strong> at <em>NAACL 2025</em>.
+        <em>NAACL 2025</em>.
       </p>
     </div>
   </div>
@@ -86,7 +85,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>The State of Large Language Models for African Languages</em>
         </a><br>
-        Honored as <strong>Best Paper</strong> at <em>Deep Learning Indaba 2025</em>.
+        <em>Deep Learning Indaba 2025</em>.
       </p>
     </div>
   </div>
@@ -101,7 +100,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>BLEnD: Everyday Knowledge in Diverse Cultures and Languages</em>
         </a><br>
-        Recognized for contributions to culturally grounded NLP datasets.
+        <em>NeurIPS C3NLP Workshop 2024</em>.
       </p>
     </div>
   </div>
@@ -113,7 +112,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>Semantic Textual Relatedness Task</em>
         </a><br>
-        Received <strong>Honourable Mention</strong> for multilingual benchmark design.
+        <em>SemEval 2024</em>.
       </p>
     </div>
   </div>
@@ -128,7 +127,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages</em>
         </a><br>
-        Recognized for advancing cross-lingual sentiment analysis in African contexts.
+        <em>AfricaNLP 2023</em>.
       </p>
     </div>
   </div>
@@ -140,7 +139,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>MasakhaNER: Named Entity Recognition for African Languages</em>
         </a><br>
-        Recognized for leadership and service to the NLP research community.
+        <em>IJCNLP–AACL 2023</em>.
       </p>
     </div>
   </div>
@@ -155,7 +154,7 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
         <a href="#" target="_blank" class="award-link">
           📄 <em>Participatory Research for Low-Resourced Machine Translation</em>
         </a><br>
-        Awarded for impactful collaboration with Wikimedia Foundation on low-resource MT.
+        <em>EMNLP 2020</em>.
       </p>
     </div>
   </div>
@@ -175,7 +174,6 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
 
 <!-- ========== STYLING ========== -->
 <style>
-/* ===== Paper Links ===== */
 .award-link {
   color:#1b8ef2;
   text-decoration:underline;
@@ -194,7 +192,6 @@ html[data-theme="dark"] .award-link:hover{
   text-shadow:0 0 10px rgba(118,201,255,.6);
 }
 
-/* ===== View Publications Card ===== */
 html[data-theme="light"] .viewpub-card{
   background:linear-gradient(135deg,#0366d6,#1b8ef2);
   color:#fff;
@@ -208,7 +205,6 @@ html[data-theme="dark"] .viewpub-card{
   box-shadow:0 2px 8px rgba(27,142,242,.15);
 }
 
-/* ===== Button Style ===== */
 .viewpub-btn{
   background-color:#fff;
   color:#0366d6;
