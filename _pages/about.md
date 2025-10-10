@@ -9,15 +9,15 @@ subtitle: "Imperial College London.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image: prof_picold.jpg
+  # image_style: "max-width: 300px; margin: 10px 0px 25px 45px; border-radius: 12px; object-fit: cover; display: block;"
+  image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
-
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 I am a Google DeepMind Academic Fellow and an Advanced Research Fellow at Imperial College London. I also serve as an Assistant Professor (Senior Lecturer) at the Faculty of Computing, Bayero University, Kano, Nigeria, and as a Visiting Professor at the African Institute of Mathematical Sciences in Cameroon and South Africa, as well as at York St John University.
@@ -40,20 +40,29 @@ and <strong>Artificial Intelligence (AI)</strong>.
 Below are selected distinctions that highlight my ongoing contributions to African NLP.
 </p>
 
+<!-- ========== 2025 AWARDS ========== -->
 <div class="row">
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #007ACC;">
       <h5><strong>Best Resource Paper — ACL 2025</strong></h5>
-      <p><em>BRIGHTER: Textual Emotion Recognition Datasets for 28 Languages</em><br>
-      Recognized as <strong>Best Resource Paper</strong> at <em>ACL 2025</em> for advancing multilingual emotion datasets.</p>
+      <p>
+        <a href="#" target="_blank" class="award-link">
+          📄 <em>BRIGHTER: Textual Emotion Recognition Datasets for 28 Languages</em>
+        </a><br>
+        Recognized as <strong>Best Resource Paper</strong> at <em>ACL 2025</em> for advancing multilingual emotion datasets.
+      </p>
     </div>
   </div>
 
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #FF9800;">
       <h5><strong>Best Task Award — SemEval 2025 (ACL 2025)</strong></h5>
-      <p><em>Task 11: Bridging the Gap in Text-Based Emotion Detection</em><br>
-      Awarded <strong>Best Task Paper</strong> for designing a multilingual benchmark on emotion detection.</p>
+      <p>
+        <a href="#" target="_blank" class="award-link">
+          📄 <em>Task 11: Bridging the Gap in Text-Based Emotion Detection</em>
+        </a><br>
+        Awarded <strong>Best Task Paper</strong> for designing a multilingual benchmark on emotion detection.
+      </p>
     </div>
   </div>
 </div>
@@ -62,66 +71,172 @@ Below are selected distinctions that highlight my ongoing contributions to Afric
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #4CAF50;">
       <h5><strong>Outstanding Paper — NAACL 2025</strong></h5>
-      <p><em>IrokoBench: A New Benchmark for African Languages in the Age of LLMs</em><br>
-      Received <strong>Outstanding Paper</strong> at <em>NAACL 2025</em> for contributions to LLM evaluation in African languages.</p>
+      <p>
+        <a href="#" target="_blank" class="award-link">
+          📄 <em>IrokoBench: A New Benchmark for African Languages in the Age of LLMs</em>
+        </a><br>
+        Received <strong>Outstanding Paper</strong> at <em>NAACL 2025</em> for contributions to LLM evaluation in African languages.
+      </p>
     </div>
   </div>
 
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #E91E63;">
       <h5><strong>Best Paper — Deep Learning Indaba 2025</strong></h5>
-      <p><em>The State of Large Language Models for African Languages</em><br>
-      Honored as <strong>Best Paper</strong> at <em>Deep Learning Indaba 2025</em>, Africa’s largest ML and AI gathering.</p>
+      <p>
+        <a href="#" target="_blank" class="award-link">
+          📄 <em>The State of Large Language Models for African Languages</em>
+        </a><br>
+        Honored as <strong>Best Paper</strong> at <em>Deep Learning Indaba 2025</em>, Africa’s largest ML and AI gathering.
+      </p>
     </div>
   </div>
 </div>
 
+<!-- ========== 2024 AWARDS ========== -->
 <div class="row">
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #9C27B0;">
       <h5><strong>Best Non-archival Paper — NeurIPS 2024 (C3NLP Workshop)</strong></h5>
-      <p><em>BLEnD: Everyday Knowledge in Diverse Cultures and Languages</em><br>
-      Recognized for contributions to culturally grounded NLP datasets.</p>
+      <p>
+        <a href="#" target="_blank" class="award-link">
+          📄 <em>BLEnD: Everyday Knowledge in Diverse Cultures and Languages</em>
+        </a><br>
+        Recognized for contributions to culturally grounded NLP datasets.
+      </p>
     </div>
   </div>
 
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #03A9F4;">
       <h5><strong>Honourable Mention — SemEval 2024</strong></h5>
-      <p><em>Semantic Textual Relatedness Task</em><br>
-      Received <strong>Honourable Mention</strong> for multilingual benchmark design.</p>
+      <p>
+        <a href="#" target="_blank" class="award-link">
+          📄 <em>Semantic Textual Relatedness Task</em>
+        </a><br>
+        Received <strong>Honourable Mention</strong> for multilingual benchmark design.
+      </p>
     </div>
   </div>
 </div>
 
+<!-- ========== 2023 AWARDS ========== -->
 <div class="row">
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #795548;">
       <h5><strong>Best Non-archival Paper — AfricaNLP 2023 (Kigali)</strong></h5>
-      <p><em>AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages</em><br>
-      Recognized for advancing cross-lingual sentiment analysis in African contexts.</p>
+      <p>
+        <a href="#" target="_blank" class="award-link">
+          📄 <em>AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages</em>
+        </a><br>
+        Recognized for advancing cross-lingual sentiment analysis in African contexts.
+      </p>
     </div>
   </div>
 
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #009688;">
       <h5><strong>Area Chair Award — IJCNLP–AACL 2023</strong></h5>
-      <p><em>MasakhaNER: Named Entity Recognition for African Languages</em><br>
-      Recognized for leadership and service to the NLP research community.</p>
+      <p>
+        <a href="#" target="_blank" class="award-link">
+          📄 <em>MasakhaNER: Named Entity Recognition for African Languages</em>
+        </a><br>
+        Recognized for leadership and service to the NLP research community.
+      </p>
     </div>
   </div>
 </div>
 
+<!-- ========== 2020 AWARD + VIEW PUBLICATIONS CARD ========== -->
 <div class="row">
+  <!-- Left: last award -->
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #607D8B;">
       <h5><strong>Wikimedia Research Award — EMNLP 2020 (Findings)</strong></h5>
-      <p><em>Participatory Research for Low-Resourced Machine Translation</em><br>
-      Awarded for impactful collaboration with Wikimedia Foundation to enhance low-resource MT.</p>
+      <p>
+        <a href="#" target="_blank" class="award-link">
+          📄 <em>Participatory Research for Low-Resourced Machine Translation</em>
+        </a><br>
+        Awarded for impactful collaboration with Wikimedia Foundation to enhance low-resource MT.
+      </p>
+    </div>
+  </div>
+
+  <!-- Right: View Publications Card -->
+  <div class="col-md-6 d-flex align-items-center justify-content-center">
+    <div class="card shadow-sm text-center p-4 mb-3 rounded viewpub-card">
+      <h5 class="fw-bold mb-2">Explore My Research</h5>
+      <p style="font-size:0.95rem; margin-bottom:18px;">
+        Discover my full list of publications in leading NLP and AI venues.
+      </p>
+      <a href="/publications/" class="btn viewpub-btn">
+        📚 View All Publications →
+      </a>
     </div>
   </div>
 </div>
 
-<!-- <p class="mt-4" style="font-size:1.05rem; text-align:justify;">
-These awards collectively reflect effort toward <strong>building inclusive and culturally aware NLP systems</strong> that represent African voices and advance global language equity.
-</p> -->
+<!-- ========== LINK + THEME STYLING ========== -->
+<style>
+/* Clickable paper link style */
+.award-link {
+  color: #1b8ef2;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.award-link:hover {
+  color: #0d6efd;
+  text-shadow: 0 0 8px rgba(29,155,240,0.4);
+  text-decoration-thickness: 2px;
+}
+html[data-theme="dark"] .award-link {
+  color: #66b0ff;
+}
+html[data-theme="dark"] .award-link:hover {
+  color: #9ad3ff;
+  text-shadow: 0 0 10px rgba(118,201,255,0.6);
+}
+
+/* View Publications Card */
+html[data-theme="light"] .viewpub-card {
+  background: linear-gradient(135deg, #0366d6, #1b8ef2);
+  color: white;
+  border-left: 4px solid #0366d6;
+  box-shadow: 0 2px 8px rgba(3,102,214,0.25);
+}
+html[data-theme="dark"] .viewpub-card {
+  background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+  color: #f5f5f5;
+  border-left: 4px solid #1b8ef2;
+  box-shadow: 0 2px 8px rgba(27,142,242,0.15);
+}
+
+/* Publication button (light/dark adaptive) */
+.viewpub-btn {
+  background-color: white;
+  color: #0366d6;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 8px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+html[data-theme="dark"] .viewpub-btn {
+  background-color: #1b8ef2;
+  color: white;
+}
+.viewpub-btn:hover {
+  background-color: #0255b6;
+  color: white;
+}
+html[data-theme="dark"] .viewpub-btn:hover {
+  background-color: white;
+  color: #0255b6;
+}
+</style>
+
+
+
+
