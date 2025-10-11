@@ -88,6 +88,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-giving-a-keynote-speech-at-empowering-india-through-inclusive-generative-ai-workshop-on-5th-july-2025",
           title: 'I will be giving a keynote speech at Empowering India Through Inclusive Generative...',
           description: "",
+          section: "News",},{id: "news-i-will-be-giving-a-keynote-speech-at-empowering-india-through-inclusive-generative-ai-workshop-on-5th-july-2025",
+          title: 'I will be giving a keynote speech at Empowering India Through Inclusive Generative...',
+          description: "",
           section: "News",},{id: "news-best-task-award-semeval-2025-our-semeval-task-semeval-2025-task-11-bridging-the-gap-in-text-based-emotion-detection-has-been-awarded-the-best-semeval2025-task-award-at-acl-2025",
           title: 'Best Task Award - SemEval 2025 Our SemEval task “SemEval-2025 Task 11: Bridging...',
           description: "",
@@ -97,12 +100,10 @@ ninja.data = [{
           section: "News",},{id: "news-best-paper-award-deep-learning-indaba-2025-our-paper-the-state-of-large-language-models-for-african-languages-progress-and-challenges-has-been-awarded-the-best-paper-award-at-deep-learning-indaba-dli-2025-dli-is-the-largest-machine-learning-and-artificial-intelligence-ai-gathering-in-africa",
           title: 'Best Paper Award - Deep Learning Indaba 2025 Our paper, “The State of...',
           description: "",
-          section: "News",},{id: "news-two-papers-accepted-at-emnlp-2025",
-          title: 'Two papers accepted at EMNLP 2025',
+          section: "News",},{id: "news-i-will-be-giving-a-talk-at-microsoft-research-lab-africa-nairobi-on-30th-october-2025",
+          title: 'I will be giving a talk at Microsoft Research Lab - Africa, Nairobi...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2025-08-25/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
