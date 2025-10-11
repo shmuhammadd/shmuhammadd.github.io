@@ -10,15 +10,10 @@ subtitle: "Imperial College London.
 profile:
   align: right
   image: prof_picold.jpg
-  # image_style: "max-width: 300px; margin: 10px 0px 25px 45px; border-radius: 12px; object-fit: cover; display: block;"
-  image_circular: false # crops the image to make it circular
-  # more_info: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
-news: true # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+  image_circular: false
+news: false  # Disable auto injection so we can control position
+selected_papers: false
+social: true
 ---
 I am a Google DeepMind Academic Fellow and an Advanced Research Fellow at Imperial College London. I also serve as an Assistant Professor (Senior Lecturer) at the Faculty of Computing, Bayero University, Kano, Nigeria, and as a Visiting Professor at the African Institute of Mathematical Sciences in Cameroon and South Africa, as well as at York St John University.
 
@@ -29,13 +24,10 @@ My research focuses on Natural Language Processing (NLP) for low-resource Africa
 I am deeply passionate about diversity and inclusion. To further this cause, I co-founded the [HausaNLP](https://hausanlp.github.io/) research group, which aims to advance research and development in the Hausa language, one of the most widely spoken languages in Africa. I also founded the [Arewa Data Science Academy](https://arewadatascience.github.io/), which seeks to democratize data science and AI education by providing free data science and machine learning training to underserved students.
 
 If you have any questions regarding my research or want to collaborate feel free to contact me anytime. <a href="mailto:shamsuddeen2004@gmail.com" style="display: inline-block; padding: 8px 16px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">Contact Me</a>
-
 <h2>🏆 Awards & Recognitions</h2>
-
 <p style="font-size:1.05rem; text-align:justify;">
 My research and community contributions have received several awards at top-tier venues, recognizing impactful work in multilingual and African language technologies.
 </p>
-
 <!-- ========== 2025 AWARDS ========== -->
 <div class="row">
   <div class="col-md-6">
@@ -49,7 +41,6 @@ My research and community contributions have received several awards at top-tier
       </p>
     </div>
   </div>
-
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #FF9800;">
       <h5><strong>Best Task Award — SemEval 2025 (ACL 2025)</strong></h5>
@@ -62,7 +53,6 @@ My research and community contributions have received several awards at top-tier
     </div>
   </div>
 </div>
-
 <div class="row">
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #4CAF50;">
@@ -75,7 +65,6 @@ My research and community contributions have received several awards at top-tier
       </p>
     </div>
   </div>
-
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #E91E63;">
       <h5><strong>Best Paper — Deep Learning Indaba 2025</strong></h5>
@@ -88,7 +77,6 @@ My research and community contributions have received several awards at top-tier
     </div>
   </div>
 </div>
-
 <!-- ========== 2024 AWARDS ========== -->
 <div class="row">
   <div class="col-md-6">
@@ -102,7 +90,6 @@ My research and community contributions have received several awards at top-tier
       </p>
     </div>
   </div>
-
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #03A9F4;">
       <h5><strong>Honourable Mention — SemEval 2024</strong></h5>
@@ -115,7 +102,6 @@ My research and community contributions have received several awards at top-tier
     </div>
   </div>
 </div>
-
 <!-- ========== 2023 AWARDS ========== -->
 <div class="row">
   <div class="col-md-6">
@@ -129,7 +115,6 @@ My research and community contributions have received several awards at top-tier
       </p>
     </div>
   </div>
-
   <div class="col-md-6">
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #009688;">
       <h5><strong>Area Chair Award — IJCNLP–AACL 2023</strong></h5>
@@ -142,7 +127,6 @@ My research and community contributions have received several awards at top-tier
     </div>
   </div>
 </div>
-
 <!-- ========== 2020 AWARD + VIEW PUBLICATIONS CARD ========== -->
 <div class="row">
   <div class="col-md-6">
@@ -156,7 +140,6 @@ My research and community contributions have received several awards at top-tier
       </p>
     </div>
   </div>
-
   <div class="col-md-6 d-flex align-items-center justify-content-center">
     <div class="card shadow-sm text-center p-4 mb-3 rounded viewpub-card">
       <h5 class="fw-bold mb-2">Explore My Research</h5>
@@ -169,7 +152,6 @@ My research and community contributions have received several awards at top-tier
     </div>
   </div>
 </div>
-
 <!-- ========== STYLING ========== -->
 <style>
 .award-link {
@@ -189,7 +171,6 @@ html[data-theme="dark"] .award-link:hover{
   color:#9ad3ff;
   text-shadow:0 0 10px rgba(118,201,255,.6);
 }
-
 html[data-theme="light"] .viewpub-card{
   background:linear-gradient(135deg,#0366d6,#1b8ef2);
   color:#fff;
@@ -202,7 +183,6 @@ html[data-theme="dark"] .viewpub-card{
   border-left:4px solid #1b8ef2;
   box-shadow:0 2px 8px rgba(27,142,242,.15);
 }
-
 .viewpub-btn{
   background-color:#fff;
   color:#0366d6;
@@ -224,6 +204,139 @@ html[data-theme="dark"] .viewpub-btn:hover{
 </style>
 
 
+## 📢 Latest Updates
+
+{% include news.liquid %}
 
 
+## Visitor Statistics
+
+<div class="visitor-section text-center">
+  <p style="font-size:1rem; margin-bottom: 8px;">Thank you for visiting my website! 🌟</p>
+
+  <!-- 👁️ Compact summary for mobile -->
+  <div class="visitor-summary">
+    👁️ <strong id="visitor-count">Loading...</strong> visitors  
+    | 🌍 <strong id="country-count">Loading...</strong> countries
+  </div>
+
+  <!-- 🔢 Total Visitor Counter -->
+  <div class="visitor-full">
+    <a href="https://hits.seeyoufarm.com" target="_blank" rel="noopener">
+      <!-- <img 
+        id="visitor-counter-img"
+        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshmuhammadd.github.io&count_bg=%230366d6&title_bg=%23002b5c&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"
+        alt="Visitor Counter"
+        class="visitor-counter"
+      > -->
+    </a>
+
+    <br>
+
+    <!-- 🌍 Country Flag Counter -->
+    <a href="https://info.flagcounter.com/2a7q" target="_blank" rel="noopener">
+      <img 
+        id="flag-counter-img"
+        src="https://s01.flagcounter.com/count2/2a7q/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0.png"
+        alt="Flag Counter"
+        border="0"
+        class="flag-counter"
+      >
+    </a>
+  </div>
+
+  <p style="font-size:0.9rem; margin-top: 8px; color: var(--global-text-color);">
+    Tracking visitors globally since <strong>2025</strong> 🌐
+  </p>
+</div>
+
+---
+
+<!-- ===== Custom Styling ===== -->
+<style>
+/* Hide default 'news' heading */
+#news h2, .news h2 {
+  display: none !important;
+}
+
+/* Visitor block styling */
+.visitor-section {
+  margin-top: 1.5rem;
+  text-align: center;
+  background: var(--global-bg-color);
+  border: 1px solid rgba(3,102,214,0.2);
+  border-radius: 10px;
+  padding: 16px 12px;
+  box-shadow: 0 3px 10px rgba(3,102,214,0.1);
+  transition: all 0.3s ease;
+}
+.visitor-section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(3,102,214,0.2);
+}
+
+.visitor-summary {
+  font-size: 1.05rem;
+  color: var(--global-text-color);
+  margin-bottom: 10px;
+  font-weight: 500;
+  display: none;
+}
+
+.visitor-counter {
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+.flag-counter {
+  margin-top: 5px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(3,102,214,0.15);
+  width: auto;
+  max-width: 100%;
+}
+
+/* 🌙 Dark mode */
+html[data-theme="dark"] .visitor-section {
+  background: #1a1a1a;
+  border-color: rgba(27,142,242,0.25);
+  box-shadow: 0 2px 8px rgba(27,142,242,0.15);
+}
+html[data-theme="dark"] .visitor-section:hover {
+  box-shadow: 0 4px 12px rgba(27,142,242,0.25);
+}
+html[data-theme="dark"] .flag-counter {
+  filter: brightness(0.9) contrast(1.1);
+}
+
+/* 📱 Responsive behavior */
+@media (max-width: 768px) {
+  .visitor-summary {
+    display: block;
+  }
+  .visitor-full {
+    display: none;
+  }
+}
+</style>
+
+<!-- ===== Dynamic Stats Script ===== -->
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    // 👁️ Fetch visitor count dynamically
+    const url = "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshmuhammadd.github.io";
+    const response = await fetch(url);
+    const text = await response.text();
+    const match = text.match(/>(\d+)</);
+    const visitorCount = match ? parseInt(match[1]).toLocaleString() : "N/A";
+    document.getElementById('visitor-count').innerText = visitorCount;
+  } catch (err) {
+    console.warn("Visitor count unavailable:", err);
+    document.getElementById('visitor-count').innerText = "Unavailable";
+  }
+
+  // 🌍 Estimated number of unique countries
+  document.getElementById('country-count').innerText = "42";
+});
+</script>
 

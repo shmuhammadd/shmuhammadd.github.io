@@ -133,6 +133,10 @@ disqus_shortname: al-folio # put your disqus shortname
 # Newsletter
 # -----------------------------------------------------------------------------
 
+nav:
+  - name: Teaching & Supervision
+    url: /teaching/
+
 newsletter:
   enabled: false
   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
