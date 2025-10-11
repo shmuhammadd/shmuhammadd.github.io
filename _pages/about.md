@@ -33,9 +33,7 @@ If you have any questions regarding my research or want to collaborate feel free
 <h2>🏆 Awards & Recognitions</h2>
 
 <p style="font-size:1.05rem; text-align:justify;">
-My research and community contributions have received several awards at top-tier venues in 
-<strong>Natural Language Processing (NLP)</strong> and <strong>Artificial Intelligence (AI)</strong>, 
-recognizing impactful work in multilingual and African language technologies.
+My research and community contributions have received several awards at top-tier venues, recognizing impactful work in multilingual and African language technologies.
 </p>
 
 <!-- ========== 2025 AWARDS ========== -->
