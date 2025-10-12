@@ -206,113 +206,96 @@ html[data-theme="dark"] .viewpub-btn:hover{
 
 ## 📢 Latest Updates
 {% include news.liquid %}
+<!-- 🌍 Visitor Statistics Section -->
+<div class="visitor-stats-wrapper">
+  <h3 class="visitor-title"></h3>
+  <p class="visitor-subtext">Thank you for visiting my website! ✨</p>
 
-<!-- 🌍 Compact Horizontal Visitor Statistics -->
-<div class="visitor-footer text-center">
-  <h4 style="font-weight:600;margin-bottom:8px;">🌍 Visitor Statistics</h4>
+  <!-- 🌍 Country Flag Counter -->
+  <a href="https://info.flagcounter.com/2a7q" target="_blank" rel="noopener">
+    <img 
+      src="https://s01.flagcounter.com/count2/2a7q/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0.png"
+      alt="Flag Counter"
+      class="flagcounter-img"
+      border="0"
+      loading="lazy"
+    >
+  </a>
 
-  <div class="visitor-grid">
-    <!-- 👁️ Total Visitors -->
-    <div class="visitor-item">
-      <a href="https://hits.seeyoufarm.com" target="_blank" rel="noopener">
-        <img 
-          src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshmuhammadd.github.io%2F&count_bg=%230366d6&title_bg=%23002b5c&icon=globe.svg&icon_color=%23E7E7E7&title=Total+Visitors&edge_flat=false"
-          alt="Total Visitor Counter"
-          class="visitor-counter"
-        >
-      </a>
-    </div>
-
-    <!-- 🌍 Country Flags -->
-    <div class="visitor-item">
-      <a href="https://info.flagcounter.com/2a7q" target="_blank" rel="noopener">
-        <img 
-          id="flag-counter-img"
-          src="https://s01.flagcounter.com/count2/2a7q/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0.png"
-          alt="Flag Counter"
-          class="flag-counter loaded"
-        >
-      </a>
-    </div>
-  </div>
-
-  <p style="font-size:0.85rem;margin-top:6px;color:var(--global-muted-color);">
-    Tracking visits since January 2025 ✨
+  <!-- 📊 Footer Line -->
+  <p class="visitor-footer">
+    📊 Tracking visitors since <strong>October, 2025</strong> 
   </p>
 </div>
 
 <!-- ===== Styling ===== -->
 <style>
-.visitor-footer {
-  margin-top: 1.8rem;
+.visitor-stats-wrapper {
   text-align: center;
   background: var(--global-bg-color);
   border: 1px solid rgba(3,102,214,0.2);
-  border-radius: 10px;
-  padding: 14px 10px 16px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 2px 8px rgba(3,102,214,0.1);
+  border-radius: 12px;
+  padding: 20px 16px 25px;
+  margin: 2rem auto;
+  max-width: 650px; /* slightly narrower */
+  box-shadow: 0 3px 10px rgba(3,102,214,0.1);
   transition: all 0.3s ease;
 }
-.visitor-footer:hover {
-  transform: translateY(-1.5px);
+.visitor-stats-wrapper:hover {
+  transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(3,102,214,0.25);
 }
-.visitor-grid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
+
+.visitor-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 6px;
 }
-.visitor-item img {
-  border-radius: 6px;
-  box-shadow: 0 1px 6px rgba(3,102,214,0.15);
-  max-height: 38px;
-  transition: opacity 0.4s ease;
-}
-.flag-counter {
-  border-radius: 6px;
-  box-shadow: 0 0 6px rgba(3,102,214,0.1);
-  height: auto;
-  transition: filter 0.3s ease, opacity 0.5s ease;
-  opacity: 0;
-}
-.flag-counter.loaded {
-  opacity: 1;
+.visitor-subtext {
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+  color: var(--global-text-color);
 }
 
-/* 🌙 Dark mode */
-html[data-theme="dark"] .visitor-footer {
-  background:#1b1b1b;
-  border-color:rgba(27,142,242,0.25);
-  box-shadow:0 2px 8px rgba(27,142,242,0.15);
+.flagcounter-img {
+  width: 70%; /* reduced size */
+  max-width: 420px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(3,102,214,0.1);
+  height: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
-html[data-theme="dark"] .flag-counter {
-  filter: brightness(0.95) contrast(1.05);
+.flagcounter-img:hover {
+  transform: scale(1.02);
+  filter: brightness(1.1);
+}
+
+/* 📊 Footer line */
+.visitor-footer {
+  font-size: 0.85rem;
+  margin-top: 1.3rem;
+  color: var(--global-text-color);
+  opacity: 0.85;
+}
+.visitor-footer a {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: 500;
+}
+.visitor-footer a:hover {
+  text-decoration: underline;
+}
+
+/* 🌙 Dark Mode */
+html[data-theme="dark"] .visitor-stats-wrapper {
+  background: #1b1b1b;
+  border-color: rgba(27,142,242,0.25);
+  box-shadow: 0 2px 8px rgba(27,142,242,0.15);
+}
+html[data-theme="dark"] .flagcounter-img {
+  filter: brightness(0.9) contrast(1.1);
+}
+html[data-theme="dark"] .visitor-footer a {
+  color: #4ea8ff;
 }
 </style>
-
-<!-- ===== Dynamic Theme Switching ===== -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const flagImg = document.getElementById("flag-counter-img");
-  const lightSrc = "https://s01.flagcounter.com/count2/2a7q/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0.png";
-  const darkSrc  = "https://s01.flagcounter.com/count2/2a7q/bg_1B1B1B/txt_FFFFFF/border_444444/columns_5/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0.png";
-
-  const updateTheme = () => {
-    const theme = document.documentElement.getAttribute("data-theme");
-    flagImg.style.opacity = 0;
-    setTimeout(() => {
-      flagImg.src = (theme === "dark") ? darkSrc : lightSrc;
-      flagImg.onload = () => flagImg.classList.add("loaded");
-    }, 200);
-  };
-
-  updateTheme();
-  const observer = new MutationObserver(updateTheme);
-  observer.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
-});
-</script>
