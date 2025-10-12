@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching & Supervision
 description: Courses taught and student supervision.
 nav: true
-nav_order: 3
+nav_order: 5
 ---
 
 <h2>Teaching</h2>
