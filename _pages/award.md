@@ -8,9 +8,7 @@ nav_order: 2
 
 ---
 
-# Awards & Recognitions 
-
-![Award Icon](assets/img/award.jpg){: width="100px" }
+# Awards & Recognitions
 
 Over the years, my research and community contributions have received recognition at top-tier venues and workshops in Natural Language Processing (NLP)
 . Below is a selection of my awards and distinctions.
