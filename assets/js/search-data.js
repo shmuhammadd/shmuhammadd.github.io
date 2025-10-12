@@ -44,7 +44,27 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "news-joining-imperial-college-london-as-a-google-deepmind-academic-fellow",
+        },{id: "media-ircai-global-top-100-outstanding-ai-projects-advancing-the-sdgs",
+          title: 'IRCAI Global Top 100: Outstanding AI Projects Advancing the SDGs',
+          description: "",
+          section: "Media",handler: () => {
+              window.location.href = "/media/ircai-top100.md/";
+            },},{id: "media-science-magazine-african-researchers-reclaim-ai-for-local-languages",
+          title: 'Science Magazine: African Researchers Reclaim AI for Local Languages',
+          description: "",
+          section: "Media",handler: () => {
+              window.location.href = "/media/science-mag-african-languages/";
+            },},{id: "media-imperial-college-news-computing-welcomes-dr-shamsuddeen-muhammad-google-deepmind-fellow",
+          title: 'Imperial College News: Computing Welcomes Dr. Shamsuddeen Muhammad, Google DeepMind Fellow',
+          description: "",
+          section: "Media",handler: () => {
+              window.location.href = "/media/imperial-news-fellowship/";
+            },},{id: "media-label-studio-blog-empowering-nlp-in-low-resource-languages",
+          title: 'Label Studio Blog: Empowering NLP in Low-Resource Languages',
+          description: "",
+          section: "Media",handler: () => {
+              window.location.href = "/media/label-studio-community/";
+            },},{id: "news-joining-imperial-college-london-as-a-google-deepmind-academic-fellow",
           title: 'Joining Imperial College London as a Google DeepMind Academic Fellow',
           description: "",
           section: "News",handler: () => {
