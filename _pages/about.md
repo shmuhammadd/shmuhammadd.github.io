@@ -221,7 +221,7 @@ My research and community contributions have received several awards at top-tier
 <!-- ============================= -->
 <!-- 📰 Featured In Section -->
 <!-- ============================= -->
-<div class="featured-media-strip">
+<!-- <div class="featured-media-strip">
   <h2 class="featured-title">📰 Featured In</h2>
 
   <div class="featured-logos">
@@ -245,7 +245,7 @@ My research and community contributions have received several awards at top-tier
       <img src="{{ '/assets/media/ircai.png' | relative_url }}" alt="IRCAI UNESCO">
     </a>
   </div>
-</div>
+</div> -->
 
 
 <!-- ============================= -->
