@@ -29,15 +29,15 @@ with a focus on real-world, low-resource, and culturally grounded applications.
   </li>
   <li>
     <strong>Introduction to Machine Learning</strong> — Arewa Data Science Academy  
-    <em>Foundations of data exploration and visualization with R and tidyverse.</em>
+    <em>Foundations of Machine Learning, including supervised and unsupervised techniques.</em>
   </li>
   <li>
     <strong>Natural Language Processing & Large Language Models</strong> — AIMS South Africa and Cameroon  
-    <em>Graduate-level course covering tokenization, transformer architectures, and prompt-based learning.</em>
+    <em> Graduate-level course on natural language processing and large language models.</em>
   </li>
   <li>
     <strong>Machine Learning</strong> — Imperial College London (TA)  
-    <em>Sequence-to-sequence models and multilingual evaluation for African languages.</em>
+    <em></em>
   </li>
 </ul>
 
