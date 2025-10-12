@@ -195,7 +195,7 @@ My research and community contributions have received several awards at top-tier
   </div>
 </div> -->
 
-<!-- 📰 Media Coverage Grid -->
+<!-- 📰 Media Coverage Grid 
 <h2 id="media-coverage">Media Coverage</h2>
 <p>
   Selected highlights from major outlets that have featured my research, and community initiatives.
@@ -216,6 +216,181 @@ My research and community contributions have received several awards at top-tier
   </div>
   {% endfor %}
 </div>
+-->
+
+<!-- ============================= -->
+<!-- 📰 Featured In Section -->
+<!-- ============================= -->
+<div class="featured-media-strip">
+  <h2 class="featured-title">📰 Featured In</h2>
+
+  <div class="featured-logos">
+    <a href="https://labelstud.io/blog/tales-from-our-community-empowering-nlp-in-low-resource-languages/"
+       target="_blank" aria-label="Label Studio Blog">
+      <img src="{{ '/assets/media/labelstudio.png' | relative_url }}" alt="Label Studio">
+    </a>
+
+    <a href="https://www.imperial.ac.uk/news/252813/computing-welcomes-dr-shamsuddeen-muhammad-google/"
+       target="_blank" aria-label="Imperial College London News">
+      <img src="{{ '/assets/media/imperial.png' | relative_url }}" alt="Imperial College London">
+    </a>
+
+    <a href="https://www.science.org/content/article/ai-often-mangles-african-languages-local-scientists-and-volunteers-are-taking-it-back"
+       target="_blank" aria-label="Science Magazine">
+      <img src="{{ '/assets/media/science.png' | relative_url }}" alt="Science Magazine">
+    </a>
+
+    <a href="https://ircai.org/global-top-100-outstanding-projects/results/"
+       target="_blank" aria-label="IRCAI UNESCO">
+      <img src="{{ '/assets/media/ircai.png' | relative_url }}" alt="IRCAI UNESCO">
+    </a>
+  </div>
+</div>
+
+
+<!-- ============================= -->
+<!-- 🗞️ Media Coverage Section -->
+<!-- ============================= -->
+<h2 id="media-coverage">Media Coverage</h2>
+<p>
+  Selected highlights from major outlets that have featured my research, datasets, and community initiatives.
+</p>
+
+<div class="media-coverage">
+  {% assign media_items = site.media | sort: 'date' | reverse %}
+  {% for item in media_items %}
+  <div class="media-card">
+    {% if item.thumbnail %}
+      <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.source }}" class="media-thumb">
+    {% endif %}
+    <div class="media-content">
+      <h3><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></h3>
+      <p><strong>{{ item.source }}</strong> — {{ item.date | date: "%B %Y" }}</p>
+      <p>{{ item.content | markdownify | strip_html | truncate: 160 }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
+<!-- ============================= -->
+<!-- 💅 Styling -->
+<!-- ============================= -->
+<style>
+/* === Featured In Strip === */
+.featured-media-strip {
+  text-align: center;
+  margin: 3rem auto 2rem auto;
+  padding: 0.5rem 0;
+  max-width: 900px;
+}
+
+.featured-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.featured-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  opacity: 0.9;
+}
+
+.featured-logos a img {
+  height: 55px;
+  width: auto;
+  filter: grayscale(100%) contrast(1.05);
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.featured-logos a:hover img {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* 🌙 Dark Mode */
+html[data-theme="dark"] .featured-logos a img {
+  filter: brightness(1.8) grayscale(100%) contrast(1.2);
+}
+html[data-theme="dark"] .featured-logos a:hover img {
+  filter: brightness(1.1) none;
+}
+
+/* === Media Coverage Cards === */
+.media-coverage {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.media-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background: var(--global-card-bg-color, var(--bg-color));
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.media-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.media-thumb {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 6px;
+  flex-shrink: 0;
+  box-shadow: 0 0 6px rgba(0,0,0,0.08);
+}
+
+.media-content h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.media-content p {
+  margin: 0.4rem 0 0;
+  font-size: 0.95rem;
+  color: var(--text-color);
+}
+
+/* 🌙 Dark Mode */
+html[data-theme="dark"] .media-card {
+  background: #1a1a1a;
+  border-color: rgba(255,255,255,0.1);
+}
+html[data-theme="dark"] .media-thumb {
+  background-color: #2a2a2a;
+  box-shadow: 0 0 6px rgba(255,255,255,0.05);
+}
+
+/* 📱 Responsive */
+@media (max-width: 480px) {
+  .media-thumb {
+    width: 70px;
+    height: 70px;
+  }
+  .media-content h3 {
+    font-size: 1rem;
+  }
+}
+</style>
+
 
 ---
 
@@ -304,17 +479,6 @@ html[data-theme="dark"] .flag-counter-img {
 </style>
 
 
-
-
-
-<!-- 
-<div class="visitor-counter" 
-     style="text-align:center; border:1px solid #333; border-radius:12px; padding:1rem; margin:2rem auto; max-width:420px; background:var(--bg-color);">
-  <p style="font-size:0.95rem;">Thank you for visiting my website! ✨</p>
-  <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fshmuhammadd.github.io%2F&label=&icon=github&color=%23198754&message=&style=flat&tz=UTC"
-       alt="Visitor counter" style="border:none; margin:0.5rem 0;">
-  <p style="font-size:0.85rem;">📊 Tracking visitors since <strong>October, 2025</strong></p>
-</div> -->
 
 
 
