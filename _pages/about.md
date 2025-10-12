@@ -153,149 +153,243 @@ My research and community contributions have received several awards at top-tier
   </div>
 </div>
 <!-- ========== STYLING ========== -->
+
+<!-- ============================= -->
+<!-- 📰 Featured In + Media Coverage -->
+<!-- ============================= -->
+<!-- 
+<div class="featured-media-strip">
+  <h2 class="featured-title">Featured In</h2>
+  <div class="featured-logos">
+    <a href="https://labelstud.io/blog/tales-from-our-community-empowering-nlp-in-low-resource-languages/" target="_blank">
+      <img src="{{ '/assets/img/media/labelstudio-white.png' | relative_url }}" alt="Label Studio">
+    </a>
+    <a href="https://www.imperial.ac.uk/news/252813/computing-welcomes-dr-shamsuddeen-muhammad-google/" target="_blank">
+      <img src="{{ '/assets/img/media/imperial-white.png' | relative_url }}" alt="Imperial College London">
+    </a>
+    <a href="https://www.science.org/content/article/ai-often-mangles-african-languages-local-scientists-and-volunteers-are-taking-it-back" target="_blank">
+      <img src="{{ '/assets/img/media/science-white.png' | relative_url }}" alt="Science Magazine">
+    </a>
+    <a href="https://ircai.org/global-top-100-outstanding-projects/results/" target="_blank">
+      <img src="{{ '/assets/img/media/ircai-white.png' | relative_url }}" alt="IRCAI UNESCO">
+    </a>
+  </div>
+</div> -->
+
+<!-- 🗞️ Featured In Section 
+<div class="featured-media-strip">
+  <h2 class="featured-title">📰 Featured In</h2>
+  <div class="featured-logos">
+    <a href="https://labelstud.io/blog/tales-from-our-community-empowering-nlp-in-low-resource-languages/" target="_blank" aria-label="Label Studio Blog">
+      <img src="{{ '/assets/img/media/labelstudio.png' | relative_url }}" alt="Label Studio">
+    </a>
+    <a href="https://www.imperial.ac.uk/news/252813/computing-welcomes-dr-shamsuddeen-muhammad-google/" target="_blank" aria-label="Imperial College London News">
+      <img src="{{ '/assets/img/media/imperial.png' | relative_url }}" alt="Imperial College London">
+    </a>
+    <a href="https://www.science.org/content/article/ai-often-mangles-african-languages-local-scientists-and-volunteers-are-taking-it-back" target="_blank" aria-label="Science Magazine">
+      <img src="{{ '/assets/img/media/science.png' | relative_url }}" alt="Science Magazine">
+    </a>
+    <a href="https://ircai.org/global-top-100-outstanding-projects/results/" target="_blank" aria-label="IRCAI UNESCO">
+      <img src="{{ '/assets/img/media/ircai.png' | relative_url }}" alt="IRCAI UNESCO">
+    </a>
+  </div>
+</div> -->
+
+<!-- 📰 Media Coverage Grid -->
+<h2 id="media-coverage">Media Coverage</h2>
+<p>
+  Selected highlights from major outlets that have featured my research, and community initiatives.
+</p>
+
+<div class="media-coverage">
+  {% assign media_items = site.media | sort: 'date' | reverse %}
+  {% for item in media_items %}
+  <div class="media-card">
+    {% if item.thumbnail %}
+    <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.source }}" class="media-thumb">
+    {% endif %}
+    <div class="media-content">
+      <h3><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></h3>
+      <p><strong>{{ item.source }}</strong> — {{ item.date | date: "%B %Y" }}</p>
+      <p>{{ item.content | markdownify | strip_html | truncate: 160 }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+---
+
+## 📢 Latest Updates
+{% include news.liquid %}
+
+---
+
+<div class="visitor-section text-center">
+  <p style="font-size:1rem; margin-bottom:8px;">
+    Thank you for visiting my website! ✨
+  </p>
+
+  <!-- 🌍 Country Flag Counter -->
+  <a href="https://info.flagcounter.com/2a7q" target="_blank" rel="noopener">
+    <img
+      src="https://s01.flagcounter.com/count2/2a7q/bg_FFFFFF/txt_000000/border_0366d6/columns_5/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0.png"
+      alt="Flag Counter"
+      border="0"
+      class="flag-counter-img"
+    >
+  </a>
+
+  <p style="font-size:0.85rem; margin-top:0.6rem;">
+    📊 Tracking visitors since <strong>October 2025</strong>
+  </p>
+</div>
+
 <style>
-.award-link {
-  color:#1b8ef2;
-  text-decoration:underline;
-  text-underline-offset:3px;
-  font-weight:500;
-  transition:all .2s ease;
+.visitor-section {
+  text-align: center;
+  background: var(--global-card-bg-color);
+  border: 1px solid #0366d6;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin: 2rem auto;
+  max-width: 550px;
+  box-shadow: 0 4px 10px rgba(3,102,214,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.award-link:hover {
-  color:#0d6efd;
-  text-shadow:0 0 6px rgba(29,155,240,.4);
-  text-decoration-thickness:2px;
+
+.visitor-section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(3,102,214,0.25);
 }
-html[data-theme="dark"] .award-link{color:#66b0ff;}
-html[data-theme="dark"] .award-link:hover{
-  color:#9ad3ff;
-  text-shadow:0 0 10px rgba(118,201,255,.6);
+
+.flag-counter-img {
+  width: 80%;
+  max-width: 480px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
-html[data-theme="light"] .viewpub-card{
-  background:linear-gradient(135deg,#0366d6,#1b8ef2);
-  color:#fff;
-  border-left:4px solid #0366d6;
-  box-shadow:0 2px 8px rgba(3,102,214,.25);
+
+.flag-counter-img:hover {
+  transform: scale(1.02);
+  filter: brightness(1.05);
 }
-html[data-theme="dark"] .viewpub-card{
-  background:linear-gradient(135deg,#1a1a1a,#2a2a2a);
-  color:#f5f5f5;
-  border-left:4px solid #1b8ef2;
-  box-shadow:0 2px 8px rgba(27,142,242,.15);
+
+/* 🌙 Dark Mode Support */
+html[data-theme="dark"] .visitor-section {
+  background: #1b1b1b;
+  border-color: #1b8ef2;
+  box-shadow: 0 2px 8px rgba(27,142,242,0.2);
 }
-.viewpub-btn{
-  background-color:#fff;
-  color:#0366d6;
-  font-weight:600;
-  border-radius:6px;
-  padding:8px 20px;
-  text-decoration:none;
-  transition:background-color .3s,color .3s;
+
+html[data-theme="dark"] .flag-counter-img {
+  filter: brightness(0.9) contrast(1.1);
 }
-html[data-theme="dark"] .viewpub-btn{
-  background-color:#1b8ef2;
-  color:#fff;
-}
-.viewpub-btn:hover{background-color:#0255b6;color:#fff;}
-html[data-theme="dark"] .viewpub-btn:hover{
-  background-color:#fff;
-  color:#0255b6;
+
+/* 📱 Mobile Responsiveness */
+@media (max-width: 480px) {
+  .visitor-section {
+    padding: 1rem;
+    max-width: 95%;
+  }
+
+  .flag-counter-img {
+    width: 95%;
+    max-width: 350px;
+  }
+
+  .visitor-section p {
+    font-size: 0.9rem;
+  }
 }
 </style>
 
 
-## 📢 Latest Updates
-{% include news.liquid %}
-<!-- 🌍 Visitor Statistics Section -->
-<div class="visitor-stats-wrapper">
-  <h3 class="visitor-title"></h3>
-  <p class="visitor-subtext">Thank you for visiting my website! ✨</p>
 
-  <!-- 🌍 Country Flag Counter -->
-  <a href="https://info.flagcounter.com/2a7q" target="_blank" rel="noopener">
-    <img 
-      src="https://s01.flagcounter.com/count2/2a7q/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0.png"
-      alt="Flag Counter"
-      class="flagcounter-img"
-      border="0"
-      loading="lazy"
-    >
-  </a>
 
-  <!-- 📊 Footer Line -->
-  <p class="visitor-footer">
-    📊 Tracking visitors since <strong>October, 2025</strong> 
-  </p>
-</div>
 
-<!-- ===== Styling ===== -->
+<!-- 
+<div class="visitor-counter" 
+     style="text-align:center; border:1px solid #333; border-radius:12px; padding:1rem; margin:2rem auto; max-width:420px; background:var(--bg-color);">
+  <p style="font-size:0.95rem;">Thank you for visiting my website! ✨</p>
+  <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fshmuhammadd.github.io%2F&label=&icon=github&color=%23198754&message=&style=flat&tz=UTC"
+       alt="Visitor counter" style="border:none; margin:0.5rem 0;">
+  <p style="font-size:0.85rem;">📊 Tracking visitors since <strong>October, 2025</strong></p>
+</div> -->
+
+
+
 <style>
-.visitor-stats-wrapper {
+/* === Featured In Strip === */
+.featured-media-strip {
   text-align: center;
-  background: var(--global-bg-color);
-  border: 1px solid rgba(3,102,214,0.2);
-  border-radius: 12px;
-  padding: 20px 16px 25px;
-  margin: 2rem auto;
-  max-width: 650px; /* slightly narrower */
-  box-shadow: 0 3px 10px rgba(3,102,214,0.1);
-  transition: all 0.3s ease;
+  margin: 3rem auto 2rem auto;
+  padding: 0.5rem 0;
+  max-width: 900px;
 }
-.visitor-stats-wrapper:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(3,102,214,0.25);
-}
-
-.visitor-title {
+.featured-title {
   font-size: 1.3rem;
   font-weight: 600;
-  margin-bottom: 6px;
+  margin-bottom: 1.5rem;
 }
-.visitor-subtext {
-  font-size: 0.95rem;
-  margin-bottom: 1.2rem;
-  color: var(--global-text-color);
+.featured-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  opacity: 0.9;
+}
+.featured-logos a img {
+  height: 55px;
+  width: auto;
+  filter: grayscale(100%) contrast(1.05);
+  opacity: 0.75;
+  transition: all 0.3s ease;
+}
+.featured-logos a:hover img {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.05);
+}
+html[data-theme="dark"] .featured-logos a img {
+  filter: brightness(1.8) grayscale(100%) contrast(1.2);
+}
+html[data-theme="dark"] .featured-logos a:hover img {
+  filter: brightness(1.1) none;
 }
 
-.flagcounter-img {
-  width: 70%; /* reduced size */
-  max-width: 420px;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(3,102,214,0.1);
-  height: auto;
-  transition: transform 0.3s ease, filter 0.3s ease;
+/* === Media Coverage Cards === */
+.media-coverage {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
-.flagcounter-img:hover {
+.media-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background: var(--bg-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.media-card:hover {
   transform: scale(1.02);
-  filter: brightness(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
-
-/* 📊 Footer line */
-.visitor-footer {
-  font-size: 0.85rem;
-  margin-top: 1.3rem;
-  color: var(--global-text-color);
-  opacity: 0.85;
+.media-thumb {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 6px;
+  flex-shrink: 0;
 }
-.visitor-footer a {
-  color: #0366d6;
-  text-decoration: none;
-  font-weight: 500;
-}
-.visitor-footer a:hover {
-  text-decoration: underline;
-}
-
-/* 🌙 Dark Mode */
-html[data-theme="dark"] .visitor-stats-wrapper {
-  background: #1b1b1b;
-  border-color: rgba(27,142,242,0.25);
-  box-shadow: 0 2px 8px rgba(27,142,242,0.15);
-}
-html[data-theme="dark"] .flagcounter-img {
-  filter: brightness(0.9) contrast(1.1);
-}
-html[data-theme="dark"] .visitor-footer a {
-  color: #4ea8ff;
+.media-content h3 {
+  margin: 0;
+  font-size: 1.1rem;
 }
 </style>
