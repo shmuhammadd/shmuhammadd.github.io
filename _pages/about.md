@@ -205,138 +205,114 @@ html[data-theme="dark"] .viewpub-btn:hover{
 
 
 ## 📢 Latest Updates
-
 {% include news.liquid %}
 
+<!-- 🌍 Compact Horizontal Visitor Statistics -->
+<div class="visitor-footer text-center">
+  <h4 style="font-weight:600;margin-bottom:8px;">🌍 Visitor Statistics</h4>
 
-## Visitor Statistics
+  <div class="visitor-grid">
+    <!-- 👁️ Total Visitors -->
+    <div class="visitor-item">
+      <a href="https://hits.seeyoufarm.com" target="_blank" rel="noopener">
+        <img 
+          src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshmuhammadd.github.io%2F&count_bg=%230366d6&title_bg=%23002b5c&icon=globe.svg&icon_color=%23E7E7E7&title=Total+Visitors&edge_flat=false"
+          alt="Total Visitor Counter"
+          class="visitor-counter"
+        >
+      </a>
+    </div>
 
-<div class="visitor-section text-center">
-  <p style="font-size:1rem; margin-bottom: 8px;">Thank you for visiting my website! 🌟</p>
-
-  <!-- 👁️ Compact summary for mobile -->
-  <div class="visitor-summary">
-    👁️ <strong id="visitor-count">Loading...</strong> visitors  
-    | 🌍 <strong id="country-count">Loading...</strong> countries
+    <!-- 🌍 Country Flags -->
+    <div class="visitor-item">
+      <a href="https://info.flagcounter.com/2a7q" target="_blank" rel="noopener">
+        <img 
+          id="flag-counter-img"
+          src="https://s01.flagcounter.com/count2/2a7q/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0.png"
+          alt="Flag Counter"
+          class="flag-counter loaded"
+        >
+      </a>
+    </div>
   </div>
 
-  <!-- 🔢 Total Visitor Counter -->
-  <div class="visitor-full">
-    <a href="https://hits.seeyoufarm.com" target="_blank" rel="noopener">
-      <!-- <img 
-        id="visitor-counter-img"
-        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshmuhammadd.github.io&count_bg=%230366d6&title_bg=%23002b5c&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"
-        alt="Visitor Counter"
-        class="visitor-counter"
-      > -->
-    </a>
-
-    <br>
-
-    <!-- 🌍 Country Flag Counter -->
-    <a href="https://info.flagcounter.com/2a7q" target="_blank" rel="noopener">
-      <img 
-        id="flag-counter-img"
-        src="https://s01.flagcounter.com/count2/2a7q/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0.png"
-        alt="Flag Counter"
-        border="0"
-        class="flag-counter"
-      >
-    </a>
-  </div>
-
-  <p style="font-size:0.9rem; margin-top: 8px; color: var(--global-text-color);">
-    Tracking visitors globally since <strong>2025</strong> 🌐
+  <p style="font-size:0.85rem;margin-top:6px;color:var(--global-muted-color);">
+    Tracking visits since January 2025 ✨
   </p>
 </div>
 
----
-
-<!-- ===== Custom Styling ===== -->
+<!-- ===== Styling ===== -->
 <style>
-/* Hide default 'news' heading */
-#news h2, .news h2 {
-  display: none !important;
-}
-
-/* Visitor block styling */
-.visitor-section {
-  margin-top: 1.5rem;
+.visitor-footer {
+  margin-top: 1.8rem;
   text-align: center;
   background: var(--global-bg-color);
   border: 1px solid rgba(3,102,214,0.2);
   border-radius: 10px;
-  padding: 16px 12px;
-  box-shadow: 0 3px 10px rgba(3,102,214,0.1);
+  padding: 14px 10px 16px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 8px rgba(3,102,214,0.1);
   transition: all 0.3s ease;
 }
-.visitor-section:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(3,102,214,0.2);
+.visitor-footer:hover {
+  transform: translateY(-1.5px);
+  box-shadow: 0 5px 15px rgba(3,102,214,0.25);
 }
-
-.visitor-summary {
-  font-size: 1.05rem;
-  color: var(--global-text-color);
-  margin-bottom: 10px;
-  font-weight: 500;
-  display: none;
+.visitor-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
-
-.visitor-counter {
-  margin-bottom: 8px;
+.visitor-item img {
   border-radius: 6px;
+  box-shadow: 0 1px 6px rgba(3,102,214,0.15);
+  max-height: 38px;
+  transition: opacity 0.4s ease;
 }
 .flag-counter {
-  margin-top: 5px;
   border-radius: 6px;
-  box-shadow: 0 0 6px rgba(3,102,214,0.15);
-  width: auto;
-  max-width: 100%;
+  box-shadow: 0 0 6px rgba(3,102,214,0.1);
+  height: auto;
+  transition: filter 0.3s ease, opacity 0.5s ease;
+  opacity: 0;
+}
+.flag-counter.loaded {
+  opacity: 1;
 }
 
 /* 🌙 Dark mode */
-html[data-theme="dark"] .visitor-section {
-  background: #1a1a1a;
-  border-color: rgba(27,142,242,0.25);
-  box-shadow: 0 2px 8px rgba(27,142,242,0.15);
-}
-html[data-theme="dark"] .visitor-section:hover {
-  box-shadow: 0 4px 12px rgba(27,142,242,0.25);
+html[data-theme="dark"] .visitor-footer {
+  background:#1b1b1b;
+  border-color:rgba(27,142,242,0.25);
+  box-shadow:0 2px 8px rgba(27,142,242,0.15);
 }
 html[data-theme="dark"] .flag-counter {
-  filter: brightness(0.9) contrast(1.1);
-}
-
-/* 📱 Responsive behavior */
-@media (max-width: 768px) {
-  .visitor-summary {
-    display: block;
-  }
-  .visitor-full {
-    display: none;
-  }
+  filter: brightness(0.95) contrast(1.05);
 }
 </style>
 
-<!-- ===== Dynamic Stats Script ===== -->
+<!-- ===== Dynamic Theme Switching ===== -->
 <script>
-document.addEventListener('DOMContentLoaded', async () => {
-  try {
-    // 👁️ Fetch visitor count dynamically
-    const url = "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshmuhammadd.github.io";
-    const response = await fetch(url);
-    const text = await response.text();
-    const match = text.match(/>(\d+)</);
-    const visitorCount = match ? parseInt(match[1]).toLocaleString() : "N/A";
-    document.getElementById('visitor-count').innerText = visitorCount;
-  } catch (err) {
-    console.warn("Visitor count unavailable:", err);
-    document.getElementById('visitor-count').innerText = "Unavailable";
-  }
+document.addEventListener("DOMContentLoaded", () => {
+  const flagImg = document.getElementById("flag-counter-img");
+  const lightSrc = "https://s01.flagcounter.com/count2/2a7q/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0.png";
+  const darkSrc  = "https://s01.flagcounter.com/count2/2a7q/bg_1B1B1B/txt_FFFFFF/border_444444/columns_5/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0.png";
 
-  // 🌍 Estimated number of unique countries
-  document.getElementById('country-count').innerText = "42";
+  const updateTheme = () => {
+    const theme = document.documentElement.getAttribute("data-theme");
+    flagImg.style.opacity = 0;
+    setTimeout(() => {
+      flagImg.src = (theme === "dark") ? darkSrc : lightSrc;
+      flagImg.onload = () => flagImg.classList.add("loaded");
+    }, 200);
+  };
+
+  updateTheme();
+  const observer = new MutationObserver(updateTheme);
+  observer.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 });
 </script>
-
