@@ -8,4 +8,5 @@ nav_order: 3
 cv_pdf: /assets/pdf/cv.pdf
 toc:
 sidebar: left  
+publications: false
 ---
