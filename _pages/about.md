@@ -23,7 +23,66 @@ My research focuses on Natural Language Processing (NLP) for low-resource Africa
 
 I am deeply passionate about diversity and inclusion. To further this cause, I co-founded the [HausaNLP](https://hausanlp.github.io/) research group, which aims to advance research and development in the Hausa language, one of the most widely spoken languages in Africa. I also founded the [Arewa Data Science Academy](https://arewadatascience.github.io/), which seeks to democratize data science and AI education by providing free data science and machine learning training to underserved students.
 
-If you have any questions regarding my research or want to collaborate feel free to contact me anytime. <a href="mailto:shamsuddeen2004@gmail.com" style="display: inline-block; padding: 8px 16px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">Contact Me</a>
+<p style="margin-top:1.5rem; font-size:1.05rem; text-align:justify;">
+  If you have any questions regarding my research or want to collaborate, feel free to contact me anytime.
+</p>
+
+<div style="
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:0.8rem;
+">
+
+  <!-- ✉️ Contact Me Button -->
+  <a href="mailto:shamsuddeen2004@gmail.com"
+     style="
+       flex:0 0 auto;
+       padding:10px 18px;
+       background-color:var(--global-link-color);
+       color:var(--global-text-on-link-color,#fff);
+       border-radius:6px;
+       text-decoration:none;
+       font-weight:600;
+       transition:background-color 0.2s ease;
+     ">
+     ✉️ Contact Me
+  </a>
+
+  <!-- 📄 View CV Button -->
+  <a href="https://drive.google.com/file/d/1QjbdoGOuUGa9pJ3xqGaPzUWjJIfrsk5E/view?usp=sharing"
+     target="_blank"
+     rel="noopener"
+     style="
+       flex:0 0 auto;
+       padding:10px 18px;
+       background-color:var(--global-accent-color,#2ea44f);
+       color:#fff;
+       border-radius:6px;
+       text-decoration:none;
+       font-weight:600;
+       transition:background-color 0.2s ease;
+     ">
+     📄 View My CV
+  </a>
+
+</div>
+
+<style>
+html[data-theme="dark"] a[href*="mailto"] {
+  background-color: #1b8ef2 !important;
+}
+html[data-theme="dark"] a[href*="drive.google.com"] {
+  background-color: #1f883d !important;
+}
+a[href*="mailto"]:hover,
+a[href*="drive.google.com"]:hover {
+  opacity: 0.9;
+}
+</style>
+
+
+
 <h2>🏆 Awards & Recognitions</h2>
 <p style="font-size:1.05rem; text-align:justify;">
 My research and community contributions have received several awards at top-tier venues, recognizing impactful work in multilingual and African language technologies.

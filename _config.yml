@@ -137,7 +137,12 @@ disqus_shortname: al-folio # put your disqus shortname
 nav:
   - name: Teaching & Supervision
     url: /teaching/
+  - name: CV1
+    url: https://drive.google.com/file/d/1QjbdoGOuUGa9pJ3xqGaPzUWjJIfrsk5E/view?usp=sharing
+  - name: CV2
+    url:  /assets/files/cv.pdf
 
+  
 newsletter:
   enabled: false
   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
