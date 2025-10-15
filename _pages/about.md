@@ -22,7 +22,6 @@ I received my PhD from the University of Porto, Portugal, under the supervision 
 My research focuses on Natural Language Processing (NLP) for low-resource African languages and aims to bridge the gap in the need for equitable language technologies in underserved communities. I have published in top venues such as ACL, EMNLP, NAACL, ICLR, and NeurIPS. My work has received wide recognition and several best paper awards. I have served the research community in various leadership roles, including as Area Chair for ACL, NAACL, and EMNLP.
 
 I am deeply passionate about diversity and inclusion. To further this cause, I co-founded the [HausaNLP](https://hausanlp.github.io/) research group, which aims to advance research and development in the Hausa language, one of the most widely spoken languages in Africa. I also founded the [Arewa Data Science Academy](https://arewadatascience.github.io/), which seeks to democratize data science and AI education by providing free data science and machine learning training to underserved students.
-
 <p style="margin-top:1.5rem; font-size:1.05rem; text-align:justify;">
   If you have any questions regarding my research or want to collaborate, feel free to contact me anytime.
 </p>
@@ -54,21 +53,21 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 .contact-btn,
 .cv-btn {
   flex: 0 0 auto;
-  padding: 7px 14px;          /* 🔹 smaller height/width */
-  border-radius: 5px;         /* 🔹 slightly less round */
-  font-size: 0.92rem;         /* 🔹 smaller font */
-  font-weight: 600;
+  padding: 6px 13px;          /* compact and subtle */
+  border-radius: 5px;
+  font-size: 0.9rem;          /* academic small text */
+  font-weight: 500;           /* lighter tone */
   text-decoration: none;
-  transition: background-color 0.25s ease, transform 0.2s ease;
+  transition: background-color 0.25s ease, transform 0.2s ease, opacity 0.2s ease;
 }
 
 /* ===== Light mode ===== */
 html:not([data-theme="dark"]) .contact-btn {
-  background-color: #0366d6;  /* blue */
+  background-color: #0366d6;
   color: #ffffff;
 }
 html:not([data-theme="dark"]) .cv-btn {
-  background-color: #2ea44f;  /* green */
+  background-color: #2ea44f;
   color: #ffffff;
 }
 
@@ -85,10 +84,19 @@ html[data-theme="dark"] .cv-btn {
 /* ===== Hover effect ===== */
 .contact-btn:hover,
 .cv-btn:hover {
-  opacity: 0.9;
+  opacity: 0.85;
   transform: translateY(-1px);
 }
+
+/* ===== Mobile responsiveness ===== */
+@media (max-width: 480px) {
+  .contact-btn, .cv-btn {
+    flex: 1 0 100%;
+    text-align: center;
+  }
+}
 </style>
+
 
 
 <h2>🏆 Awards & Recognitions</h2>
@@ -341,9 +349,7 @@ My research and community contributions have received several awards at top-tier
 </div>
 
 
-<!-- ============================= -->
-<!-- 💅 Styling -->
-<!-- ============================= -->
+
 <style>
 /* === Featured In Strip === */
 .featured-media-strip {
