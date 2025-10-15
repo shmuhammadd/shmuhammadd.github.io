@@ -30,57 +30,65 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 <div style="
   display:flex;
   flex-wrap:wrap;
-  gap:12px;
-  margin-top:0.8rem;
+  gap:10px;
+  margin-top:0.6rem;
 ">
 
   <!-- ✉️ Contact Me Button -->
   <a href="mailto:shamsuddeen2004@gmail.com"
-     style="
-       flex:0 0 auto;
-       padding:10px 18px;
-       background-color:var(--global-link-color);
-       color:var(--global-text-on-link-color,#fff);
-       border-radius:6px;
-       text-decoration:none;
-       font-weight:600;
-       transition:background-color 0.2s ease;
-     ">
+     class="contact-btn">
      ✉️ Contact Me
   </a>
 
   <!-- 📄 View CV Button -->
-  <a href="https://drive.google.com/file/d/1QjbdoGOuUGa9pJ3xqGaPzUWjJIfrsk5E/view?usp=sharing"
+  <a href="https://drive.google.com/file/d/1QjbdoGOuUGa9pJ3xqGaPzUWjJIfrsk5E/preview"
      target="_blank"
      rel="noopener"
-     style="
-       flex:0 0 auto;
-       padding:10px 18px;
-       background-color:var(--global-accent-color,#2ea44f);
-       color:#fff;
-       border-radius:6px;
-       text-decoration:none;
-       font-weight:600;
-       transition:background-color 0.2s ease;
-     ">
+     class="cv-btn">
      📄 View My CV
   </a>
 
 </div>
 
 <style>
-html[data-theme="dark"] a[href*="mailto"] {
-  background-color: #1b8ef2 !important;
+.contact-btn,
+.cv-btn {
+  flex: 0 0 auto;
+  padding: 7px 14px;          /* 🔹 smaller height/width */
+  border-radius: 5px;         /* 🔹 slightly less round */
+  font-size: 0.92rem;         /* 🔹 smaller font */
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.25s ease, transform 0.2s ease;
 }
-html[data-theme="dark"] a[href*="drive.google.com"] {
-  background-color: #1f883d !important;
+
+/* ===== Light mode ===== */
+html:not([data-theme="dark"]) .contact-btn {
+  background-color: #0366d6;  /* blue */
+  color: #ffffff;
 }
-a[href*="mailto"]:hover,
-a[href*="drive.google.com"]:hover {
+html:not([data-theme="dark"]) .cv-btn {
+  background-color: #2ea44f;  /* green */
+  color: #ffffff;
+}
+
+/* ===== Dark mode ===== */
+html[data-theme="dark"] .contact-btn {
+  background-color: #1b8ef2;
+  color: #ffffff;
+}
+html[data-theme="dark"] .cv-btn {
+  background-color: #1f883d;
+  color: #ffffff;
+}
+
+/* ===== Hover effect ===== */
+.contact-btn:hover,
+.cv-btn:hover {
   opacity: 0.9;
+  transform: translateY(-1px);
 }
 </style>
-
 
 
 <h2>🏆 Awards & Recognitions</h2>
