@@ -30,20 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-teaching-amp-supervision",
-          title: "Teaching &amp; Supervision",
-          description: "Courses taught and student supervision.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "media-ircai-global-top-100-outstanding-ai-projects-advancing-the-sdgs",
           title: 'IRCAI Global Top 100: Outstanding AI Projects Advancing the SDGs',
           description: "",
