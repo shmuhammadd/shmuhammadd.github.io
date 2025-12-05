@@ -162,8 +162,7 @@ collections:
     output: true
     permalink: /:collection/:title/
   media:
-    output: true
-    permalink: /:collection/:title/
+    output: false
 
 announcements:
   enabled: true
