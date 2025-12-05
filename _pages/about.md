@@ -109,7 +109,7 @@ My research and community contributions have received several awards at top-tier
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #007ACC;">
       <h5><strong>Best Resource Paper — ACL 2025</strong></h5>
       <p>
-        <a href="#" target="_blank" class="https://aclanthology.org/2025.acl-long.436.pdf">
+        <a href="https://aclanthology.org/2025.acl-long.436.pdf" target="_blank">
           📄 <em>BRIGHTER: Textual Emotion Recognition Datasets for 28 Languages</em>
         </a><br>
         <em>ACL 2025</em>.
@@ -120,7 +120,7 @@ My research and community contributions have received several awards at top-tier
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #FF9800;">
       <h5><strong>Best Task Award — SemEval 2025 (ACL 2025)</strong></h5>
       <p>
-        <a href="#" target="_blank" class="https://aclanthology.org/2025.semeval-1.327.pdf">
+        <a href="https://aclanthology.org/2025.semeval-1.327.pdf" target="_blank">
           📄 <em>Task 11: Bridging the Gap in Text-Based Emotion Detection</em>
         </a><br>
         <em>Best Task Paper</em>, <em>SemEval 2025</em>.
@@ -133,7 +133,7 @@ My research and community contributions have received several awards at top-tier
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #4CAF50;">
       <h5><strong>Outstanding Paper — NAACL 2025</strong></h5>
       <p>
-        <a href="#" target="_blank" class="https://aclanthology.org/2025.naacl-long.139.pdf">
+        <a href="https://aclanthology.org/2025.naacl-long.139.pdf" target="_blank">
           📄 <em>IrokoBench: A New Benchmark for African Languages in the Age of LLMs</em>
         </a><br>
         <em>NAACL 2025</em>.
@@ -144,7 +144,7 @@ My research and community contributions have received several awards at top-tier
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #E91E63;">
       <h5><strong>Best Paper — Deep Learning Indaba 2025</strong></h5>
       <p>
-        <a href="#" target="_blank" class="https://arxiv.org/pdf/2506.02280">
+        <a href="https://arxiv.org/pdf/2506.02280" target="_blank">
           📄 <em>The State of Large Language Models for African Languages</em>
         </a><br>
         <em>Deep Learning Indaba 2025</em>.
@@ -158,7 +158,7 @@ My research and community contributions have received several awards at top-tier
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #9C27B0;">
       <h5><strong>Best Non-archival Paper — NeurIPS 2024 (C3NLP Workshop)</strong></h5>
       <p>
-        <a href="#" target="_blank" class="https://proceedings.neurips.cc/paper_files/paper/2024/file/8eb88844dafefa92a26aaec9f3acad93-Paper-Datasets_and_Benchmarks_Track.pdf">
+        <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/8eb88844dafefa92a26aaec9f3acad93-Paper-Datasets_and_Benchmarks_Track.pdf" target="_blank">
           📄 <em>BLEnD: Everyday Knowledge in Diverse Cultures and Languages</em>
         </a><br>
         <em>NeurIPS C3NLP Workshop 2024</em>.
@@ -169,7 +169,7 @@ My research and community contributions have received several awards at top-tier
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #03A9F4;">
       <h5><strong>Honourable Mention — SemEval 2024</strong></h5>
       <p>
-        <a href="#" target="_blank" class="https://arxiv.org/pdf/2403.18933">
+        <a href="https://arxiv.org/pdf/2403.18933" target="_blank">
           📄 <em>SemEval-2024 Task 1: Semantic Textual Relatedness for African and Asian Languages</em>
         </a><br>
         <em>SemEval 2024</em>.
@@ -183,7 +183,7 @@ My research and community contributions have received several awards at top-tier
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #795548;">
       <h5><strong>Best Non-archival Paper — AfricaNLP 2023 (Kigali)</strong></h5>
       <p>
-        <a href="#" target="_blank" class="https://aclanthology.org/2023.emnlp-main.862.pdf">
+        <a href="https://aclanthology.org/2023.emnlp-main.862.pdf" target="_blank">
           📄 <em>AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages</em>
         </a><br>
         <em>AfricaNLP 2023</em>.
@@ -194,7 +194,7 @@ My research and community contributions have received several awards at top-tier
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #009688;">
       <h5><strong>Area Chair Award — IJCNLP–AACL 2023</strong></h5>
       <p>
-        <a href="#" target="_blank" class="https://aclanthology.org/2021.tacl-1.66.pdf">
+        <a href="https://aclanthology.org/2021.tacl-1.66.pdf" target="_blank">
           📄 <em>MasakhaNER: Named Entity Recognition for African Languages</em>
         </a><br>
         <em>IJCNLP–AACL 2023</em>.
@@ -208,7 +208,7 @@ My research and community contributions have received several awards at top-tier
     <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #607D8B;">
       <h5><strong>Wikimedia Research Award — EMNLP 2020 (Findings)</strong></h5>
       <p>
-        <a href="#" target="_blank" class="https://aclanthology.org/2020.findings-emnlp.195.pdf">
+        <a href="https://aclanthology.org/2020.findings-emnlp.195.pdf" target="_blank">
           📄 <em>Participatory Research for Low-Resourced Machine Translation</em>
         </a><br>
         <em>EMNLP 2020</em>.
@@ -336,8 +336,7 @@ My research and community contributions have received several awards at top-tier
   {% for item in media_items %}
   <div class="media-card">
     {% if item.thumbnail %}
-
-    <img src="{{ '/assets/media/' | append: item.thumbnail | relative_url }}" alt="{{ item.source }}" class="media-thumb">
+    <img src="{{ item.thumbnail | prepend: '/assets/media/' | relative_url }}" alt="{{ item.source }}" class="media-thumb">
     {% endif %}
     <div class="media-content">
       <h3><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></h3>
