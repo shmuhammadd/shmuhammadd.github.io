@@ -1,2 +1,26 @@
 linkedin.com
 reddit.com
+
+# Exclude Liquid template variables (in case they slip through)
+**/*{{*}}**
+**/{{*
+
+# Exclude mailto links (already handled in workflow, but belt and suspenders)
+mailto:*
+
+# Exclude data URIs
+data:image/*
+
+# Exclude anchor links to same page
+#*
+
+# Exclude common false positives
+**/feed.xml
+**/sitemap.xml
+
+# Exclude Google Scholar (often returns 403 for bots)
+https://scholar.google.com/*
+https://scholar.google.co.*/*
+
+# Exclude Science.org (returns 403 for bots)
+https://www.science.org/*
