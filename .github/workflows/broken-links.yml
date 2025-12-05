@@ -37,50 +37,16 @@ on:
       - "!.github/workflows/lighthouse-badger.yml"
       - "!.github/workflows/prettier.yml"
       - "!lighthouse_results/**"
-  workflow_dispatch:
 
 jobs:
   link-checker:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v4
-      
-      - name: Setup Ruby 💎
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3.5"
-          bundler-cache: true
-      
-      - name: Setup Python 🐍
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
-          cache: "pip"
-      
-      - name: Install dependencies 🔧
-        run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
-      
-      - name: Build Jekyll site 🏗️
-        run: |
-          export JEKYLL_ENV=production
-          bundle exec jekyll build
-      
+      - uses: actions/checkout@v4
+
       - name: Link Checker 🔗
         uses: lycheeverse/lychee-action@v2.1.0
         with:
           fail: true
-          # Check the built site HTML files only
-          args: >-
-            --verbose
-            --no-progress
-            --accept 200,201,202,203,204,300,301,302,303,304,305,306,307,308,429
-            --exclude-mail
-            --exclude 'https://scholar.google.com/*'
-            --exclude 'https://www.science.org/*'
-            --user-agent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-            './_site/**/*.html'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # removed md files that include liquid tags
+          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --verbose --no-progress './**/*.md' './**/*.html'
