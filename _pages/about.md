@@ -333,24 +333,18 @@ My research and community contributions have received several awards at top-tier
 
 <div class="media-coverage">
   {% assign media_items = site.media | sort: 'date' | reverse %}
-  {% if media_items.size > 0 %}
-    {% for item in media_items %}
-    <div class="media-card">
-      {% if item.thumbnail %}
-      <a href="{{ item.link }}" target="_blank" style="flex-shrink: 0;">
-        <img src="{{ '/assets/media/' | append: item.thumbnail | relative_url }}" alt="{{ item.source }}" class="media-thumb">
-      </a>
-      {% endif %}
-      <div class="media-content">
-        <h3><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></h3>
-        <p><strong>{{ item.source }}</strong> — {{ item.date | date: "%B %Y" }}</p>
-        <p>{{ item.content | markdownify | strip_html | truncate: 160 }}</p>
-      </div>
+  {% for item in media_items %}
+  <div class="media-card">
+    {% if item.thumbnail %}
+    <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.source }}" class="media-thumb">
+    {% endif %}
+    <div class="media-content">
+      <h3><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></h3>
+      <p><strong>{{ item.source }}</strong> — {{ item.date | date: "%B %Y" }}</p>
+      <p>{{ item.content | markdownify | strip_html | truncate: 160 }}</p>
     </div>
-    {% endfor %}
-  {% else %}
-    <p><em>No media items found in the media collection.</em></p>
-  {% endif %}
+  </div>
+  {% endfor %}
 </div>
 
 
