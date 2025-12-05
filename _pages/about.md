@@ -338,7 +338,7 @@ My research and community contributions have received several awards at top-tier
     <div class="media-card">
       {% if item.thumbnail %}
       <a href="{{ item.link }}" target="_blank" style="flex-shrink: 0;">
-        <img src="{{ '/assets/media/' | append: item.thumbnail | relative_url }}" alt="{{ item.source }}" class="media-thumb" onerror="this.style.display='none';">
+        <img src="{{ '/assets/media/' | append: item.thumbnail | relative_url }}" alt="{{ item.source }}" class="media-thumb">
       </a>
       {% endif %}
       <div class="media-content">
