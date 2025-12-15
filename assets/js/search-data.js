@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-useful-resources",
+          title: "Useful Resources",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/resources/";
+          },
         },{id: "media-ircai-global-top-100-outstanding-ai-projects-advancing-the-sdgs",
           title: 'IRCAI Global Top 100: Outstanding AI Projects Advancing the SDGs',
           description: "",
@@ -115,6 +122,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-will-be-giving-a-talk-at-microsoft-research-lab-africa-nairobi-on-30th-october-2025",
           title: 'I will be giving a talk at Microsoft Research Lab - Africa, Nairobi...',
+          description: "",
+          section: "News",},{id: "news-i-will-be-speaking-at-the-google-community-forum-on-language-inclusion-in-ai-with-a-special-focus-on-african-languages-on-thursday-11-december-2025-registrater-here-to-attend",
+          title: 'I will be speaking at the Google Community Forum on Language Inclusion in...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
