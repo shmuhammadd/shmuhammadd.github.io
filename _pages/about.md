@@ -19,7 +19,7 @@ I am a Google DeepMind Academic Fellow and an Advanced Research Fellow at Imperi
 
 I received my PhD from the University of Porto, Portugal, under the supervision of Professor Pavel Brazdil and Professor Alipio Jorge. Prior to that, I earned an MS in Computer Science from the University of Manchester, UK, and a BSc in Computer Science from Bayero University, Kano, Nigeria.
 
-My research focuses on Natural Language Processing (NLP) for low-resource African languages and aims to bridge the gap in the need for equitable language technologies in underserved communities. I have published in top venues such as ACL, EMNLP, NAACL, ICLR, and NeurIPS. My work has received wide recognition and several best paper awards. I have served the research community in various leadership roles, including as Area Chair for ACL, NAACL, and EMNLP.
+My research focuses on Natural Language Processing (NLP) for low-resource African languages. I have published in top venues such as ACL, EMNLP, NAACL, ICLR, and NeurIPS. My work has received wide recognition and several best paper awards. I have served the research community in various leadership roles, including as Area Chair for ACL, NAACL, and EMNLP.
 
 I am deeply passionate about diversity and inclusion. To further this cause, I co-founded the [HausaNLP](https://hausanlp.github.io/) research group, which aims to advance research and development in the Hausa language, one of the most widely spoken languages in Africa. I also founded the [Arewa Data Science Academy](https://arewadatascience.github.io/), which seeks to democratize data science and AI education by providing free data science and machine learning training to underserved students.
 <p style="margin-top:1.5rem; font-size:1.05rem; text-align:justify;">
