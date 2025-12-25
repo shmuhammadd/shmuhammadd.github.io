@@ -53,10 +53,10 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 .contact-btn,
 .cv-btn {
   flex: 0 0 auto;
-  padding: 6px 13px;          /* compact and subtle */
+  padding: 6px 13px;
   border-radius: 5px;
-  font-size: 0.9rem;          /* academic small text */
-  font-weight: 500;           /* lighter tone */
+  font-size: 0.9rem;
+  font-weight: 500;
   text-decoration: none;
   transition: background-color 0.25s ease, transform 0.2s ease, opacity 0.2s ease;
 }
@@ -97,231 +97,283 @@ html[data-theme="dark"] .cv-btn {
 }
 </style>
 
-
-
 <h2>🏆 Awards & Recognitions</h2>
-<p style="font-size:1.05rem; text-align:justify;">
+<p style="font-size:1.05rem; text-align:justify; margin-bottom:1.5rem;">
 My research and community contributions have received several awards at top-tier venues, recognizing impactful work in multilingual and African language technologies.
 </p>
-<!-- ========== 2025 AWARDS ========== -->
-<div class="row">
-  <div class="col-md-6">
-    <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #007ACC;">
-      <h5><strong>Best Resource Paper — ACL 2025</strong></h5>
-      <p>
-        <a href="https://aclanthology.org/2025.acl-long.436.pdf" target="_blank">
-          📄 <em>BRIGHTER: Textual Emotion Recognition Datasets for 28 Languages</em>
-        </a><br>
-        <em>ACL 2025</em>.
-      </p>
+
+<div class="awards-grid">
+  <!-- 2025 Awards -->
+  <div class="award-item">
+    <div class="award-badge">2025</div>
+    <div class="award-content">
+      <strong>Best Resource Paper — ACL 2025</strong><br>
+      <a href="https://aclanthology.org/2025.acl-long.436.pdf" target="_blank">
+        BRIGHTER: Textual Emotion Recognition Datasets for 28 Languages
+      </a>
     </div>
   </div>
-  <div class="col-md-6">
-    <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #FF9800;">
-      <h5><strong>Best Task Award — SemEval 2025 (ACL 2025)</strong></h5>
-      <p>
-        <a href="https://aclanthology.org/2025.semeval-1.327.pdf" target="_blank">
-          📄 <em>Task 11: Bridging the Gap in Text-Based Emotion Detection</em>
-        </a><br>
-        <em>Best Task Paper</em>, <em>SemEval 2025</em>.
-      </p>
+
+  <div class="award-item">
+    <div class="award-badge">2025</div>
+    <div class="award-content">
+      <strong>Best Task Award — SemEval 2025</strong><br>
+      <a href="https://aclanthology.org/2025.semeval-1.327.pdf" target="_blank">
+        Task 11: Bridging the Gap in Text-Based Emotion Detection
+      </a>
     </div>
   </div>
-</div>
-<div class="row">
-  <div class="col-md-6">
-    <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #4CAF50;">
-      <h5><strong>Outstanding Paper — NAACL 2025</strong></h5>
-      <p>
-        <a href="https://aclanthology.org/2025.naacl-long.139.pdf" target="_blank">
-          📄 <em>IrokoBench: A New Benchmark for African Languages in the Age of LLMs</em>
-        </a><br>
-        <em>NAACL 2025</em>.
-      </p>
+
+  <div class="award-item">
+    <div class="award-badge">2025</div>
+    <div class="award-content">
+      <strong>Outstanding Paper — NAACL 2025</strong><br>
+      <a href="https://aclanthology.org/2025.naacl-long.139.pdf" target="_blank">
+        IrokoBench: A New Benchmark for African Languages in the Age of LLMs
+      </a>
     </div>
   </div>
-  <div class="col-md-6">
-    <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #E91E63;">
-      <h5><strong>Best Paper — Deep Learning Indaba 2025</strong></h5>
-      <p>
-        <a href="https://arxiv.org/pdf/2506.02280" target="_blank">
-          📄 <em>The State of Large Language Models for African Languages</em>
-        </a><br>
-        <em>Deep Learning Indaba 2025</em>.
-      </p>
+
+  <div class="award-item">
+    <div class="award-badge">2025</div>
+    <div class="award-content">
+      <strong>Best Paper — Deep Learning Indaba 2025</strong><br>
+      <a href="https://arxiv.org/pdf/2506.02280" target="_blank">
+        The State of Large Language Models for African Languages
+      </a>
     </div>
   </div>
-</div>
-<!-- ========== 2024 AWARDS ========== -->
-<div class="row">
-  <div class="col-md-6">
-    <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #9C27B0;">
-      <h5><strong>Best Non-archival Paper — NeurIPS 2024 (C3NLP Workshop)</strong></h5>
-      <p>
-        <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/8eb88844dafefa92a26aaec9f3acad93-Paper-Datasets_and_Benchmarks_Track.pdf" target="_blank">
-          📄 <em>BLEnD: Everyday Knowledge in Diverse Cultures and Languages</em>
-        </a><br>
-        <em>NeurIPS C3NLP Workshop 2024</em>.
-      </p>
+
+  <!-- 2024 Awards -->
+  <div class="award-item">
+    <div class="award-badge">2024</div>
+    <div class="award-content">
+      <strong>Best Non-archival Paper — NeurIPS 2024</strong><br>
+      <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/8eb88844dafefa92a26aaec9f3acad93-Paper-Datasets_and_Benchmarks_Track.pdf" target="_blank">
+        BLEnD: Everyday Knowledge in Diverse Cultures and Languages
+      </a>
     </div>
   </div>
-  <div class="col-md-6">
-    <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #03A9F4;">
-      <h5><strong>Honourable Mention — SemEval 2024</strong></h5>
-      <p>
-        <a href="https://arxiv.org/pdf/2403.18933" target="_blank">
-          📄 <em>SemEval-2024 Task 1: Semantic Textual Relatedness for African and Asian Languages</em>
-        </a><br>
-        <em>SemEval 2024</em>.
-      </p>
+
+  <div class="award-item">
+    <div class="award-badge">2024</div>
+    <div class="award-content">
+      <strong>Honourable Mention — SemEval 2024</strong><br>
+      <a href="https://arxiv.org/pdf/2403.18933" target="_blank">
+        Semantic Textual Relatedness for African and Asian Languages
+      </a>
     </div>
   </div>
-</div>
-<!-- ========== 2023 AWARDS ========== -->
-<div class="row">
-  <div class="col-md-6">
-    <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #795548;">
-      <h5><strong>Best Non-archival Paper — AfricaNLP 2023 (Kigali)</strong></h5>
-      <p>
-        <a href="https://aclanthology.org/2023.emnlp-main.862.pdf" target="_blank">
-          📄 <em>AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages</em>
-        </a><br>
-        <em>AfricaNLP 2023</em>.
-      </p>
+
+  <!-- 2023 Awards -->
+  <div class="award-item">
+    <div class="award-badge">2023</div>
+    <div class="award-content">
+      <strong>Best Non-archival Paper — AfricaNLP 2023</strong><br>
+      <a href="https://aclanthology.org/2023.emnlp-main.862.pdf" target="_blank">
+        AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages
+      </a>
     </div>
   </div>
-  <div class="col-md-6">
-    <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #009688;">
-      <h5><strong>Area Chair Award — IJCNLP–AACL 2023</strong></h5>
-      <p>
-        <a href="https://aclanthology.org/2021.tacl-1.66.pdf" target="_blank">
-          📄 <em>MasakhaNER: Named Entity Recognition for African Languages</em>
-        </a><br>
-        <em>IJCNLP–AACL 2023</em>.
-      </p>
+
+  <div class="award-item">
+    <div class="award-badge">2023</div>
+    <div class="award-content">
+      <strong>Area Chair Award — IJCNLP–AACL 2023</strong><br>
+      <a href="https://aclanthology.org/2021.tacl-1.66.pdf" target="_blank">
+        MasakhaNER: Named Entity Recognition for African Languages
+      </a>
     </div>
   </div>
-</div>
-<!-- ========== 2020 AWARD + VIEW PUBLICATIONS CARD ========== -->
-<div class="row">
-  <div class="col-md-6">
-    <div class="card shadow-sm p-3 mb-3 rounded" style="border-left:4px solid #607D8B;">
-      <h5><strong>Wikimedia Research Award — EMNLP 2020 (Findings)</strong></h5>
-      <p>
-        <a href="https://aclanthology.org/2020.findings-emnlp.195.pdf" target="_blank">
-          📄 <em>Participatory Research for Low-Resourced Machine Translation</em>
-        </a><br>
-        <em>EMNLP 2020</em>.
-      </p>
+
+  <!-- 2020 Award -->
+  <div class="award-item">
+    <div class="award-badge">2020</div>
+    <div class="award-content">
+      <strong>Wikimedia Research Award — EMNLP 2020</strong><br>
+      <a href="https://aclanthology.org/2020.findings-emnlp.195.pdf" target="_blank">
+        Participatory Research for Low-Resourced Machine Translation
+      </a>
     </div>
   </div>
-  <div class="col-md-6 d-flex align-items-center justify-content-center">
-    <div class="card shadow-sm text-center p-4 mb-3 rounded viewpub-card">
-      <h5 class="fw-bold mb-2">Explore My Research</h5>
-      <p style="font-size:0.95rem; margin-bottom:18px;">
-        Discover my full list of publications in leading NLP and AI venues.
+
+  <!-- View Awards & Recognitions Card -->
+  <div class="award-item viewpub-highlight">
+    <div class="award-content text-center">
+      <h5 class="fw-bold mb-2">🎖️ Full Awards & Honors</h5>
+      <p style="font-size:0.9rem; margin-bottom:1rem;">
+        View complete list of awards, fellowships, grants, and recognitions.
       </p>
-      <a href="/publications/" class="btn viewpub-btn">
-        📚 View All Publications →
+      <a href="/Awards & Recognitions/" class="btn viewpub-btn">
+        View All Awards →
       </a>
     </div>
   </div>
 </div>
-<!-- ========== STYLING ========== -->
 
-<!-- ============================= -->
-<!-- 📰 Featured In + Media Coverage -->
-<!-- ============================= -->
-<!-- 
-<div class="featured-media-strip">
-  <h2 class="featured-title">Featured In</h2>
-  <div class="featured-logos">
-    <a href="https://labelstud.io/blog/tales-from-our-community-empowering-nlp-in-low-resource-languages/" target="_blank">
-      <img src="{{ '/assets/img/media/labelstudio-white.png' | relative_url }}" alt="Label Studio">
-    </a>
-    <a href="https://www.imperial.ac.uk/news/252813/computing-welcomes-dr-shamsuddeen-muhammad-google/" target="_blank">
-      <img src="{{ '/assets/img/media/imperial-white.png' | relative_url }}" alt="Imperial College London">
-    </a>
-    <a href="https://www.science.org/content/article/ai-often-mangles-african-languages-local-scientists-and-volunteers-are-taking-it-back" target="_blank">
-      <img src="{{ '/assets/img/media/science-white.png' | relative_url }}" alt="Science Magazine">
-    </a>
-    <a href="https://ircai.org/global-top-100-outstanding-projects/results/" target="_blank">
-      <img src="{{ '/assets/img/media/ircai-white.png' | relative_url }}" alt="IRCAI UNESCO">
-    </a>
-  </div>
-</div> -->
+<style>
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
 
-<!-- 🗞️ Featured In Section 
-<div class="featured-media-strip">
-  <h2 class="featured-title">📰 Featured In</h2>
-  <div class="featured-logos">
-    <a href="https://labelstud.io/blog/tales-from-our-community-empowering-nlp-in-low-resource-languages/" target="_blank" aria-label="Label Studio Blog">
-      <img src="{{ '/assets/img/media/labelstudio.png' | relative_url }}" alt="Label Studio">
-    </a>
-    <a href="https://www.imperial.ac.uk/news/252813/computing-welcomes-dr-shamsuddeen-muhammad-google/" target="_blank" aria-label="Imperial College London News">
-      <img src="{{ '/assets/img/media/imperial.png' | relative_url }}" alt="Imperial College London">
-    </a>
-    <a href="https://www.science.org/content/article/ai-often-mangles-african-languages-local-scientists-and-volunteers-are-taking-it-back" target="_blank" aria-label="Science Magazine">
-      <img src="{{ '/assets/img/media/science.png' | relative_url }}" alt="Science Magazine">
-    </a>
-    <a href="https://ircai.org/global-top-100-outstanding-projects/results/" target="_blank" aria-label="IRCAI UNESCO">
-      <img src="{{ '/assets/img/media/ircai.png' | relative_url }}" alt="IRCAI UNESCO">
-    </a>
-  </div>
-</div> -->
+.award-item {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.85rem;
+  border-radius: 8px;
+  border: 1px solid;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-<!-- 📰 Media Coverage Grid 
-<h2 id="media-coverage">Media Coverage</h2>
-<p>
-  Selected highlights from major outlets that have featured my research, and community initiatives.
-</p>
+/* Light mode styles */
+html:not([data-theme="dark"]) .award-item {
+  background: #ffffff;
+  border-color: #e0e0e0;
+}
 
-<div class="media-coverage">
-  {% assign media_items = site.media | sort: 'date' | reverse %}
-  {% for item in media_items %}
-  <div class="media-card">
-    {% if item.thumbnail %}
-    <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.source }}" class="media-thumb">
-    {% endif %}
-    <div class="media-content">
-      <h3><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></h3>
-      <p><strong>{{ item.source }}</strong> — {{ item.date | date: "%B %Y" }}</p>
-      <p>{{ item.content | markdownify | strip_html | truncate: 160 }}</p>
-    </div>
-  </div>
-  {% endfor %}
-</div>
--->
+html:not([data-theme="dark"]) .award-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
 
-<!-- ============================= -->
-<!-- 📰 Featured In Section -->
-<!-- ============================= -->
-<!-- <div class="featured-media-strip">
-  <h2 class="featured-title">📰 Featured In</h2>
+/* Dark mode styles */
+html[data-theme="dark"] .award-item {
+  background: #1a1a1a;
+  border-color: rgba(255,255,255,0.1);
+}
 
-  <div class="featured-logos">
-    <a href="https://labelstud.io/blog/tales-from-our-community-empowering-nlp-in-low-resource-languages/"
-       target="_blank" aria-label="Label Studio Blog">
-      <img src="{{ '/assets/media/labelstudio.png' | relative_url }}" alt="Label Studio">
-    </a>
+html[data-theme="dark"] .award-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255,255,255,0.05);
+}
 
-    <a href="https://www.imperial.ac.uk/news/252813/computing-welcomes-dr-shamsuddeen-muhammad-google/"
-       target="_blank" aria-label="Imperial College London News">
-      <img src="{{ '/assets/media/imperial.png' | relative_url }}" alt="Imperial College London">
-    </a>
+.award-badge {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+}
 
-    <a href="https://www.science.org/content/article/ai-often-mangles-african-languages-local-scientists-and-volunteers-are-taking-it-back"
-       target="_blank" aria-label="Science Magazine">
-      <img src="{{ '/assets/media/science.png' | relative_url }}" alt="Science Magazine">
-    </a>
+/* Light mode badge */
+html:not([data-theme="dark"]) .award-badge {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  color: #495057;
+  border-color: #dee2e6;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
 
-    <a href="https://ircai.org/global-top-100-outstanding-projects/results/"
-       target="_blank" aria-label="IRCAI UNESCO">
-      <img src="{{ '/assets/media/ircai.png' | relative_url }}" alt="IRCAI UNESCO">
-    </a>
-  </div>
-</div> -->
+/* Dark mode badge */
+html[data-theme="dark"] .award-badge {
+  background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+  color: #cbd5e0;
+  border-color: #4a5568;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
 
+.award-content {
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.award-content strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+}
+
+/* Light mode link styles */
+html:not([data-theme="dark"]) .award-content a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+html:not([data-theme="dark"]) .award-content a:hover {
+  text-decoration: underline;
+  color: #0256c7;
+}
+
+/* Dark mode link styles */
+html[data-theme="dark"] .award-content a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .award-content a:hover {
+  text-decoration: underline;
+  color: #79b8ff;
+}
+
+.viewpub-highlight {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+html[data-theme="dark"] .viewpub-highlight {
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.viewpub-highlight:hover {
+  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+}
+
+html[data-theme="dark"] .viewpub-highlight:hover {
+  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.5);
+}
+
+.viewpub-highlight .award-content {
+  color: white;
+}
+
+.viewpub-btn {
+  background: white;
+  color: #667eea;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.viewpub-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255,255,255,0.3);
+  color: #667eea;
+  text-decoration: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+  .awards-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .award-badge {
+    width: 42px;
+    height: 42px;
+    font-size: 0.8rem;
+  }
+  
+  .award-content {
+    font-size: 0.9rem;
+  }
+}
+</style>
 
 <!-- ============================= -->
 <!-- 🗞️ Media Coverage Section -->
@@ -347,60 +399,14 @@ My research and community contributions have received several awards at top-tier
   {% endfor %}
 </div>
 
-
-
 <style>
-/* === Featured In Strip === */
-.featured-media-strip {
-  text-align: center;
-  margin: 3rem auto 2rem auto;
-  padding: 0.5rem 0;
-  max-width: 900px;
-}
-
-.featured-title {
-  font-size: 1.35rem;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-}
-
-.featured-logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-  opacity: 0.9;
-}
-
-.featured-logos a img {
-  height: 55px;
-  width: auto;
-  filter: grayscale(100%) contrast(1.05);
-  opacity: 0.8;
-  transition: all 0.3s ease;
-}
-
-.featured-logos a:hover img {
-  filter: none;
-  opacity: 1;
-  transform: scale(1.05);
-}
-
-/* 🌙 Dark Mode */
-html[data-theme="dark"] .featured-logos a img {
-  filter: brightness(1.8) grayscale(100%) contrast(1.2);
-}
-html[data-theme="dark"] .featured-logos a:hover img {
-  filter: brightness(1.1) none;
-}
-
 /* === Media Coverage Cards === */
 .media-coverage {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 1.5rem;
   margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .media-card {
@@ -408,15 +414,31 @@ html[data-theme="dark"] .featured-logos a:hover img {
   align-items: flex-start;
   gap: 1rem;
   padding: 1rem;
-  border: 1px solid #e0e0e0;
+  border: 1px solid;
   border-radius: 10px;
-  background: var(--global-card-bg-color, var(--bg-color));
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.media-card:hover {
+/* Light mode */
+html:not([data-theme="dark"]) .media-card {
+  background: #ffffff;
+  border-color: #e0e0e0;
+}
+
+html:not([data-theme="dark"]) .media-card:hover {
   transform: scale(1.02);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Dark mode */
+html[data-theme="dark"] .media-card {
+  background: #1a1a1a;
+  border-color: rgba(255,255,255,0.1);
+}
+
+html[data-theme="dark"] .media-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
 }
 
 .media-thumb {
@@ -424,10 +446,20 @@ html[data-theme="dark"] .featured-logos a:hover img {
   height: 90px;
   object-fit: contain;
   border-radius: 8px;
-  background-color: #fff;
   padding: 6px;
   flex-shrink: 0;
   box-shadow: 0 0 6px rgba(0,0,0,0.08);
+}
+
+/* Light mode thumbnail */
+html:not([data-theme="dark"]) .media-thumb {
+  background-color: #fff;
+}
+
+/* Dark mode thumbnail */
+html[data-theme="dark"] .media-thumb {
+  background-color: #2a2a2a;
+  box-shadow: 0 0 6px rgba(255,255,255,0.05);
 }
 
 .media-content h3 {
@@ -436,24 +468,41 @@ html[data-theme="dark"] .featured-logos a:hover img {
   line-height: 1.4;
 }
 
+.media-content h3 a {
+  text-decoration: none;
+}
+
+/* Light mode content links */
+html:not([data-theme="dark"]) .media-content h3 a {
+  color: #0366d6;
+}
+
+html:not([data-theme="dark"]) .media-content h3 a:hover {
+  color: #0256c7;
+  text-decoration: underline;
+}
+
+/* Dark mode content links */
+html[data-theme="dark"] .media-content h3 a {
+  color: #58a6ff;
+}
+
+html[data-theme="dark"] .media-content h3 a:hover {
+  color: #79b8ff;
+  text-decoration: underline;
+}
+
 .media-content p {
   margin: 0.4rem 0 0;
   font-size: 0.95rem;
-  color: var(--text-color);
-}
-
-/* 🌙 Dark Mode */
-html[data-theme="dark"] .media-card {
-  background: #1a1a1a;
-  border-color: rgba(255,255,255,0.1);
-}
-html[data-theme="dark"] .media-thumb {
-  background-color: #2a2a2a;
-  box-shadow: 0 0 6px rgba(255,255,255,0.05);
 }
 
 /* 📱 Responsive */
 @media (max-width: 480px) {
+  .media-coverage {
+    grid-template-columns: 1fr;
+  }
+  
   .media-thumb {
     width: 70px;
     height: 70px;
@@ -463,7 +512,6 @@ html[data-theme="dark"] .media-thumb {
   }
 }
 </style>
-
 
 ---
 
@@ -495,19 +543,36 @@ html[data-theme="dark"] .media-thumb {
 <style>
 .visitor-section {
   text-align: center;
-  background: var(--global-card-bg-color);
-  border: 1px solid #0366d6;
+  border: 1px solid;
   border-radius: 12px;
   padding: 1.2rem;
   margin: 2rem auto;
   max-width: 550px;
-  box-shadow: 0 4px 10px rgba(3,102,214,0.15);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.visitor-section:hover {
+/* Light mode */
+html:not([data-theme="dark"]) .visitor-section {
+  background: #ffffff;
+  border-color: #0366d6;
+  box-shadow: 0 4px 10px rgba(3,102,214,0.15);
+}
+
+html:not([data-theme="dark"]) .visitor-section:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(3,102,214,0.25);
+}
+
+/* Dark mode */
+html[data-theme="dark"] .visitor-section {
+  background: #1b1b1b;
+  border-color: #1b8ef2;
+  box-shadow: 0 2px 8px rgba(27,142,242,0.2);
+}
+
+html[data-theme="dark"] .visitor-section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(27,142,242,0.3);
 }
 
 .flag-counter-img {
@@ -519,18 +584,20 @@ html[data-theme="dark"] .media-thumb {
 
 .flag-counter-img:hover {
   transform: scale(1.02);
+}
+
+/* Light mode flag counter */
+html:not([data-theme="dark"]) .flag-counter-img:hover {
   filter: brightness(1.05);
 }
 
-/* 🌙 Dark Mode Support */
-html[data-theme="dark"] .visitor-section {
-  background: #1b1b1b;
-  border-color: #1b8ef2;
-  box-shadow: 0 2px 8px rgba(27,142,242,0.2);
-}
-
+/* Dark mode flag counter */
 html[data-theme="dark"] .flag-counter-img {
   filter: brightness(0.9) contrast(1.1);
+}
+
+html[data-theme="dark"] .flag-counter-img:hover {
+  filter: brightness(0.95) contrast(1.1);
 }
 
 /* 📱 Mobile Responsiveness */
@@ -548,85 +615,5 @@ html[data-theme="dark"] .flag-counter-img {
   .visitor-section p {
     font-size: 0.9rem;
   }
-}
-</style>
-
-
-
-
-
-<style>
-/* === Featured In Strip === */
-.featured-media-strip {
-  text-align: center;
-  margin: 3rem auto 2rem auto;
-  padding: 0.5rem 0;
-  max-width: 900px;
-}
-.featured-title {
-  font-size: 1.3rem;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-}
-.featured-logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-  opacity: 0.9;
-}
-.featured-logos a img {
-  height: 55px;
-  width: auto;
-  filter: grayscale(100%) contrast(1.05);
-  opacity: 0.75;
-  transition: all 0.3s ease;
-}
-.featured-logos a:hover img {
-  filter: none;
-  opacity: 1;
-  transform: scale(1.05);
-}
-html[data-theme="dark"] .featured-logos a img {
-  filter: brightness(1.8) grayscale(100%) contrast(1.2);
-}
-html[data-theme="dark"] .featured-logos a:hover img {
-  filter: brightness(1.1) none;
-}
-
-/* === Media Coverage Cards === */
-.media-coverage {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-.media-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  padding: 1rem;
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  background: var(--bg-color);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.media-card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
-.media-thumb {
-  width: 90px;
-  height: 90px;
-  object-fit: contain;
-  border-radius: 8px;
-  background-color: #fff;
-  padding: 6px;
-  flex-shrink: 0;
-}
-.media-content h3 {
-  margin: 0;
-  font-size: 1.1rem;
 }
 </style>

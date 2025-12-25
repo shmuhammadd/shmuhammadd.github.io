@@ -5,270 +5,93 @@ title: Teaching & Supervision
 description: Courses taught and student supervision.
 nav: true
 nav_order: 5
-
 ---
 
-<h2>Teaching</h2>
-
-<p style="font-size:1.05rem; text-align:justify;">
-I teach and design courses across <strong>Imperial College London</strong>,
-<strong>Bayero University Kano (BUK)</strong>, and the
-<strong>African Institute for Mathematical Sciences (AIMS)</strong>.
-My teaching emphasizes <strong>applied machine learning</strong>,
-<strong>natural language processing (NLP)</strong>, and <strong>AI for Social Good</strong>,
-with a focus on real-world, low-resource, and culturally grounded applications.
-</p>
+I teach courses at **Imperial College London**, **Bayero University Kano (BUK)**, and the **African Institute for Mathematical Sciences (AIMS)**. My teaching focuses on applied machine learning, natural language processing, and AI for Social Good, with an emphasis on real-world, low-resource, and culturally grounded applications.
 
 ---
 
 ## Current Courses
 
-<ul class="course-list">
-  <li>
-    <strong>Introduction to Python for Data Science</strong> — Arewa Data Science Academy  
-    <em>Introductory programming and data manipulation using Python, NumPy, and Pandas.</em>
-  </li>
-  <li>
-    <strong>Introduction to Machine Learning</strong> — Arewa Data Science Academy  
-    <em>Foundations of Machine Learning, including supervised and unsupervised techniques.</em>
-  </li>
-  <li>
-    <strong>Natural Language Processing & Large Language Models</strong> — AIMS South Africa and Cameroon  
-    <em> Graduate-level course on natural language processing and large language models.</em>
-  </li>
-  <li>
-    <strong>Machine Learning</strong> — Imperial College London (TA)  
-    <em></em>
-  </li>
-</ul>
+**Introduction to Python for Data Science**  
+*Arewa Data Science Academy*
+
+Introductory programming, data manipulation, and visualisation using Python, NumPy, and Pandas.  
+[Course Materials](https://github.com/arewadataScience/python-programming-fellowship)
+
+**Introduction to Machine Learning**  
+*Arewa Data Science Academy*
+
+Foundations of machine learning, including supervised and unsupervised learning, model evaluation, and basic deployment.  
+[Course Materials](https://github.com/arewadataScience/ArewaDS-Machine-Learning)
+
+**Natural Language Processing & Large Language Models**  
+*AIMS South Africa & AIMS Cameroon*
+
+Graduate-level course covering classical NLP, neural methods, and recent advances in large language models, with a focus on African languages.  
+[Course Materials](https://github.com/shmuhammadd/aims-nlp-course)
+
+**Machine Learning**  
+*Imperial College London · Teaching Assistant*
+
+Support for lectures, tutorials, and labs on core topics such as linear models, kernel methods, and deep learning.
 
 ---
 
-<h2>Supervision</h2>
+## Supervision
 
-<p style="font-size:1.05rem; text-align:justify;">
-I supervise PhD, MSc, and undergraduate students working on topics in
-<strong>NLP for low-resource languages</strong>, <strong>responsible AI</strong>,
-and <strong>cross-cultural language technologies</strong>.
-I also mentor research interns and early-career scholars across Africa through
-the <a href="https://arewadatascience.github.io/" target="_blank">Arewa Data Science Academy</a>
-and the <a href="https://hausanlp.github.io/" target="_blank">HausaNLP</a> community.
-</p>
+I supervise and mentor students at all levels, from undergraduate projects to PhD dissertations. My supervision focuses on **NLP for low-resource languages**, **responsible AI**, and **cross-cultural language technologies**.
 
----
+I contribute to strengthening research capacity across Africa through [Arewa Data Science Academy](https://arewadatascience.github.io/) and [HausaNLP](https://hausanlp.github.io/), which I co-founded, where I mentor early-career researchers and nurture collaborative research communities. I am also an active member and mentor in the [MasakhaneNLP](https://www.masakhane.io/) community.
 
-## Student Supervision
-
-<details class="supervision-section" open>
-<summary><span class="arrow"></span> <strong>PhD Students</strong></summary>
-<ul class="student-list">
-  <li>
-    <a href="#" target="_blank"><strong>Hafiz Imam</strong></a> — Bayero University Kano  
-    <em>Topic:</em> Automatic Speech Recognition for African Languages  
-    <span class="role">Role:</span> Co-supervisor
-  </li>
-  <li>
-    <a href="#" target="_blank"><strong>Murja Gadanya</strong></a> — Bayero University Kano  
-    <em>Topic:</em> Emotion Recognition in Low-Resource Languages  
-    <span class="role">Role:</span> Co-supervisor
-  </li>
-  <li>
-    <a href="#" target="_blank"><strong>Saminu Aliyu</strong></a> — Modibbo Adama University of Technology  
-    <em>Topic:</em> Hate Speech Detection in Low-Resource Languages  
-    <span class="role">Role:</span> Co-supervisor
-  </li>
-  <li>
-    <a href="#" target="_blank"><strong>Musa Adam</strong></a> — Bayero University Kano  
-    <em>Topic:</em> LLM Adaptation for African Languages  
-    <span class="role">Role:</span> Co-supervisor
-  </li>
-</ul>
-</details>
-
-<details class="supervision-section">
-<summary><span class="arrow"></span> <strong>MSc Students</strong></summary>
-<ul class="student-list">
-  <li>
-    <strong>Maryam Usman</strong> — MSc, Bayero University Kano  
-    <em>Project:</em> Sentiment Analysis for Hausa Social Media Texts  
-    <span class="role">Role:</span> Supervisor
-  </li>
-  <li>
-    <strong>Abdulrahman Nuhu</strong> — MSc, AIMS South Africa  
-    <em>Project:</em> Evaluating Large Language Models for African Dialogue Systems  
-    <span class="role">Role:</span> Visiting Supervisor
-  </li>
-</ul>
-</details>
-
-<details class="supervision-section">
-<summary><span class="arrow"></span> <strong>Undergraduate & Internship Supervision</strong></summary>
-<ul class="student-list">
-  <li>
-    <strong>Hafsa Kabir</strong> — BSc, Bayero University Kano  
-    <em>Project:</em> Dataset Creation for Hausa Text Summarization  
-    <span class="role">Role:</span> Academic Supervisor
-  </li>
-  <li>
-    <a href="https://arewadatascience.github.io/" target="_blank"><strong>Arewa Data Science Interns</strong></a> — Nigeria  
-    <em>Focus:</em> Applied Data Science and Machine Learning  
-    <span class="role">Role:</span> Research Mentor & Founder
-  </li>
-</ul>
-</details>
+**Current Supervision:**
+- 4 PhD Students
+- 2 MSc Students  
+- 40+ Research Interns
 
 ---
 
-## Alumni Highlights
+### PhD Students
 
-<p style="font-size:1rem;">
-Over <strong>40+</strong> students mentored across Africa.  
-Alumni have advanced to <strong>PhD programs</strong> and <strong>research roles</strong> in Africa, and beyond.
-</p>
+**Hafiz Imam** — *Bayero University Kano* · Co-supervisor  
+Automatic Speech Recognition for African Languages
 
-<div class="alumni-banner">
- <strong>Empowering the next generation of African AI researchers.</strong>
-</div>
+**Murja Gadanya** — *Bayero University Kano* · Co-supervisor  
+Emotion Recognition in Low-Resource Languages
+
+**Saminu Aliyu** — *Modibbo Adama University of Technology* · Co-supervisor  
+Hate Speech Detection in Low-Resource Languages
+
+**Musa Adam** — *Bayero University Kano* · Co-supervisor  
+LLM Adaptation for African Languages
 
 ---
 
-<!-- ===== STYLING ===== -->
-<style>
-.course-list, .student-list {
-  list-style-type: none;
-  padding-left: 0;
-}
+### MSc Students
 
-.course-list li, .student-list li {
-  background-color: var(--global-bg-color);
-  border-left: 4px solid #0366d6;
-  padding: 10px 15px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  font-size: 1rem;
-  transition: all 0.25s ease;
-}
+I have supervised and mentored over **40 MSc students** across Africa. Below are selected examples.
 
-.course-list li:hover, .student-list li:hover {
-  background-color: rgba(3,102,214,0.08);
-  transform: translateX(4px);
-}
+**Maryam Usman** — *Bayero University Kano* · Supervisor  
+Sentiment Analysis for Hausa Social Media Texts
 
-.student-list em, .course-list em {
-  color: #666;
-}
+**Abdulrahman Nuhu** — *AIMS South Africa* · Visiting Supervisor  
+Evaluating Large Language Models for African Dialogue Systems
 
-.role {
-  color: #555;
-  font-size: 0.9rem;
-  font-style: italic;
-}
+---
 
-/* ===== Collapsible styling with animation ===== */
-.supervision-section {
-  margin-bottom: 1.2rem;
-  border: 1px solid rgba(3,102,214,0.25);
-  border-radius: 8px;
-  overflow: hidden;
-  transition: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1.0);
-  box-shadow: 0 0 0 rgba(3,102,214,0);
-}
+## Alumni Impact
 
-.supervision-section:hover {
-  box-shadow: 0 4px 12px rgba(3,102,214,0.15);
-}
+Over the years, I have mentored **40+ students and interns** across Africa. Alumni have progressed to:
 
-.supervision-section summary {
-  cursor: pointer;
-  font-size: 1.1rem;
-  padding: 12px 16px;
-  font-weight: 600;
-  color: #0366d6;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  list-style: none;
-  transition: all 0.3s ease;
-}
+PhD Programs**  
+Doctoral programs at institutions across Africa, Europe, and North America, advancing research in AI and NLP.
 
-.supervision-section summary:hover {
-  background-color: rgba(3,102,214,0.06);
-}
+**Research Positions**  
+Research roles at universities, research institutes, and AI labs, contributing to cutting-edge projects.
 
-.supervision-section[open] summary {
-  border-bottom: 2px solid rgba(3,102,214,0.15);
-  background: linear-gradient(135deg, #e8f1ff, #f7fbff);
-  box-shadow: inset 0 -2px 4px rgba(3,102,214,0.1);
-}
+**Industry Careers**  
+Data scientists, ML engineers, and AI researchers at leading tech companies and startups globally.
 
-/* Smooth arrow transition */
-.arrow {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-right: 5px;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 6px solid #0366d6;
-  transform: rotate(0deg);
-  transition: transform 0.35s cubic-bezier(0.65, 0, 0.35, 1);
-}
+**Community Leadership**  
+Mentoring others, leading local tech communities, and driving AI adoption across Africa.
 
-.supervision-section[open] .arrow {
-  transform: rotate(90deg);
-}
-
-/* Smooth opening animation for the content */
-.supervision-section[open] ul {
-  animation: fadeSlide 0.4s ease-out;
-}
-
-@keyframes fadeSlide {
-  from {
-    opacity: 0;
-    transform: translateY(-5px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* ===== Dark Mode ===== */
-html[data-theme="dark"] .supervision-section {
-  background-color: #1a1a1a;
-  border-color: rgba(27,142,242,0.25);
-}
-html[data-theme="dark"] .supervision-section summary {
-  color: #66b0ff;
-}
-html[data-theme="dark"] .supervision-section summary:hover {
-  background-color: rgba(27,142,242,0.15);
-}
-html[data-theme="dark"] .supervision-section[open] summary {
-  background: linear-gradient(135deg, #1b1b1b, #242424);
-  border-bottom: 2px solid rgba(27,142,242,0.25);
-}
-html[data-theme="dark"] .arrow {
-  border-left-color: #66b0ff;
-}
-
-/* ===== Alumni banner ===== */
-.alumni-banner {
-  margin-top: 1.2rem;
-  background: linear-gradient(135deg, #0366d6, #1b8ef2);
-  color: white;
-  text-align: center;
-  padding: 14px 18px;
-  border-radius: 10px;
-  font-weight: 500;
-  box-shadow: 0 3px 10px rgba(3,102,214,0.25);
-}
-
-html[data-theme="dark"] .alumni-banner {
-  background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
-  border-left: 4px solid #1b8ef2;
-  color: #f0f0f0;
-  box-shadow: 0 2px 8px rgba(27,142,242,0.2);
-}
-</style>
