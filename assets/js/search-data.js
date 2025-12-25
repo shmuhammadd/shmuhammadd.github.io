@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/biography/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-publications",
           title: "publications",
           description: "publications by categories in reversed chronological order.",
@@ -43,6 +36,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-resources-amp-tools",
+          title: "Resources &amp; Tools",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/resources/";
           },
         },{id: "media-ircai-global-top-100-outstanding-ai-projects-advancing-the-sdgs",
           title: 'IRCAI Global Top 100: Outstanding AI Projects Advancing the SDGs',
