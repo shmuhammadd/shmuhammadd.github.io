@@ -30,6 +30,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-awards-amp-recognitions",
+          title: "Awards &amp; Recognitions",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/Awards%20&%20Recognitions/";
+          },
+        },{id: "nav-teaching-amp-supervision",
+          title: "Teaching &amp; Supervision",
+          description: "Courses taught and student supervision.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "media-ircai-global-top-100-outstanding-ai-projects-advancing-the-sdgs",
           title: 'IRCAI Global Top 100: Outstanding AI Projects Advancing the SDGs',
           description: "",
@@ -124,6 +138,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-will-be-speaking-at-masakhane-community-s-weekly-call-on-12th-december-2025-about-africanlp-join-us-to-learn-more-about-our-goals-and-how-you-can-get-involved-slides-africanlp-masakhane-weekly-call",
           title: 'I will be speaking at Masakhane Community’s Weekly call on 12th December 2025...',
+          description: "",
+          section: "News",},{id: "news-i-will-deliver-a-keynote-talk-at-the-mmloso-workshop-at-ijcnlp-aacl-2025-on-23-december-2025",
+          title: 'I will deliver a keynote talk at the MMLoSo Workshop at IJCNLP–AACL 2025...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
