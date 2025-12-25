@@ -70,7 +70,6 @@ Over the years, my research and community contributions have received recognitio
 - **2021** – *PI*: Oracle Cloud Infrastructure (OCI) Award *($50,000)*  
 - **2021** – *Co-Investigator (Co-I)*: Lacuna Fund — Nigerian Speech Corpus *($120,000)*
 
-
 ---
 
 ## Fellowships & Scholarships
