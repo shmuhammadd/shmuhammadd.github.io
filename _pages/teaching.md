@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching & Supervision
 description: Courses taught and student supervision.
-nav: false
+nav: true
 nav_order: 5
 
 ---
