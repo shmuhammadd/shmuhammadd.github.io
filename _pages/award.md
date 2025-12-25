@@ -60,8 +60,16 @@ Over the years, my research and community contributions have received recognitio
 
 ---
 
-## Honors
-- **Second Best Graduating Student (Computer Science)** — Bayero University, Kano, Nigeria
+## Research Grants & Awards
+- **2025** – *Principal Investigator (PI)*: Open Data Collection Playbook & Platform *($430,000)*  
+- **2023** – *PI*: Nigerian AI Research Grant — Offensive Language Detection *(₦5,000,000)*  
+- **2023** – *Co-PI*: Google Research exploreCSR Award *($18,000)*  
+- **2023** – *Co-PI*: Google Research TensorFlow Award *($10,000)*  
+- **2022** – *PI*: AI for Education Innovation Research Network in Africa *($40,000)*  
+- **2021** – *PI*: Lacuna Fund — Hate Speech Dataset for African Languages *($147,000)*  
+- **2021** – *PI*: Oracle Cloud Infrastructure (OCI) Award *($50,000)*  
+- **2021** – *Co-Investigator (Co-I)*: Lacuna Fund — Nigerian Speech Corpus *($120,000)*
+
 
 ---
 
@@ -80,18 +88,6 @@ Over the years, my research and community contributions have received recognitio
 - **2022** – RStudio Conference Travel Award *($1,500)*  
 - **2022** – EMNLP Conference Travel Award *($1,500)*  
 - **2018** – Black in AI Travel Award to NeurIPS *($1,100)*
-
----
-
-## Research Grants & Awards
-- **2025** – *Principal Investigator (PI)*: Open Data Collection Playbook & Platform *($430,000)*  
-- **2023** – *PI*: Nigerian AI Research Grant — Offensive Language Detection *(₦5,000,000)*  
-- **2023** – *Co-PI*: Google Research exploreCSR Award *($18,000)*  
-- **2023** – *Co-PI*: Google Research TensorFlow Award *($10,000)*  
-- **2022** – *PI*: AI for Education Innovation Research Network in Africa *($40,000)*  
-- **2021** – *PI*: Lacuna Fund — Hate Speech Dataset for African Languages *($147,000)*  
-- **2021** – *PI*: Oracle Cloud Infrastructure (OCI) Award *($50,000)*  
-- **2021** – *Co-Investigator (Co-I)*: Lacuna Fund — Nigerian Speech Corpus *($120,000)*
 
 ---
 
