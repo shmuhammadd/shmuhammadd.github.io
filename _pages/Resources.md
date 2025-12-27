@@ -6,7 +6,7 @@ nav: true
 nav_order: 6
 ---
 
-I am committed to open science and reproducible research. Below is a collection of datasets, tools, software, and guides that I have developed or contributed to, all publicly available for the research community.
+Below is a collection of datasets, tools, software, and guides that I have developed or contributed to, all publicly available for the research community.
 
 ---
 
@@ -17,7 +17,7 @@ Jump to any section:
 - [Datasets](#datasets) — Research datasets for African languages
 - [Tools & Software](#tools--software) — NLP tools and platforms
 - [Writing NLP Papers](#writing-nlp-papers) — Guides and templates
-- [Other Resources](#other-resources) — Tutorials, community, and funding
+- [Other Resources](#other-resources) — Tutorials, and more 
 
 ---
 
@@ -28,28 +28,28 @@ Jump to any section:
 - **Languages:** 28 languages including African, Asian, and European languages
 - **Task:** Emotion classification
 - **Paper:** [ACL 2025 (Best Resource Paper Award)](https://aclanthology.org/2025.acl-long.436/)
-- **Access:** [GitHub](#) • [HuggingFace](#)
+- **Access:** [Website](https://brighter-dataset.github.io) • [HuggingFace](https://huggingface.co/brighter-dataset)
 
-#### IrokoBench: African Languages LLM Benchmark
+<!-- #### IrokoBench: African Languages LLM Benchmark
 - **Description:** Comprehensive benchmark for evaluating Large Language Models on African languages
 - **Languages:** Multiple African languages
 - **Tasks:** Various NLP tasks tailored for African language contexts
 - **Paper:** [NAACL 2025 (Outstanding Paper Award)](https://aclanthology.org/2025.naacl-long.139/)
-- **Access:** [GitHub](#) • [Website](#) • [Leaderboard](#)
+- **Access:** [HuggingFace](https://huggingface.co/collections/masakhane/irokobench)  -->
 
 #### AfriSenti: African Sentiment Analysis Dataset
 - **Description:** Twitter sentiment analysis benchmark for African languages
 - **Languages:** 14 African languages (Hausa, Yoruba, Igbo, Amharic, Swahili, and more)
 - **Task:** Sentiment classification (positive, negative, neutral)
 - **Paper:** [EMNLP 2023 (Best Non-archival Paper Award)](https://aclanthology.org/2023.emnlp-main.862.pdf)
-- **Access:** [GitHub](#) • [HuggingFace](#) • [Leaderboard](#)
+- **Access:** [GitHub](https://github.com/afrisenti-semeval/afrisent-semeval-2023) • [HuggingFace](https://huggingface.co/datasets/HausaNLP/AfriSenti-Twitter) • [Leaderboard](https://codalab.lisn.upsaclay.fr/competitions/7320)
 
 #### NaijaSenti: Nigerian Sentiment Analysis Dataset
 - **Description:** Sentiment analysis dataset specifically for Nigerian languages and Nigerian Pidgin
 - **Languages:** Hausa, Yoruba, Igbo, Nigerian Pidgin
 - **Task:** Sentiment classification (positive, negative, neutral)
 - **Paper:** [AfricaNLP Workshop](#)
-- **Access:** [GitHub](#) • [HuggingFace](#)
+- **Access:** [GitHub](https://github.com/hausanlp/NaijaSenti) • [HuggingFace](https://huggingface.co/datasets/HausaNLP/NaijaSenti-Twitter)
 
 #### AfriHate: Hate Speech & Abusive Language Dataset
 - **Description:** Multilingual collection of hate speech and abusive language datasets for African languages
@@ -64,7 +64,7 @@ Jump to any section:
 - **Languages:** Amharic, Hausa, Igbo, Kinyarwanda, Luganda, Luo, Nigerian-Pidgin, Swahili, Wolof, Yoruba, and more
 - **Task:** Named entity recognition (PER, LOC, ORG, DATE)
 - **Paper:** [TACL 2021](https://aclanthology.org/2021.tacl-1.66.pdf)
-- **Access:** [GitHub](#) • [HuggingFace](#) • [Leaderboard](#)
+- **Access:** [GitHub](https://github.com/masakhane-io/masakhane-ner) • [HuggingFace](https://huggingface.co/datasets/masakhane/masakhaner2) 
 
 #### BLEnD: Everyday Knowledge Dataset
 - **Description:** Everyday knowledge in diverse cultures and languages for evaluating cultural understanding in LLMs
@@ -106,7 +106,7 @@ Jump to any section:
 - **Languages:** Multiple African languages
 - **Tasks:** Multiple NLP tasks
 - **Paper:** [arXiv](https://arxiv.org/pdf/2412.00948)
-- **Access:** Coming soon
+- **Access:** [GitHub](https://huggingface.co/datasets/masakhane/uhura-truthfulqa)
 
 #### AfroXLMR-Social: African Social Media Dataset
 - **Description:** Social media dataset for African languages covering diverse social contexts

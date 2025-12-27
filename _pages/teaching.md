@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-I teach courses at **Imperial College London**, **Bayero University Kano (BUK)**, and the **African Institute for Mathematical Sciences (AIMS)**. My teaching focuses on applied machine learning, natural language processing, and AI for Social Good, with an emphasis on real-world, low-resource, and culturally grounded applications.
+I teach courses at **Imperial College London**, **Bayero University Kano (BUK)**, and the **African Institute for Mathematical Sciences (AIMS)**. My teaching focuses on applied machine learning, natural language processing, and AI for Social Good, with an emphasis on low-resource, and culturally grounded applications.
 
 ---
 
