@@ -38,6 +38,54 @@ Support for lectures, tutorials, and labs on core topics such as linear models, 
 
 ---
 
+## Video Courses & Lectures (YouTube)
+
+I teach in a community book-based learning series (“Book Club”), where I guide participants through topics in machine learning, deep learning, and natural language processing using structured readings, discussions, and practical exercises. Below are links to some recorded video lectures from past sessions.
+
+<div class="course-grid">
+
+  <!-- Python for Data Analysis -->
+  <div class="course-card">
+    <a href="https://www.youtube.com/watch?v=aJOEUBnf0RY&list=PLr3-oFRsHRaZi46OffHkyJLEkLsQ3iShW">
+      <img src="https://img.youtube.com/vi/aJOEUBnf0RY/hqdefault.jpg" alt="Python for Data Analysis Course">
+      <div class="course-card-body">
+        <strong>Python for Data Analysis</strong><br>
+        <span class="course-meta">YouTube Playlist · Arewa Data Science Academy</span>
+      </div>
+    </a>
+  </div>
+  
+  <!-- Machine Learning with PyTorch & Sklearn -->
+  <div class="course-card">
+    <a href="https://www.youtube.com/watch?v=RgQSa1PRu00&list=PLr3-oFRsHRaZwmVUPMvnDUZV-j2zaK5zU">
+      <img src="https://img.youtube.com/vi/RgQSa1PRu00/hqdefault.jpg" alt="Machine Learning with PyTorch and Sklearn">
+      <div class="course-card-body">
+        <strong>Machine Learning with PyTorch and Sklearn</strong><br>
+        <span class="course-meta">YouTube Playlist · Book Club</span>
+      </div>
+    </a>
+  </div>
+
+  <!-- PyTorch for Deep Learning -->
+  <div class="course-card">
+    <a href="https://www.youtube.com/watch?v=90uzW-nDa9I&list=PLr3-oFRsHRaY6dllMFXYsxXLgjeGVewtV">
+      <img src="https://img.youtube.com/vi/90uzW-nDa9I/hqdefault.jpg" alt="PyTorch for Deep Learning Course">
+      <div class="course-card-body">
+        <strong>PyTorch for Deep Learning</strong><br>
+        <span class="course-meta">YouTube Playlist · Applied Deep Learning</span>
+      </div>
+    </a>
+  </div>
+
+
+
+</div>
+
+
+
+---
+
+
 ## Supervision
 
 I supervise and mentor students at all levels, from undergraduate projects to PhD dissertations. My supervision focuses on **NLP for low-resource languages**, **responsible AI**, and **cross-cultural language technologies**.
@@ -95,3 +143,47 @@ Data scientists, ML engineers, and AI researchers at leading tech companies and 
 **Community Leadership**  
 Mentoring others, leading local tech communities, and driving AI adoption across Africa.
 
+<style>
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 1rem;
+}
+
+.course-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fafafa;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+}
+
+.course-card img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.course-card-body {
+  padding: 10px 12px;
+  line-height: 1.4;
+}
+
+.course-card a {
+  text-decoration: none;
+  color: inherit;
+}
+.course-card strong {
+  font-size: .98rem;
+}
+.course-meta {
+  font-size: .85rem;
+  color: #666;
+}
+</style>
