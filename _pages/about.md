@@ -15,7 +15,7 @@ news: false  # Disable auto injection so we can control position
 selected_papers: false
 social: true
 ---
-I am a Google DeepMind Academic Fellow and an Advanced Research Fellow at Imperial College London. I also serve as an Assistant Professor (Senior Lecturer) at the Faculty of Computing, Bayero University, Kano, Nigeria, and as a Visiting Professor at the African Institute of Mathematical Sciences in Cameroon and South Africa, as well as at York St John University.
+I am a Google DeepMind Academic Fellow and an Advanced Research Fellow at Imperial College London. I also serve as a Senior Lecturer (Assistant Professor) at the Faculty of Computing, Bayero University, Kano, Nigeria, and as a Visiting Professor at the African Institute of Mathematical Sciences in Cameroon and South Africa, as well as at York St John University.
 
 I received my PhD from the University of Porto, Portugal, under the supervision of Professor Pavel Brazdil and Professor Alipio Jorge. Prior to that, I earned an MS in Computer Science from the University of Manchester, UK, and a BSc in Computer Science from Bayero University, Kano, Nigeria.
 
