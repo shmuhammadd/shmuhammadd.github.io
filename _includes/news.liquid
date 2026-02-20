@@ -8,7 +8,9 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
+        {% assign pinned_news = site.news | where: 'pinned', true | sort: 'date' | reverse %}
+        {% assign regular_news = site.news | where_exp: 'item', 'item.pinned != true' | sort: 'date' | reverse %}
+        {% assign news = pinned_news | concat: regular_news %}
         {% if include.limit and site.announcements.limit %}
           {% assign news_limit = site.announcements.limit %}
         {% else %}
