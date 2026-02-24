@@ -7,7 +7,7 @@ nav_order: 5
 
 ---
 
-Over the years, my research and community contributions have received recognition at top-tier venues. Below is a selection of my awards and distinctions.
+Over the years, my research and community contributions have received recognition at top-tier venues. Below is a selection of my awards, and other recognitions.
 
 ---
 
@@ -61,7 +61,9 @@ Over the years, my research and community contributions have received recognitio
 ---
 
 ## Research Grants & Awards
-- **2025** – *Principal Investigator (PI)*: Open Data Collection Playbook & Platform *($430,000)*  
+- **2026** – *Co-Investigator*: Cross-cultural and multilingual mental health safety funded by OpenAI, in collaboration with [David Adelani](https://dadelani.github.io/), [Annie Lee](https://www.cs.toronto.edu/~ealee/), [Siva Reddy](https://sivareddy.in/), [Tanmoy Chakraborty](https://tanmoychak.com/index.html), and other partners.
+  
+- **2026** – *Principal Investigator (PI)*: Open Data Collection Playbook & Platform *($430,000)*  
 - **2023** – *PI*: Nigerian AI Research Grant — Offensive Language Detection *(₦5,000,000)*  
 - **2023** – *Co-PI*: Google Research exploreCSR Award *($18,000)*  
 - **2023** – *Co-PI*: Google Research TensorFlow Award *($10,000)*  

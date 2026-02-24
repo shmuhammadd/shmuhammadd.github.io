@@ -21,10 +21,10 @@ I received my PhD from the University of Porto, Portugal, under the supervision 
 
 My research focuses on Natural Language Processing (NLP) for low-resource African languages. I have published in top venues such as ACL, EMNLP, NAACL, ICLR, and NeurIPS. My work has received wide recognition and several best paper awards. I have served the research community in various leadership roles, including as Area Chair for ACL, NAACL, and EMNLP.
 
-I am deeply passionate about diversity and inclusion. To further this cause, I co-founded the [HausaNLP](https://hausanlp.github.io/) research group, which aims to advance research and development in the Hausa language, one of the most widely spoken languages in Africa. Our work was recently featured by **Google Colab & HausaNLP — Bridging Language Gaps in AI**; watch the feature here: <a href="https://www.youtube.com/watch?v=kw0CZkFELi4" target="_blank">YouTube Video</a>
+I am deeply passionate about diversity and inclusion. To further this cause, I co-founded the [HausaNLP](https://hausanlp.github.io/) research group, which aims to advance research and development in the Hausa language, one of the most widely spoken languages in Africa. Our work was recently featured by **Google Colab** — <a href="https://www.youtube.com/watch?v=kw0CZkFELi4" target="_blank">Bridging Language Gaps in AI</a>.
 
 
- I also founded the [Arewa Data Science Academy](https://arewadatascience.github.io/), which seeks to democratize data science and AI education by providing free data science and machine learning training to underserved students.
+ I also founded the [Arewa Data Science Academy](https://arewadatascience.github.io/), which seeks to democratize data science and AI education by providing free data science and machine learning training to underserved students in Africa.
 <p style="margin-top:1.5rem; font-size:1.05rem; text-align:justify;">
   If you have any questions regarding my research or want to collaborate, feel free to contact me anytime.
 </p>
