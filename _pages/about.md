@@ -391,7 +391,7 @@ html[data-theme="dark"] .viewpub-highlight:hover {
   {% for item in media_items %}
   <div class="media-card">
     {% if item.thumbnail %}
-    <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.source }}" class="media-thumb">
+    <img src="{{ '/assets/media/' | append: item.thumbnail | relative_url }}" alt="{{ item.source }}" class="media-thumb">
     {% endif %}
     <div class="media-content">
       <h3><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></h3>
