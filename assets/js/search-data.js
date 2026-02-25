@@ -72,8 +72,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-02-01/";
-            },},{id: "news-",
-          title: '',
+            },},{id: "news-teaching-nlp-at-aims-cameroon",
+          title: 'Teaching NLP at AIMS Cameroon',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-03-16/";
