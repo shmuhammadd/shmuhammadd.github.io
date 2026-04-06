@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install reportlab)",
+      "Bash(python generate_pdf.py)"
+    ]
+  }
+}
