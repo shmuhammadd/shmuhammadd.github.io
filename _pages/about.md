@@ -2,10 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Imperial College London. 
-<a href='#'>Google DeepMind Academic Fellow</a>. 
-<a href='#'>Co-founder of HausaNLP</a>. 
-<a href='#'>Founder of Arewa Data Science Academy</a>."
+subtitle: "Imperial College London. Google DeepMind Academic Fellow. Co-founder of <a href='https://hausanlp.github.io/'>HausaNLP</a>. Founder of <a href='https://arewadatascience.github.io/'>Arewa Data Science Academy</a>."
 
 profile:
   align: right
@@ -25,9 +22,7 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 
 
  I also founded the [Arewa Data Science Academy](https://arewadatascience.github.io/), which seeks to democratize data science and AI education by providing free data science and machine learning training to underserved students in Africa.
-<p style="margin-top:1.5rem; font-size:1.05rem; text-align:justify;">
-  If you have any questions regarding my research or want to collaborate, feel free to contact me anytime.
-</p>
+<p>If you have any questions regarding my research or want to collaborate, feel free to reach out.</p>
 
 <p style="margin-top:0.9rem;">
   <a href="mailto:shamsuddeen2004@gmail.com" class="contact-btn" aria-label="Email Shamsuddeen Muhammad">
@@ -72,10 +67,8 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 }
 </style>
 
-<h2>🏆 Awards & Recognitions</h2>
-<p style="font-size:1.05rem; text-align:justify; margin-bottom:1.5rem;">
-My research and community contributions have received several awards at top-tier venues, recognizing impactful work in multilingual and African language technologies.
-</p>
+<h2>Awards & Recognitions</h2>
+<p>My research and community contributions have received several awards at top-tier venues, recognizing impactful work in multilingual and African language technologies.</p>
 
 <div class="awards-grid">
   <!-- 2025 Awards -->
@@ -172,16 +165,10 @@ My research and community contributions have received several awards at top-tier
     </div>
   </div>
 
-  <!-- View Awards & Recognitions Card -->
-  <div class="award-item viewpub-highlight">
-    <div class="award-content text-center">
-      <h5 class="fw-bold mb-2">🎖️ Full Awards & Honors</h5>
-      <p style="font-size:0.9rem; margin-bottom:1rem;">
-        View complete list of awards, fellowships, grants, and recognitions.
-      </p>
-      <a href="/Awards & Recognitions/" class="btn viewpub-btn">
-        View All Awards →
-      </a>
+  <div class="award-item award-item--more">
+    <div class="award-content">
+      <strong>Full list</strong>
+      <a href="/Awards & Recognitions/">View all awards and recognitions &rarr;</a>
     </div>
   </div>
 </div>
@@ -200,30 +187,14 @@ My research and community contributions have received several awards at top-tier
   gap: 0.75rem;
   padding: 0.85rem;
   border-radius: 8px;
-  border: 1px solid;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-card-bg-color);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Light mode styles */
-html:not([data-theme="dark"]) .award-item {
-  background: #ffffff;
-  border-color: #e0e0e0;
-}
-
-html:not([data-theme="dark"]) .award-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-/* Dark mode styles */
-html[data-theme="dark"] .award-item {
-  background: #1a1a1a;
-  border-color: rgba(255,255,255,0.1);
-}
-
-html[data-theme="dark"] .award-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(255,255,255,0.05);
+.award-item:hover {
+  border-color: var(--global-theme-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
 .award-badge {
@@ -231,28 +202,14 @@ html[data-theme="dark"] .award-item:hover {
   width: 48px;
   height: 48px;
   border-radius: 6px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 0.85rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid;
-}
-
-/* Light mode badge */
-html:not([data-theme="dark"]) .award-badge {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  color: #495057;
-  border-color: #dee2e6;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-}
-
-/* Dark mode badge */
-html[data-theme="dark"] .award-badge {
-  background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
-  color: #cbd5e0;
-  border-color: #4a5568;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
 }
 
 .award-content {
@@ -267,83 +224,30 @@ html[data-theme="dark"] .award-badge {
   font-size: 1rem;
 }
 
-/* Light mode link styles */
-html:not([data-theme="dark"]) .award-content a {
-  color: #0366d6;
+.award-content a {
+  color: var(--global-theme-color);
   text-decoration: none;
 }
 
-html:not([data-theme="dark"]) .award-content a:hover {
+.award-content a:hover {
   text-decoration: underline;
-  color: #0256c7;
 }
 
-/* Dark mode link styles */
-html[data-theme="dark"] .award-content a {
-  color: #58a6ff;
-  text-decoration: none;
-}
-
-html[data-theme="dark"] .award-content a:hover {
-  text-decoration: underline;
-  color: #79b8ff;
-}
-
-.viewpub-highlight {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border: none;
-  justify-content: center;
+.award-item--more {
   align-items: center;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  justify-content: center;
+  text-align: center;
 }
 
-html[data-theme="dark"] .viewpub-highlight {
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
-}
-
-.viewpub-highlight:hover {
-  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
-}
-
-html[data-theme="dark"] .viewpub-highlight:hover {
-  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.5);
-}
-
-.viewpub-highlight .award-content {
-  color: white;
-}
-
-.viewpub-btn {
-  background: white;
-  color: #667eea;
-  padding: 0.5rem 1.2rem;
-  border-radius: 6px;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.2s ease;
-}
-
-.viewpub-btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(255,255,255,0.3);
-  color: #667eea;
-  text-decoration: none;
-}
-
-/* Mobile responsiveness */
 @media (max-width: 480px) {
   .awards-grid {
     grid-template-columns: 1fr;
   }
-  
   .award-badge {
     width: 42px;
     height: 42px;
     font-size: 0.8rem;
   }
-  
   .award-content {
     font-size: 0.9rem;
   }
@@ -375,11 +279,10 @@ html[data-theme="dark"] .viewpub-highlight:hover {
 </div>
 
 <style>
-/* === Media Coverage Cards === */
 .media-coverage {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  gap: 1.5rem;
+  gap: 1.25rem;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
 }
@@ -389,81 +292,39 @@ html[data-theme="dark"] .viewpub-highlight:hover {
   align-items: flex-start;
   gap: 1rem;
   padding: 1rem;
-  border: 1px solid;
+  border: 1px solid var(--global-divider-color);
   border-radius: 10px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: var(--global-card-bg-color);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Light mode */
-html:not([data-theme="dark"]) .media-card {
-  background: #ffffff;
-  border-color: #e0e0e0;
-}
-
-html:not([data-theme="dark"]) .media-card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-}
-
-/* Dark mode */
-html[data-theme="dark"] .media-card {
-  background: #1a1a1a;
-  border-color: rgba(255,255,255,0.1);
-}
-
-html[data-theme="dark"] .media-card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+.media-card:hover {
+  border-color: var(--global-theme-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
 .media-thumb {
-  width: 90px;
-  height: 90px;
+  width: 84px;
+  height: 84px;
   object-fit: contain;
-  border-radius: 8px;
-  padding: 6px;
+  border-radius: 6px;
+  padding: 4px;
   flex-shrink: 0;
-  box-shadow: 0 0 6px rgba(0,0,0,0.08);
-}
-
-/* Light mode thumbnail */
-html:not([data-theme="dark"]) .media-thumb {
-  background-color: #fff;
-}
-
-/* Dark mode thumbnail */
-html[data-theme="dark"] .media-thumb {
-  background-color: #2a2a2a;
-  box-shadow: 0 0 6px rgba(255,255,255,0.05);
+  background-color: var(--global-bg-color);
 }
 
 .media-content h3 {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   line-height: 1.4;
 }
 
 .media-content h3 a {
+  color: var(--global-theme-color);
   text-decoration: none;
 }
 
-/* Light mode content links */
-html:not([data-theme="dark"]) .media-content h3 a {
-  color: #0366d6;
-}
-
-html:not([data-theme="dark"]) .media-content h3 a:hover {
-  color: #0256c7;
-  text-decoration: underline;
-}
-
-/* Dark mode content links */
-html[data-theme="dark"] .media-content h3 a {
-  color: #58a6ff;
-}
-
-html[data-theme="dark"] .media-content h3 a:hover {
-  color: #79b8ff;
+.media-content h3 a:hover {
   text-decoration: underline;
 }
 
@@ -472,15 +333,13 @@ html[data-theme="dark"] .media-content h3 a:hover {
   font-size: 0.95rem;
 }
 
-/* 📱 Responsive */
 @media (max-width: 480px) {
   .media-coverage {
     grid-template-columns: 1fr;
   }
-  
   .media-thumb {
-    width: 70px;
-    height: 70px;
+    width: 64px;
+    height: 64px;
   }
   .media-content h3 {
     font-size: 1rem;
@@ -490,105 +349,62 @@ html[data-theme="dark"] .media-content h3 a:hover {
 
 ---
 
-## 📢 Latest Updates
+## Latest Updates
 {% include news.liquid %}
 
 ---
 
-<div class="visitor-section text-center">
-  <p style="font-size:1rem; margin-bottom:8px;">
-    Thank you for visiting my website! ✨
-  </p>
-
-  <!-- 🌍 Country Flag Counter -->
-  <a href="https://info.flagcounter.com/2a7q" target="_blank" rel="noopener">
+<div class="visitor-section">
+  <p class="visitor-heading">Visitors</p>
+  <a href="https://info.flagcounter.com/2a7q" target="_blank" rel="noopener" aria-label="Flag Counter detail">
     <img
       src="https://s01.flagcounter.com/count2/2a7q/bg_FFFFFF/txt_000000/border_0366d6/columns_5/maxflags_15/viewers_0/labels_1/pageviews_1/flags_0.png"
       alt="Flag Counter"
-      border="0"
       class="flag-counter-img"
     >
   </a>
-
-  <p style="font-size:0.85rem; margin-top:0.6rem;">
-    📊 Tracking visitors since <strong>October 2025</strong>
-  </p>
+  <p class="visitor-caption">Tracking visitors since October 2025</p>
 </div>
 
 <style>
 .visitor-section {
   text-align: center;
-  border: 1px solid;
-  border-radius: 12px;
-  padding: 1.2rem;
-  margin: 2rem auto;
-  max-width: 550px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  padding: 1.1rem 1.2rem;
+  margin: 2.5rem auto;
+  max-width: 520px;
+  background: var(--global-card-bg-color);
 }
 
-/* Light mode */
-html:not([data-theme="dark"]) .visitor-section {
-  background: #ffffff;
-  border-color: #0366d6;
-  box-shadow: 0 4px 10px rgba(3,102,214,0.15);
-}
-
-html:not([data-theme="dark"]) .visitor-section:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(3,102,214,0.25);
-}
-
-/* Dark mode */
-html[data-theme="dark"] .visitor-section {
-  background: #1b1b1b;
-  border-color: #1b8ef2;
-  box-shadow: 0 2px 8px rgba(27,142,242,0.2);
-}
-
-html[data-theme="dark"] .visitor-section:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(27,142,242,0.3);
+.visitor-heading {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light, var(--global-text-color));
+  margin: 0 0 0.75rem;
 }
 
 .flag-counter-img {
-  width: 80%;
-  max-width: 480px;
-  border-radius: 8px;
-  transition: transform 0.3s ease, filter 0.3s ease;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 6px;
 }
 
-.flag-counter-img:hover {
-  transform: scale(1.02);
+.visitor-caption {
+  font-size: 0.8rem;
+  color: var(--global-text-color-light, var(--global-text-color));
+  margin: 0.75rem 0 0;
 }
 
-/* Light mode flag counter */
-html:not([data-theme="dark"]) .flag-counter-img:hover {
-  filter: brightness(1.05);
-}
-
-/* Dark mode flag counter */
-html[data-theme="dark"] .flag-counter-img {
-  filter: brightness(0.9) contrast(1.1);
-}
-
-html[data-theme="dark"] .flag-counter-img:hover {
-  filter: brightness(0.95) contrast(1.1);
-}
-
-/* 📱 Mobile Responsiveness */
 @media (max-width: 480px) {
   .visitor-section {
-    padding: 1rem;
+    padding: 0.9rem;
     max-width: 95%;
   }
-
   .flag-counter-img {
-    width: 95%;
-    max-width: 350px;
-  }
-
-  .visitor-section p {
-    font-size: 0.9rem;
+    max-width: 320px;
   }
 }
 </style>
