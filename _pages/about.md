@@ -29,74 +29,46 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
   If you have any questions regarding my research or want to collaborate, feel free to contact me anytime.
 </p>
 
-<div style="
-  display:flex;
-  flex-wrap:wrap;
-  gap:10px;
-  margin-top:0.6rem;
-">
-
-  <!-- ✉️ Contact Me Button -->
-  <a href="mailto:shamsuddeen2004@gmail.com"
-     class="contact-btn">
-     ✉️ Contact Me
+<p style="margin-top:0.9rem;">
+  <a href="mailto:shamsuddeen2004@gmail.com" class="contact-btn" aria-label="Email Shamsuddeen Muhammad">
+    <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+    <span>Contact Me</span>
   </a>
-
-  <!-- 📄 View CV Button -->
-  <a href="https://drive.google.com/file/d/1QjbdoGOuUGa9pJ3xqGaPzUWjJIfrsk5E/preview"
-     target="_blank"
-     rel="noopener"
-     class="cv-btn">
-     📄 View My CV
-  </a>
-
-</div>
+</p>
 
 <style>
-.contact-btn,
-.cv-btn {
-  flex: 0 0 auto;
-  padding: 6px 13px;
-  border-radius: 5px;
-  font-size: 0.9rem;
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.55rem 1.15rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  background-color: transparent;
+  color: var(--global-theme-color);
+  font-size: 0.95rem;
   font-weight: 500;
+  letter-spacing: 0.01em;
   text-decoration: none;
-  transition: background-color 0.25s ease, transform 0.2s ease, opacity 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
 }
 
-/* ===== Light mode ===== */
-html:not([data-theme="dark"]) .contact-btn {
-  background-color: #0366d6;
-  color: #ffffff;
-}
-html:not([data-theme="dark"]) .cv-btn {
-  background-color: #2ea44f;
-  color: #ffffff;
-}
-
-/* ===== Dark mode ===== */
-html[data-theme="dark"] .contact-btn {
-  background-color: #1b8ef2;
-  color: #ffffff;
-}
-html[data-theme="dark"] .cv-btn {
-  background-color: #1f883d;
-  color: #ffffff;
-}
-
-/* ===== Hover effect ===== */
 .contact-btn:hover,
-.cv-btn:hover {
-  opacity: 0.85;
+.contact-btn:focus-visible {
+  background-color: var(--global-theme-color);
+  color: #ffffff;
   transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
 }
 
-/* ===== Mobile responsiveness ===== */
-@media (max-width: 480px) {
-  .contact-btn, .cv-btn {
-    flex: 1 0 100%;
-    text-align: center;
-  }
+.contact-btn:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
+
+.contact-btn i {
+  font-size: 0.95em;
 }
 </style>
 
