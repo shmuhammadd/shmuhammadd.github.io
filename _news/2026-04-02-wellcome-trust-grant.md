@@ -7,4 +7,4 @@ pinned: true
 categories: [news]
 tags: [Grant, Wellcome, MentalHealth, GenerativeAI]
 ---
-As a Co-PI on [*Generative AI for Anxiety, Depression and Psychosis*](https://wellcome.org/research-funding/schemes/generative-ai-anxiety-depression-and-psychosis), I'm honoured to be part of a project awarded up to **£2,700,000** by the Wellcome Trust to develop and evaluate generative AI models that safely improve the measurement or treatment of mental health conditions, in collaboration with clinicians and people with lived experience.
+Honoured to be Co-PI on [*Generative AI for Anxiety, Depression and Psychosis*](https://wellcome.org/research-funding/schemes/generative-ai-anxiety-depression-and-psychosis), awarded up to **£2.7M** by the Wellcome Trust to develop AI models that safely improve mental health care.
