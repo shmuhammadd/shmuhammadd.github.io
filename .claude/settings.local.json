@@ -12,7 +12,10 @@
       "Bash(yarn pdf:built)",
       "Bash(git -C /Users/smuhamma/Documents/Github/MasakhanePlaybook add .github/workflows/deploy.yml docusaurus.config.js package.json yarn.lock)",
       "Bash(git -C /Users/smuhamma/Documents/Github/MasakhanePlaybook commit -m ' *)",
-      "Bash(git -C /Users/smuhamma/Documents/Github/MasakhanePlaybook push origin main)"
+      "Bash(git -C /Users/smuhamma/Documents/Github/MasakhanePlaybook push origin main)",
+      "WebFetch(domain:github.com)",
+      "Bash(docker-compose down *)",
+      "WebFetch(domain:aclanthology.org)"
     ]
   }
 }
