@@ -57,6 +57,11 @@ ninja.data = [{
           description: "",
           section: "Media",handler: () => {
               window.location.href = "/media/label-studio-community/";
+            },},{id: "media-imperial-college-london-the-ai-revolution-impact-of-giving-report-2024-25",
+          title: 'Imperial College London: The AI Revolution — Impact of Giving Report 2024–25',
+          description: "",
+          section: "Media",handler: () => {
+              window.location.href = "/media/imperial-impact-of-giving/";
             },},{id: "news-joining-imperial-college-london-as-a-google-deepmind-academic-fellow",
           title: 'Joining Imperial College London as a Google DeepMind Academic Fellow',
           description: "",
@@ -183,6 +188,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-going-places-participatory-localized-red-teaming-for-text-to-image-safety-in-the-global-south-in-collaboration-with-google-deepmind-has-been-accepted-at-the-facct-conference",
           title: 'Our paper Going PLACES: Participatory Localized Red Teaming for Text-to-Image Safety in the...',
           description: "",
+          section: "News",},{id: "news-honoured-to-be-awarded-a-royal-society-career-development-fellowship-worth-690k-to-support-my-research-on-natural-language-processing-for-african-and-other-low-resource-languages",
+          title: 'Honoured to be awarded a Royal Society Career Development Fellowship, worth £690k, to...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -240,7 +248,7 @@ ninja.data = [{
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/shmuhammadd# your GitHub user name", "_blank");
+          window.open("https://github.com/shmuhammadd", "_blank");
         },
       },{
         id: 'social-linkedin',
