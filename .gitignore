@@ -11,3 +11,7 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# Claude Code local config — permissions, worktrees (local-only, not for source control)
+.claude/settings.local.json
+.claude/worktrees/

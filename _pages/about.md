@@ -4,13 +4,19 @@ title: about
 permalink: /
 subtitle: "Imperial College London. Google DeepMind Academic Fellow. Co-founder of <a href='https://hausanlp.github.io/'>HausaNLP</a>. Founder of <a href='https://arewadatascience.github.io/'>Arewa Data Science Academy</a>."
 
+# Hero header (rendered by _layouts/about.liquid)
+role: Google DeepMind Academic Fellow
+role_org: Imperial College London
+role_url: https://www.imperial.ac.uk/
+tagline: "I build open datasets, models, and benchmarks that bring Natural Language Processing — machine translation, speech, and sentiment, emotion & safety analysis — to African and other low-resource languages."
+
 profile:
   align: right
   image: prof_picold.jpg
   image_circular: false
 news: false  # Disable auto injection so we can control position
 selected_papers: false
-social: true
+social: false
 ---
 I am a Google DeepMind Academic Fellow and an Advanced Research Fellow at Imperial College London. I also serve as a Senior Lecturer (Assistant Professor) at the Faculty of Computing, Bayero University, Kano, Nigeria, and as a Visiting Professor at the African Institute of Mathematical Sciences in Cameroon and South Africa, as well as at York St John University.
 
@@ -67,189 +73,145 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 }
 </style>
 
-<h2>Awards & Recognitions</h2>
-<p>My research and community contributions have received several awards at top-tier venues, recognizing impactful work in multilingual and African language technologies.</p>
+<h2>Awards & recognitions</h2>
+<p>Selected honours and best-paper awards recognising my research and community work in multilingual and African language technologies.</p>
 
-<div class="awards-grid">
-  <!-- 2025 Awards -->
-  <div class="award-item">
-    <div class="award-badge">2025</div>
-    <div class="award-content">
-      <strong>Best Resource Paper — ACL 2025</strong><br>
-      <a href="https://aclanthology.org/2025.acl-long.436.pdf" target="_blank">
-        BRIGHTER: Textual Emotion Recognition Datasets for 28 Languages
-      </a>
-    </div>
-  </div>
+<ol class="awards-list">
+  <li class="award-row">
+    <span class="award-year">2025</span>
+    <span class="award-body">
+      <span class="award-name">Best Resource Paper, ACL 2025</span>
+      <a class="award-paper" href="https://aclanthology.org/2025.acl-long.436.pdf" target="_blank" rel="noopener">BRIGHTER: Textual Emotion Recognition Datasets for 28 Languages</a>
+    </span>
+  </li>
+  <li class="award-row">
+    <span class="award-year">2025</span>
+    <span class="award-body">
+      <span class="award-name">Best Task Award, SemEval 2025</span>
+      <a class="award-paper" href="https://aclanthology.org/2025.semeval-1.327.pdf" target="_blank" rel="noopener">Task 11: Bridging the Gap in Text-Based Emotion Detection</a>
+    </span>
+  </li>
+  <li class="award-row">
+    <span class="award-year">2025</span>
+    <span class="award-body">
+      <span class="award-name">Outstanding Paper, NAACL 2025</span>
+      <a class="award-paper" href="https://aclanthology.org/2025.naacl-long.139.pdf" target="_blank" rel="noopener">IrokoBench: A New Benchmark for African Languages in the Age of LLMs</a>
+    </span>
+  </li>
+  <li class="award-row">
+    <span class="award-year">2025</span>
+    <span class="award-body">
+      <span class="award-name">Best Paper, Deep Learning Indaba 2025</span>
+      <a class="award-paper" href="https://arxiv.org/pdf/2506.02280" target="_blank" rel="noopener">The State of Large Language Models for African Languages</a>
+    </span>
+  </li>
+  <li class="award-row">
+    <span class="award-year">2024</span>
+    <span class="award-body">
+      <span class="award-name">Best Non-archival Paper, NeurIPS 2024</span>
+      <a class="award-paper" href="https://proceedings.neurips.cc/paper_files/paper/2024/file/8eb88844dafefa92a26aaec9f3acad93-Paper-Datasets_and_Benchmarks_Track.pdf" target="_blank" rel="noopener">BLEnD: Everyday Knowledge in Diverse Cultures and Languages</a>
+    </span>
+  </li>
+  <li class="award-row">
+    <span class="award-year">2024</span>
+    <span class="award-body">
+      <span class="award-name">Honourable Mention, SemEval 2024</span>
+      <a class="award-paper" href="https://arxiv.org/pdf/2403.18933" target="_blank" rel="noopener">Semantic Textual Relatedness for African and Asian Languages</a>
+    </span>
+  </li>
+  <li class="award-row">
+    <span class="award-year">2023</span>
+    <span class="award-body">
+      <span class="award-name">Best Non-archival Paper, AfricaNLP 2023</span>
+      <a class="award-paper" href="https://aclanthology.org/2023.emnlp-main.862.pdf" target="_blank" rel="noopener">AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages</a>
+    </span>
+  </li>
+  <li class="award-row">
+    <span class="award-year">2023</span>
+    <span class="award-body">
+      <span class="award-name">Area Chair Award, IJCNLP–AACL 2023</span>
+      <a class="award-paper" href="https://aclanthology.org/2021.tacl-1.66.pdf" target="_blank" rel="noopener">MasakhaNER: Named Entity Recognition for African Languages</a>
+    </span>
+  </li>
+  <li class="award-row">
+    <span class="award-year">2020</span>
+    <span class="award-body">
+      <span class="award-name">Wikimedia Research Award, EMNLP 2020</span>
+      <a class="award-paper" href="https://aclanthology.org/2020.findings-emnlp.195.pdf" target="_blank" rel="noopener">Participatory Research for Low-Resourced Machine Translation</a>
+    </span>
+  </li>
+</ol>
 
-  <div class="award-item">
-    <div class="award-badge">2025</div>
-    <div class="award-content">
-      <strong>Best Task Award — SemEval 2025</strong><br>
-      <a href="https://aclanthology.org/2025.semeval-1.327.pdf" target="_blank">
-        Task 11: Bridging the Gap in Text-Based Emotion Detection
-      </a>
-    </div>
-  </div>
-
-  <div class="award-item">
-    <div class="award-badge">2025</div>
-    <div class="award-content">
-      <strong>Outstanding Paper — NAACL 2025</strong><br>
-      <a href="https://aclanthology.org/2025.naacl-long.139.pdf" target="_blank">
-        IrokoBench: A New Benchmark for African Languages in the Age of LLMs
-      </a>
-    </div>
-  </div>
-
-  <div class="award-item">
-    <div class="award-badge">2025</div>
-    <div class="award-content">
-      <strong>Best Paper — Deep Learning Indaba 2025</strong><br>
-      <a href="https://arxiv.org/pdf/2506.02280" target="_blank">
-        The State of Large Language Models for African Languages
-      </a>
-    </div>
-  </div>
-
-  <!-- 2024 Awards -->
-  <div class="award-item">
-    <div class="award-badge">2024</div>
-    <div class="award-content">
-      <strong>Best Non-archival Paper — NeurIPS 2024</strong><br>
-      <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/8eb88844dafefa92a26aaec9f3acad93-Paper-Datasets_and_Benchmarks_Track.pdf" target="_blank">
-        BLEnD: Everyday Knowledge in Diverse Cultures and Languages
-      </a>
-    </div>
-  </div>
-
-  <div class="award-item">
-    <div class="award-badge">2024</div>
-    <div class="award-content">
-      <strong>Honourable Mention — SemEval 2024</strong><br>
-      <a href="https://arxiv.org/pdf/2403.18933" target="_blank">
-        Semantic Textual Relatedness for African and Asian Languages
-      </a>
-    </div>
-  </div>
-
-  <!-- 2023 Awards -->
-  <div class="award-item">
-    <div class="award-badge">2023</div>
-    <div class="award-content">
-      <strong>Best Non-archival Paper — AfricaNLP 2023</strong><br>
-      <a href="https://aclanthology.org/2023.emnlp-main.862.pdf" target="_blank">
-        AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages
-      </a>
-    </div>
-  </div>
-
-  <div class="award-item">
-    <div class="award-badge">2023</div>
-    <div class="award-content">
-      <strong>Area Chair Award — IJCNLP–AACL 2023</strong><br>
-      <a href="https://aclanthology.org/2021.tacl-1.66.pdf" target="_blank">
-        MasakhaNER: Named Entity Recognition for African Languages
-      </a>
-    </div>
-  </div>
-
-  <!-- 2020 Award -->
-  <div class="award-item">
-    <div class="award-badge">2020</div>
-    <div class="award-content">
-      <strong>Wikimedia Research Award — EMNLP 2020</strong><br>
-      <a href="https://aclanthology.org/2020.findings-emnlp.195.pdf" target="_blank">
-        Participatory Research for Low-Resourced Machine Translation
-      </a>
-    </div>
-  </div>
-
-  <div class="award-item award-item--more">
-    <div class="award-content">
-      <strong>Full list</strong>
-      <a href="/Awards & Recognitions/">View all awards and recognitions &rarr;</a>
-    </div>
-  </div>
-</div>
+<p class="awards-more"><a href="/Awards & Recognitions/">View all awards and recognitions &rarr;</a></p>
 
 <style>
-.awards-grid {
+.awards-list {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+
+.award-row {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 1rem;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  grid-template-columns: 64px 1fr;
+  gap: 1.25rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--global-divider-color);
+  align-items: baseline;
 }
 
-.award-item {
-  display: flex;
-  gap: 0.75rem;
-  padding: 0.85rem;
-  border-radius: 8px;
-  border: 1px solid var(--global-divider-color);
-  background: var(--global-card-bg-color);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+.award-row:last-child {
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
-.award-item:hover {
-  border-color: var(--global-theme-color);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-}
-
-.award-badge {
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  border-radius: 6px;
+.award-year {
   font-weight: 600;
-  font-size: 0.85rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--global-divider-color);
-  background: var(--global-bg-color);
+  font-size: 0.9rem;
+  color: var(--global-text-color-light, var(--global-text-color));
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
+.award-name {
+  display: block;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.45;
   color: var(--global-text-color);
 }
 
-.award-content {
-  flex: 1;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-.award-content strong {
+.award-paper {
   display: block;
-  margin-bottom: 0.25rem;
-  font-size: 1rem;
-}
-
-.award-content a {
+  margin-top: 0.15rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
   color: var(--global-theme-color);
   text-decoration: none;
 }
 
-.award-content a:hover {
+.award-paper:hover {
   text-decoration: underline;
 }
 
-.award-item--more {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.awards-more {
+  margin-top: 1.1rem;
+  font-size: 0.95rem;
+}
+
+.awards-more a {
+  color: var(--global-theme-color);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.awards-more a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 480px) {
-  .awards-grid {
-    grid-template-columns: 1fr;
-  }
-  .award-badge {
-    width: 42px;
-    height: 42px;
-    font-size: 0.8rem;
-  }
-  .award-content {
-    font-size: 0.9rem;
+  .award-row {
+    grid-template-columns: 44px 1fr;
+    gap: 0.85rem;
   }
 }
 </style>
@@ -257,92 +219,102 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 <!-- ============================= -->
 <!-- 🗞️ Media Coverage Section -->
 <!-- ============================= -->
-<h2 id="media-coverage">Media Coverage</h2>
+<h2 id="media-coverage">Media coverage</h2>
 <p>
   Selected highlights from major outlets that have featured my research, datasets, and community initiatives.
 </p>
 
-<div class="media-coverage">
+<ul class="media-list">
   {% assign media_items = site.media | sort: 'date' | reverse %}
   {% for item in media_items %}
-  <div class="media-card">
+  <li class="media-row">
     {% if item.thumbnail %}
-    <img src="{{ '/assets/media/' | append: item.thumbnail | relative_url }}" alt="{{ item.source }}" class="media-thumb">
+    <span class="media-logo"><img src="{{ '/assets/media/' | append: item.thumbnail | relative_url }}" alt="{{ item.source }}"></span>
+    {% else %}
+    <span class="media-logo media-logo--empty" aria-hidden="true"></span>
     {% endif %}
-    <div class="media-content">
-      <h3><a href="{{ item.link }}" target="_blank">{{ item.title }}</a></h3>
-      <p><strong>{{ item.source }}</strong> — {{ item.date | date: "%B %Y" }}</p>
-      <p>{{ item.content | markdownify | strip_html | truncate: 160 }}</p>
-    </div>
-  </div>
+    <span class="media-body">
+      <a class="media-title" href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>
+      <span class="media-meta">{{ item.source }} &middot; {{ item.date | date: "%b %Y" }}</span>
+    </span>
+  </li>
   {% endfor %}
-</div>
+</ul>
 
 <style>
-.media-coverage {
+.media-list {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+
+.media-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  gap: 1.25rem;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  grid-template-columns: 56px 1fr;
+  gap: 1.1rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--global-divider-color);
+  align-items: center;
 }
 
-.media-card {
+.media-row:last-child {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.media-logo {
   display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
   border: 1px solid var(--global-divider-color);
-  border-radius: 10px;
-  background: var(--global-card-bg-color);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  background: #ffffff;
+  overflow: hidden;
 }
 
-.media-card:hover {
-  border-color: var(--global-theme-color);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-}
-
-.media-thumb {
-  width: 84px;
-  height: 84px;
+.media-logo img {
+  max-width: 82%;
+  max-height: 82%;
   object-fit: contain;
-  border-radius: 6px;
-  padding: 4px;
-  flex-shrink: 0;
-  background-color: var(--global-bg-color);
 }
 
-.media-content h3 {
-  margin: 0;
-  font-size: 1.05rem;
+.media-logo--empty {
+  background: var(--global-bg-color);
+}
+
+.media-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.media-title {
+  font-weight: 600;
+  font-size: 1rem;
   line-height: 1.4;
-}
-
-.media-content h3 a {
   color: var(--global-theme-color);
   text-decoration: none;
 }
 
-.media-content h3 a:hover {
+.media-title:hover {
   text-decoration: underline;
 }
 
-.media-content p {
-  margin: 0.4rem 0 0;
-  font-size: 0.95rem;
+.media-meta {
+  font-size: 0.88rem;
+  color: var(--global-text-color-light, var(--global-text-color));
 }
 
 @media (max-width: 480px) {
-  .media-coverage {
-    grid-template-columns: 1fr;
+  .media-row {
+    grid-template-columns: 44px 1fr;
+    gap: 0.85rem;
   }
-  .media-thumb {
-    width: 64px;
-    height: 64px;
-  }
-  .media-content h3 {
-    font-size: 1rem;
+  .media-logo {
+    width: 44px;
+    height: 44px;
   }
 }
 </style>
