@@ -8,7 +8,7 @@ subtitle: "Imperial College London. Google DeepMind Academic Fellow. Co-founder 
 role: Google DeepMind Academic Fellow
 role_org: Imperial College London
 role_url: https://www.imperial.ac.uk/
-tagline: "I build open datasets, models, and benchmarks that bring Natural Language Processing — machine translation, speech, and sentiment, emotion & safety analysis — to African and other low-resource languages."
+tagline: "I work on natural language processing for low-resource African languages — building open datasets and benchmarks, using NLP for computational social science, and making multilingual large language models better aligned and safer."
 
 profile:
   align: right
@@ -30,46 +30,63 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
  I also founded the [Arewa Data Science Academy](https://arewadatascience.github.io/), which seeks to democratize data science and AI education by providing free data science and machine learning training to underserved students in Africa.
 <p>If you have any questions regarding my research or want to collaborate, feel free to reach out.</p>
 
-<p style="margin-top:0.9rem;">
-  <a href="mailto:shamsuddeen2004@gmail.com" class="contact-btn" aria-label="Email Shamsuddeen Muhammad">
-    <i class="fa-regular fa-envelope" aria-hidden="true"></i>
-    <span>Contact Me</span>
-  </a>
-</p>
+<h2>Research interests</h2>
+<p>My research builds language technologies for the world's underrepresented languages and uses them to understand people, while keeping large models reliable and safe.</p>
+
+<div class="interests-grid">
+  <div class="interest-item">
+    <h3 class="interest-title">NLP for African languages</h3>
+    <p class="interest-desc">Speech and text technologies for Hausa and other African languages, spanning the full pipeline from data collection to deployable models.</p>
+  </div>
+  <div class="interest-item">
+    <h3 class="interest-title">Datasets &amp; benchmarks</h3>
+    <p class="interest-desc">Open, high-quality datasets and evaluation benchmarks that make progress on low-resource languages measurable and reproducible.</p>
+  </div>
+  <div class="interest-item">
+    <h3 class="interest-title">Computational social science</h3>
+    <p class="interest-desc">Using NLP to study sentiment, emotion, and online behaviour at scale across languages and cultures.</p>
+  </div>
+  <div class="interest-item">
+    <h3 class="interest-title">Multilingual NLP</h3>
+    <p class="interest-desc">Models and methods that transfer and generalise across many languages, with a focus on the long tail of low-resource settings.</p>
+  </div>
+  <div class="interest-item">
+    <h3 class="interest-title">LLM alignment</h3>
+    <p class="interest-desc">Aligning large language models with human preferences and values across diverse languages and cultural contexts.</p>
+  </div>
+  <div class="interest-item">
+    <h3 class="interest-title">LLM safety</h3>
+    <p class="interest-desc">Detecting and mitigating harmful content, such as hate speech and abuse, to make large language models safe in real, multilingual use.</p>
+  </div>
+</div>
 
 <style>
-.contact-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  padding: 0.55rem 1.15rem;
-  border: 1px solid var(--global-theme-color);
-  border-radius: 999px;
-  background-color: transparent;
-  color: var(--global-theme-color);
-  font-size: 0.95rem;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  text-decoration: none;
-  transition: background-color 0.2s ease, color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  column-gap: 2.5rem;
+  row-gap: 1.6rem;
+  margin: 1.5rem 0 0.5rem;
 }
 
-.contact-btn:hover,
-.contact-btn:focus-visible {
-  background-color: var(--global-theme-color);
-  color: #ffffff;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-  text-decoration: none;
+.interest-item {
+  padding-top: 0.9rem;
+  border-top: 2px solid var(--global-text-color);
 }
 
-.contact-btn:focus-visible {
-  outline: 2px solid var(--global-theme-color);
-  outline-offset: 3px;
+.interest-title {
+  margin: 0 0 0.3rem;
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--global-text-color);
 }
 
-.contact-btn i {
-  font-size: 0.95em;
+.interest-desc {
+  margin: 0;
+  font-size: 0.93rem;
+  line-height: 1.55;
+  color: var(--global-text-color-light, var(--global-text-color));
 }
 </style>
 
