@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-bio",
-          title: "Bio",
-          description: "Shamsuddeen Hassan Muhammad Bio.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/biography/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "publications",
           description: "publications by categories in reversed chronological order.",
           section: "Navigation",
@@ -36,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-gallery",
+          title: "Gallery",
+          description: "Moments from conferences, talks, and academic life.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/gallery/";
           },
         },{id: "media-ircai-global-top-100-outstanding-ai-projects-advancing-the-sdgs",
           title: 'IRCAI Global Top 100: Outstanding AI Projects Advancing the SDGs',
@@ -187,6 +187,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-going-places-participatory-localized-red-teaming-for-text-to-image-safety-in-the-global-south-in-collaboration-with-google-deepmind-has-been-accepted-at-the-facct-conference",
           title: 'Our paper Going PLACES: Participatory Localized Red Teaming for Text-to-Image Safety in the...',
+          description: "",
+          section: "News",},{id: "news-gave-the-keynote-the-languages-ai-forgot-how-ai-misrepresents-african-languages-and-cultural-contexts-at-the-inspire-through-impact-event-at-imperial-college-london",
+          title: 'Gave the keynote “The Languages AI Forgot — How AI Misrepresents African Languages...',
           description: "",
           section: "News",},{id: "news-honoured-to-be-awarded-a-royal-society-career-development-fellowship-worth-690k-to-support-my-research-on-natural-language-processing-for-african-and-other-low-resource-languages",
           title: 'Honoured to be awarded a Royal Society Career Development Fellowship, worth £690k, to...',
