@@ -61,6 +61,7 @@ Over the years, my research and community contributions have received recognitio
 ---
 
 ## Research Grants & Awards
+- **2026** – *Fellow (PI)*: [Royal Society Career Development Fellowship](https://royalsociety.org/grants/career-development-fellowship/) — supporting research on natural language processing for African and other low-resource languages. *(£690,000)*  
 - **2026** – *Co-PI*: Generative AI for Anxiety, Depression and Psychosis — Wellcome Trust. Developing and evaluating generative AI models to safely improve the measurement or treatment of mental health conditions, working in collaboration with clinicians and people with lived experience. *(Up to £2,700,000)*  
 - **2026** – *Co-Investigator*: Cross-cultural and multilingual mental health safety funded by OpenAI, in collaboration with [David Adelani](https://dadelani.github.io/), [Annie Lee](https://www.cs.toronto.edu/~ealee/), [Siva Reddy](https://sivareddy.in/), [Tanmoy Chakraborty](https://tanmoychak.com/index.html), and other partners.
   

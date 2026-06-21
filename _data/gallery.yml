@@ -1,0 +1,20 @@
+# Photo gallery — moments from conferences, talks, and academic life.
+#
+# TO ADD A PHOTO:
+#   1. Put the image file in  assets/img/gallery/   (e.g. acl-2025-vienna.jpg)
+#   2. Add an entry below. Newest 'date' shows first.
+#
+# Fields:
+#   image    (required) path under assets/, e.g. assets/img/gallery/acl-2025.jpg
+#   event    (required) short event name, e.g. "ACL 2025"
+#   date     (required) YYYY-MM-DD — controls ordering
+#   location (optional) e.g. "Vienna, Austria"
+#   caption  (optional) one line describing the moment
+#   link     (optional) URL — makes the event title clickable (e.g. a write-up or post)
+
+- image: assets/img/gallery/2026-06-16-imperial-inspire-through-impact.png
+  event: "Inspire through Impact — Imperial College London"
+  date: 2026-06-16
+  location: "London, UK"
+  caption: "Keynote: “The Languages AI Forgot — How AI Misrepresents African Languages and Cultural Contexts.”"
+  link: "https://www.linkedin.com/posts/imperial-college-london_this-week-we-had-the-honour-of-welcoming-activity-7473392853235253250-asCW"

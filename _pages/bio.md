@@ -3,8 +3,7 @@ layout: page
 permalink: /biography/
 title: Bio
 description: Shamsuddeen Hassan Muhammad Bio.
-nav: true
-nav_order: 1
+nav: false
 ---
 
 Dr. Shamsuddeen Hassan Muhamamd is a [Google DeepMind Academic Fellow](https://www.imperial.ac.uk/news/252813/computing-welcomes-dr-shamsuddeen-muhammad-google/) and an Advanced Research Fellow at Imperial College London. He received his Ph.D. in Computer Science from the University of Porto, Portugal. Prior to that, he earned an MS in Computer Science from the University of Manchester, UK, and a BSc in Computer Science from Bayero University, Kano, Nigeria. His research interests lie in Natural Language Processing (NLP), with a particular focus on low-resource African languages,  computational linguistics for underserved communities, and multilingual representation learning. He has [published](https://scholar.google.com/citations?user=Ne1nt4gAAAAJ&hl=en) in top-tier venues including ACL, EMNLP, NAACL, ICLR, and NeurIPS. His work has received several best paper awards and widespread recognition.
