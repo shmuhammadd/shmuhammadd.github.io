@@ -90,6 +90,13 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 }
 </style>
 
+<h2>Recent papers</h2>
+<p>A few recent and award-winning papers. See the <a href="{{ '/publications/' | relative_url }}">full list</a> for everything.</p>
+
+{% include selected_papers.liquid %}
+
+<p class="awards-more"><a href="{{ '/publications/' | relative_url }}">See all publications &rarr;</a></p>
+
 <h2>Awards & recognitions</h2>
 <p>Selected honours and best-paper awards recognising my research and community work in multilingual and African language technologies.</p>
 

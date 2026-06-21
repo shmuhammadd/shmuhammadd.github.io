@@ -1,9 +1,72 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Venue badges shown next to publications.
+# Each key matches an `abbr = {...}` field in _bibliography/papers.bib.
+# `color` is the badge background; `url` (optional) links the badge.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ACL":
+  url: https://aclanthology.org/venues/acl/
+  color: "#c0392b"
 
-"Vision":
-  color: "#009f36"
+"EMNLP":
+  url: https://aclanthology.org/venues/emnlp/
+  color: "#2c3e50"
+
+"NAACL":
+  url: https://aclanthology.org/venues/naacl/
+  color: "#2980b9"
+
+"Findings":
+  url: https://aclanthology.org/
+  color: "#16a085"
+
+"SemEval":
+  url: https://aclanthology.org/venues/semeval/
+  color: "#8e44ad"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#34495e"
+
+"LREC":
+  url: https://aclanthology.org/venues/lrec/
+  color: "#d35400"
+
+"WMT":
+  url: https://aclanthology.org/venues/wmt/
+  color: "#27ae60"
+
+"WOAH":
+  url: https://aclanthology.org/venues/woah/
+  color: "#7f8c8d"
+
+"TACL":
+  url: https://aclanthology.org/venues/tacl/
+  color: "#1f6f8b"
+
+"FAccT":
+  url: https://facctconference.org/
+  color: "#6c5ce7"
+
+"AfricaNLP":
+  color: "#1abc9c"
+
+"ECIR":
+  color: "#9b59b6"
+
+"EPIA":
+  color: "#e67e22"
+
+"SN CS":
+  color: "#95a5a6"
+
+"OcRI":
+  color: "#95a5a6"
+
+"Chapter":
+  color: "#7f8c8d"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
+
+"Misc":
+  color: "#95a5a6"
