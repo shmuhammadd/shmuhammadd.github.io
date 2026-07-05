@@ -18,6 +18,50 @@ news: false  # Disable auto injection so we can control position
 selected_papers: false
 social: false
 ---
+
+<div class="hiring-banner">
+  <span class="hiring-badge">Hiring</span>
+  <span class="hiring-text">I am hiring <strong>postdocs in LLM alignment</strong> at Imperial College London. Interested? <a href="mailto:shamsuddeen2004@gmail.com">Reach out via email</a>.</span>
+</div>
+
+<style>
+.hiring-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  border: 1px solid var(--global-theme-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  margin: 0 0 1.6rem;
+  background: var(--global-card-bg-color);
+}
+
+.hiring-badge {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: var(--global-theme-color);
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+}
+
+.hiring-text {
+  font-size: 0.97rem;
+  line-height: 1.5;
+  color: var(--global-text-color);
+}
+
+.hiring-text a {
+  color: var(--global-theme-color);
+  font-weight: 600;
+}
+</style>
+
 I am a Google DeepMind Academic Fellow and an Advanced Research Fellow at Imperial College London. I also serve as a Senior Lecturer (Assistant Professor) at the Faculty of Computing, Bayero University, Kano, Nigeria, and as a Visiting Professor at the African Institute of Mathematical Sciences in Cameroon and South Africa, as well as at York St John University.
 
 I received my PhD from the University of Porto, Portugal, under the supervision of Professor Pavel Brazdil and Professor Alipio Jorge. Prior to that, I earned an MS in Computer Science from the University of Manchester, UK, and a BSc in Computer Science from Bayero University, Kano, Nigeria.

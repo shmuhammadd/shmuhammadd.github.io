@@ -11,6 +11,17 @@ Over the years, my research and community contributions have received recognitio
 
 ---
 
+## 2026
+- **ACL 2026 (Event Extraction and Understanding Workshop)** – *Best Paper Award*  
+  *POLAR: Detecting Multilingual, Multicultural and Multievent Online Polarization.* (ACL 2026 Findings paper, awarded at the 9th Workshop on Event Extraction and Understanding)  
+  [Read the paper](https://arxiv.org/pdf/2505.20624)
+
+- **SemEval 2026** – *Best Paper Runner-Up Award*  
+  *POLAR SemEval Shared Task.*  
+  [Task details](https://arxiv.org/abs/2604.06817)
+
+---
+
 ## 2025
 - **ACL 2025** – *Best Resource Paper Award*  
   *BRIGHTER: BRIdging the Gap in Human-Annotated Textual Emotion Recognition Datasets for 28 Languages.*  
