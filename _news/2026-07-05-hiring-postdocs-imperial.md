@@ -7,4 +7,4 @@ categories: [news]
 tags: [Hiring, NLP]
 ---
 
-📢 If you are interested in LLM alignment, I will be hiring postdocs at Imperial College London. Please [reach out via email](mailto:shamsuddeen2004@gmail.com)!
+📢 If you are interested in LLM alignment, I will be hiring 4 postdocs at Imperial College London. Please [reach out via email](mailto:shamsuddeen2004@gmail.com)!

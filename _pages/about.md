@@ -21,7 +21,7 @@ social: false
 
 <div class="hiring-banner">
   <span class="hiring-badge">Hiring</span>
-  <span class="hiring-text">I am hiring <strong>postdocs in LLM alignment</strong> at Imperial College London. Interested? <a href="mailto:shamsuddeen2004@gmail.com">Reach out via email</a>.</span>
+  <span class="hiring-text">I am hiring <strong>4 postdocs in LLM alignment</strong> at Imperial College London. Interested? <a href="mailto:shamsuddeen2004@gmail.com">Reach out via email</a>.</span>
 </div>
 
 <style>
