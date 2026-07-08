@@ -146,6 +146,20 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 
 <ol class="awards-list">
   <li class="award-row">
+    <span class="award-year">2026</span>
+    <span class="award-body">
+      <span class="award-name">Best Paper, ACL 2026 Workshop on Event Extraction and Understanding</span>
+      <a class="award-paper" href="https://arxiv.org/pdf/2505.20624" target="_blank" rel="noopener">POLAR: Detecting Multilingual, Multicultural and Multievent Online Polarization</a>
+    </span>
+  </li>
+  <li class="award-row">
+    <span class="award-year">2026</span>
+    <span class="award-body">
+      <span class="award-name">Best Paper Runner-Up, SemEval 2026</span>
+      <a class="award-paper" href="https://arxiv.org/abs/2604.06817" target="_blank" rel="noopener">POLAR SemEval Shared Task</a>
+    </span>
+  </li>
+  <li class="award-row">
     <span class="award-year">2025</span>
     <span class="award-body">
       <span class="award-name">Best Resource Paper, ACL 2025</span>
