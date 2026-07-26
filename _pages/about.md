@@ -12,7 +12,7 @@ tagline: "I work on natural language processing for low-resource African languag
 
 profile:
   align: right
-  image: prof_picold.jpg
+  image: mypic.png
   image_circular: false
 news: false  # Disable auto injection so we can control position
 selected_papers: false
@@ -62,7 +62,7 @@ social: false
 }
 </style>
 
-I am a Google DeepMind Academic Fellow and Royal Society Career Development Fellow at Imperial College London. I also serve as a Senior Lecturer (Assistant Professor) at the Faculty of Computing, Bayero University, Kano, Nigeria, and as a Visiting Professor at the African Institute of Mathematical Sciences in Cameroon and South Africa, as well as at York St John University.
+I am a Google DeepMind Academic Fellow and Royal Society Career Development Fellow at Imperial College London. I serve as a Senior Lecturer (Assistant Professor) at the Faculty of Computing, Bayero University, Kano, Nigeria, and as a Visiting Professor at the African Institute of Mathematical Sciences in Cameroon and South Africa, as well as at York St John University.
 
 I received my PhD from the University of Porto, Portugal, under the supervision of Professor Pavel Brazdil and Professor Alipio Jorge. Prior to that, I earned an MS in Computer Science from the University of Manchester, UK, and a BSc in Computer Science from Bayero University, Kano, Nigeria.
 
@@ -71,7 +71,7 @@ My research focuses on Natural Language Processing (NLP) for low-resource Africa
 I am deeply passionate about diversity and inclusion. To further this cause, I co-founded the [HausaNLP](https://hausanlp.github.io/) research group, which aims to advance research and development in the Hausa language, one of the most widely spoken languages in Africa. Our work was recently featured by **Google Colab** — <a href="https://www.youtube.com/watch?v=kw0CZkFELi4" target="_blank">Bridging Language Gaps in AI</a>.
 
 
- I also founded the [Arewa Data Science Academy](https://arewadatascience.github.io/), which seeks to democratize data science and AI education by providing free data science and machine learning training to underserved students in Africa.
+ I founded the [Arewa Data Science Academy](https://arewadatascience.github.io/), which seeks to democratize data science and AI education by providing free data science and machine learning training to underserved students in Africa.
 <p>If you have any questions regarding my research or want to collaborate, feel free to reach out.</p>
 
 <h2>Research interests</h2>

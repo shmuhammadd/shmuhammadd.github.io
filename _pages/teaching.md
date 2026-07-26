@@ -122,9 +122,6 @@ I have supervised and mentored over **40 MSc students** across Africa. Below are
 **Maryam Usman** — *Bayero University Kano* · Supervisor  
 Sentiment Analysis for Hausa Social Media Texts
 
-**Abdulrahman Nuhu** — *AIMS South Africa* · Visiting Supervisor  
-Evaluating Large Language Models for African Dialogue Systems
-
 ---
 
 ## Alumni Impact
