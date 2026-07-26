@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gallery/";
           },
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "Invited talks, keynotes, and conference presentations.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "media-ircai-global-top-100-outstanding-ai-projects-advancing-the-sdgs",
           title: 'IRCAI Global Top 100: Outstanding AI Projects Advancing the SDGs',
           description: "",
