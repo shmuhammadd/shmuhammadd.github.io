@@ -13,6 +13,10 @@ I regularly give invited talks, keynotes, and panel presentations on natural lan
 
 ## Keynotes & Invited Talks
 
+**AI for Literature Review and Academic Writing**
+*[2026 Webinar Series #7](https://www.dri.buk.edu.ng/), Directorate of Research, Innovation and Partnership (DRIP), Bayero University, Kano, Nigeria · 27 July 2026*
+**Slides:** [AI for Literature Review and Academic Writing](assets/pdf/AI_LitReview_DRIP_2026.pdf)
+
 **The Languages AI Forgot — How AI Misrepresents African Languages and Cultural Contexts**
 *Keynote · [Inspire through Impact](https://www.linkedin.com/posts/imperial-college-london_this-week-we-had-the-honour-of-welcoming-activity-7473392853235253250-asCW), Imperial College London, UK · June 2026*
 
