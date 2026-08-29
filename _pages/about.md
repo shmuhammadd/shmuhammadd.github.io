@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Imperial College London. Google DeepMind Academic Fellow. Co-founder of <a href='https://hausanlp.github.io/'>HausaNLP</a>. Founder of <a href='https://arewadatascience.github.io/'>Arewa Data Science Academy</a>."
+subtitle: "Imperial College London. Google DeepMind Academic Fellow. Royal Society Career Development Fellow. Co-founder of <a href='https://hausanlp.github.io/'>HausaNLP</a>. Founder of <a href='https://arewadatascience.github.io/'>Arewa Data Science Academy</a>."
 
 # Hero header (rendered by _layouts/about.liquid)
-role: Google DeepMind Academic Fellow
+role: Google DeepMind Academic Fellow & Royal Society Career Development Fellow
 role_org: Imperial College London
 role_url: https://www.imperial.ac.uk/
 tagline: "I work on natural language processing for low-resource African languages — building open datasets and benchmarks, using NLP for computational social science, and making multilingual large language models better aligned and safer."
@@ -62,7 +62,7 @@ social: false
 }
 </style>
 
-I am a Google DeepMind Academic Fellow at Imperial College London. I serve as a Senior Lecturer (Assistant Professor) at the Faculty of Computing, Bayero University, Kano, Nigeria, and as a Visiting Professor at the African Institute of Mathematical Sciences in Cameroon and South Africa, as well as at York St John University.
+I am a Google DeepMind Academic Fellow and Royal Society Career Development Fellow at Imperial College London. I serve as a Senior Lecturer (Assistant Professor) at the Faculty of Computing, Bayero University, Kano, Nigeria, and as a Visiting Professor at the African Institute of Mathematical Sciences in Cameroon and South Africa, as well as at York St John University.
 
 I received my PhD from the University of Porto, Portugal, under the supervision of Professor Pavel Brazdil and Professor Alipio Jorge. Prior to that, I earned an MS in Computer Science from the University of Manchester, UK, and a BSc in Computer Science from Bayero University, Kano, Nigeria.
 
