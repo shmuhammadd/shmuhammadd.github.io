@@ -7,4 +7,4 @@ pinned: true
 categories: [news]
 tags: [Fellowship, RoyalSociety, Grant]
 ---
-Honoured to be awarded a [Royal Society Career Development Fellowship](https://royalsociety.org/grants/career-development-fellowship/), worth **£690k**, to support my research on natural language processing for African and other low-resource languages.
+Honoured to be awarded a [Royal Society Career Development Fellowship](https://royalsociety.org/grants/career-development-fellowship/), worth **£707,552**, to support my research on natural language processing for African and other low-resource languages.
