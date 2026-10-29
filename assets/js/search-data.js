@@ -228,7 +228,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-how-well-does-it-generalize-a-robustness-study-of-hausa-machine-generated-text-detection-won-the-best-paper-award-at-the-widening-nlp-winlp-workshop-at-emnlp-2026-in-budapest-congratulations-to-my-co-authors-abdulhamid-abubakar-faisal-muhammad-adam-abubakar-auwal-khalid-and-babangida-sani",
           title: '🏆 Our paper, “How Well Does It Generalize? A Robustness Study of Hausa...',
           description: "",
-          section: "News",},{id: "news-i-received-the-rising-academic-leader-award-at-the-2nd-gamji-educational-and-mentorship-forum-summit-at-ahmadu-bello-university-zaria-nigeria-the-forum-gave-the-award-for-academic-excellence-innovation-and-commitment-to-leadership-and-community-development",
+          section: "News",},{id: "news-i-received-the-rising-academic-leader-award-at-the-2nd-gamji-educational-and-mentorship-forum-summit-at-ahmadu-bello-university-zaria-nigeria",
           title: '🏅 I received the Rising Academic Leader Award at the 2nd Gamji Educational...',
           description: "",
           section: "News",},{id: "projects-project-1",
