@@ -134,17 +134,17 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 }
 </style>
 
-<h2>Recent papers</h2>
-<p>A few recent and award-winning papers. See the <a href="{{ '/publications/' | relative_url }}">full list</a> for everything.</p>
-
-{% include selected_papers.liquid %}
-
-<p class="awards-more"><a href="{{ '/publications/' | relative_url }}">See all publications &rarr;</a></p>
-
 <h2>Awards & recognitions</h2>
 <p>Selected honours and best-paper awards recognising my research and community work in multilingual and African language technologies.</p>
 
 <ol class="awards-list">
+  <li class="award-row">
+    <span class="award-year">2026</span>
+    <span class="award-body">
+      <span class="award-name">Best Paper, EMNLP 2026 Widening NLP (WiNLP) Workshop</span>
+      <a class="award-paper" href="https://aclanthology.org/2026.winlp-main.5.pdf" target="_blank" rel="noopener">How Well Does It Generalize? A Robustness Study of Hausa Machine-Generated Text Detection</a>
+    </span>
+  </li>
   <li class="award-row">
     <span class="award-year">2026</span>
     <span class="award-body">
@@ -298,6 +298,16 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 }
 </style>
 
+<h2>Recent news</h2>
+{% include news.liquid %}
+
+<h2>Recent papers</h2>
+<p>A few recent and award-winning papers. See the <a href="{{ '/publications/' | relative_url }}">full list</a> for everything.</p>
+
+{% include selected_papers.liquid %}
+
+<p class="awards-more"><a href="{{ '/publications/' | relative_url }}">See all publications &rarr;</a></p>
+
 <!-- ============================= -->
 <!-- 🗞️ Media Coverage Section -->
 <!-- ============================= -->
@@ -400,11 +410,6 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
   }
 }
 </style>
-
----
-
-## Latest Updates
-{% include news.liquid %}
 
 ---
 

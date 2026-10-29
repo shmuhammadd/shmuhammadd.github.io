@@ -12,6 +12,15 @@ Over the years, my research and community contributions have received recognitio
 ---
 
 ## 2026
+- **Schmidt Sciences AI2050 Early Career Fellowship** – *2026 cohort; the only fellow from Africa*  
+  *Afrocentric Alignment: Culturally-Safe Large Language Models for African Languages.*
+
+- **Gamji 2026** – *Rising Academic Leader Award*
+
+- **EMNLP 2026 (Widening NLP Workshop)** – *Best Paper Award*  
+  *How Well Does It Generalize? A Robustness Study of Hausa Machine-Generated Text Detection.* (Awarded 28 October 2026, Budapest)  
+  [Read the paper](https://aclanthology.org/2026.winlp-main.5.pdf)
+
 - **ACL 2026 (Event Extraction and Understanding Workshop)** – *Best Paper Award*  
   *POLAR: Detecting Multilingual, Multicultural and Multievent Online Polarization.* (ACL 2026 Findings paper, awarded at the 9th Workshop on Event Extraction and Understanding)  
   [Read the paper](https://arxiv.org/pdf/2505.20624)
