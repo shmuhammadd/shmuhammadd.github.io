@@ -62,7 +62,7 @@ social: false
 }
 </style>
 
-I am a Google DeepMind Academic Fellow and Royal Society Career Development Fellow at Imperial College London. I serve as a Senior Lecturer (Assistant Professor) at the Faculty of Computing, Bayero University, Kano, Nigeria, and as a Visiting Professor at the African Institute of Mathematical Sciences in Cameroon and South Africa, as well as at York St John University.
+I am a Google DeepMind Academic Fellow, [Royal Society Career Development Fellow](https://royalsociety.org/news/2026/09/royal-society-announces-third-cohort-of-career-development-fellowships/) and [AI2050 Fellow](https://ai2050.schmidtsciences.org/fellows/) at Imperial College London. I serve as a Senior Lecturer (Assistant Professor) at the Faculty of Computing, Bayero University, Kano, Nigeria, and as a Visiting Professor at the African Institute of Mathematical Sciences in Cameroon and South Africa, as well as at York St John University.
 
 I received my PhD from the University of Porto, Portugal, under the supervision of Professor Pavel Brazdil and Professor Alipio Jorge. Prior to that, I earned an MS in Computer Science from the University of Manchester, UK, and a BSc in Computer Science from Bayero University, Kano, Nigeria.
 
