@@ -12,7 +12,7 @@ Over the years, my research and community contributions have received recognitio
 ---
 
 ## 2026
-- **Schmidt Sciences AI2050 Early Career Fellowship** – *2026 cohort; the only fellow from Africa*  
+- **[Schmidt Sciences AI2050 Early Career Fellowship](https://ai2050.schmidtsciences.org/fellows/)** – *2026 cohort; the only fellow from Africa*  
   *Afrocentric Alignment: Culturally-Safe Large Language Models for African Languages.*
 
 - **U.S.-Africa Frontiers Fellowship** – *National Academies of Sciences, Engineering, and Medicine*  
