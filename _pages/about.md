@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Imperial College London. Google DeepMind Academic Fellow. Royal Society Career Development Fellow. Co-founder of <a href='https://hausanlp.github.io/'>HausaNLP</a>. Founder of <a href='https://arewadatascience.github.io/'>Arewa Data Science Academy</a>."
+subtitle: "Imperial College London. Google DeepMind Academic Fellow. Royal Society Career Development Fellow. AI2050 Fellow. Co-founder of <a href='https://hausanlp.github.io/'>HausaNLP</a>. Founder of <a href='https://arewadatascience.github.io/'>Arewa Data Science Academy</a>."
 
 # Hero header (rendered by _layouts/about.liquid)
-role: Google DeepMind Academic Fellow & Royal Society Career Development Fellow
+role: Google DeepMind Academic Fellow, Royal Society Career Development Fellow & AI2050 Fellow
 role_org: Imperial College London
 role_url: https://www.imperial.ac.uk/
 tagline: "I work on natural language processing for low-resource African languages — building open datasets and benchmarks, using NLP for computational social science, and making multilingual large language models better aligned and safer."
