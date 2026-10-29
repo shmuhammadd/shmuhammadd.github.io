@@ -13,6 +13,9 @@ I regularly give invited talks, keynotes, and panel presentations on natural lan
 
 ## Keynotes & Invited Talks
 
+**Keynote Talk**
+*[5th Workshop on NLP for Positive Impact (NLP4PI)](https://sites.google.com/view/nlp4positiveimpact), EMNLP 2026, Budapest, Hungary · 28 October 2026*
+
 **AI for Literature Review and Academic Writing**
 *[2026 Webinar Series #7](https://www.dri.buk.edu.ng/), Directorate of Research, Innovation and Partnership (DRIP), Bayero University, Kano, Nigeria · 27 July 2026*
 **Slides:** [AI for Literature Review and Academic Writing](assets/pdf/AI_LitReview_DRIP_2026.pdf)
