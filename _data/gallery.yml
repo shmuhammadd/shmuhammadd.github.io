@@ -12,6 +12,12 @@
 #   caption  (optional) one line describing the moment
 #   link     (optional) URL — makes the event title clickable (e.g. a write-up or post)
 
+- image: assets/img/gallery/2026-10-28-emnlp-2026-budapest.jpg
+  event: "EMNLP 2026"
+  date: 2026-10-28
+  location: "Budapest, Hungary"
+  caption: "With Happy, Felermino and Sheriff on the Danube bank, facing the Hungarian Parliament at night."
+
 - image: assets/img/gallery/2026-06-16-imperial-inspire-through-impact.png
   event: "Inspire through Impact — Imperial College London"
   date: 2026-06-16
