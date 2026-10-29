@@ -15,7 +15,8 @@ Over the years, my research and community contributions have received recognitio
 - **Schmidt Sciences AI2050 Early Career Fellowship** – *2026 cohort; the only fellow from Africa*  
   *Afrocentric Alignment: Culturally-Safe Large Language Models for African Languages.*
 
-- **Gamji 2026** – *Rising Academic Leader Award*
+- **Gamji Educational and Mentorship Forum 2026** – *Rising Academic Leader Award*  
+  Presented at the 2nd Gamji Educational and Mentorship Forum Summit, Ahmadu Bello University, Zaria, Nigeria.
 
 - **EMNLP 2026 (Widening NLP Workshop)** – *Best Paper Award*  
   *How Well Does It Generalize? A Robustness Study of Hausa Machine-Generated Text Detection.* (Awarded 28 October 2026, Budapest)  
