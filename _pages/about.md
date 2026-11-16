@@ -21,7 +21,7 @@ social: false
 
 <div class="hiring-banner">
   <span class="hiring-badge">Hiring</span>
-  <span class="hiring-text">I am hiring <strong>4 postdocs in LLM alignment</strong> at Imperial College London. Interested? <a href="mailto:shamsuddeen2004@gmail.com">Reach out via email</a>.</span>
+  <span class="hiring-text">I am hiring <strong>4 postdocs in LLM alignment</strong> at Imperial College London. <a href="{{ '/hiring/' | relative_url }}">See the areas and how to apply</a>.</span>
 </div>
 
 <style>
@@ -79,8 +79,8 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
 
 <div class="interests-grid">
   <div class="interest-item">
-    <h3 class="interest-title">NLP for African languages</h3>
-    <p class="interest-desc">Speech and text technologies for Hausa and other African languages, spanning the full pipeline from data collection to deployable models.</p>
+    <h3 class="interest-title">Multilingual NLP for African languages</h3>
+    <p class="interest-desc">Speech and text technologies for Hausa and other African languages, from data collection to deployable models, with methods that transfer to other low-resource languages.</p>
   </div>
   <div class="interest-item">
     <h3 class="interest-title">Datasets &amp; benchmarks</h3>
@@ -91,16 +91,8 @@ I am deeply passionate about diversity and inclusion. To further this cause, I c
     <p class="interest-desc">Using NLP to study sentiment, emotion, and online behaviour at scale across languages and cultures.</p>
   </div>
   <div class="interest-item">
-    <h3 class="interest-title">Multilingual NLP</h3>
-    <p class="interest-desc">Models and methods that transfer and generalise across many languages, with a focus on the long tail of low-resource settings.</p>
-  </div>
-  <div class="interest-item">
-    <h3 class="interest-title">LLM alignment</h3>
-    <p class="interest-desc">Aligning large language models with human preferences and values across diverse languages and cultural contexts.</p>
-  </div>
-  <div class="interest-item">
-    <h3 class="interest-title">LLM safety</h3>
-    <p class="interest-desc">Detecting and mitigating harmful content, such as hate speech and abuse, to make large language models safe in real, multilingual use.</p>
+    <h3 class="interest-title">LLM alignment &amp; safety</h3>
+    <p class="interest-desc">Aligning large language models with the values of people across languages and cultures, and detecting harmful content such as hate speech and abuse.</p>
   </div>
 </div>
 
