@@ -16,11 +16,14 @@ I regularly give invited talks, keynotes, and panel presentations on natural lan
 **Keynote Talk (upcoming)**
 *[Fifth International Conference on Speech and Language Technologies for Low-Resource Languages (SPELLL 2026)](https://www.spelll.org), Amrita Vishwa Vidyapeetham, Coimbatore, India · 17–19 December 2026*
 
-**Building GENSCORE for African Languages: Screening in Pidgin, Hausa and Yoruba**
-*Keynote · AI Safety Nigeria Summit, Abuja, Nigeria · 4–5 November 2026*
+**Keynote Talk**
+*AI Safety Nigeria Summit, Abuja, Nigeria · 4–5 November 2026*
 
 **Safe in English, Unsafe in Others**
 *Invited talk · Cybersecurity Workshop, Cybersecurity Awareness Month, ShieldedBit (online and onsite) · 31 October 2026*
+
+**Building GENSCORE for African Languages: Screening in Pidgin, Hausa and Yoruba**
+*Lightning talk (virtual) · GENSCORE Project Launch, hosted by SRHIN, CBN Hall, Faculty of Economics, University of Ibadan, Nigeria · 29 October 2026*
 
 **The Illusion of Inclusion**
 *Keynote · [5th Workshop on NLP for Positive Impact (NLP4PI)](https://sites.google.com/view/nlp4positiveimpact), EMNLP 2026, Budapest, Hungary · 28 October 2026*
