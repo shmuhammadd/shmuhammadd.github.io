@@ -7,7 +7,7 @@ nav: true
 nav_order: 9
 ---
 
-I am hiring four postdocs in LLM alignment at Imperial College London. Each postdoc leads one of the five areas below. All five study how large language models behave in African and other low-resource languages, where most safety work has never been tested.
+I am hiring four postdocs in LLM alignment at Imperial College London. Each postdoc will lead one of the five areas below. All five study how large language models behave in African and other low-resource languages. Most safety methods have never been tested in these languages.
 
 ## Areas
 
@@ -17,11 +17,11 @@ Safety filters trained on English often fail when the same request arrives in Ha
 
 ### 2. Pluralistic alignment
 
-A model that gives one answer on family, religion or authority gives a Western answer by default. You will collect preference data from communities in Nigeria and across Africa, and train models that can represent more than one set of values and say which one they are using.
+Ask a model about family, religion or authority and it gives one answer, usually a Western one. You will collect preference data from communities in Nigeria and across Africa, and train models that can represent more than one set of values and say which one they are using.
 
 ### 3. Safety evaluation in low-resource languages
 
-We need to know whether a safety score in a language with little data means anything. You will build benchmarks for hate speech, polarisation and misinformation, extending [AfriHate](https://github.com/AfriHate/AfriHate), POLAR and BRIGHTER, and test whether LLM judges can be trusted to grade answers in languages they barely know.
+No one yet knows whether a safety score means anything in a language with little data. You will build benchmarks for hate speech, polarisation and misinformation, extending [AfriHate](https://github.com/AfriHate/AfriHate), POLAR and BRIGHTER, and test whether LLM judges can be trusted to grade answers in languages they barely know.
 
 ### 4. Cross-lingual alignment methods
 
@@ -29,11 +29,11 @@ Refusal and honesty are trained in English and assumed to carry over to other la
 
 ### 5. Speech safety
 
-Most Hausa speakers will talk to these models, not type to them. You will test whether voice assistants and speech-to-speech models keep their safety behaviour when the request is spoken in an African language, with real accents, background noise and code-switching, and build the spoken test sets needed to measure it.
+Most Hausa speakers will use these models by voice. You will test whether voice assistants and speech-to-speech models keep their safety behaviour when the request is spoken in an African language, with real accents, background noise and code-switching, and build the spoken test sets needed to measure it.
 
 ## Who should apply
 
-You have a PhD in NLP or machine learning, or will submit within six months. You have published at ACL, EMNLP, NAACL, NeurIPS, ICLR or a similar venue. Speaking an African language helps and is not required.
+You have a PhD in NLP or machine learning, or will submit your thesis within six months. You have published at ACL, EMNLP, NAACL, NeurIPS, ICLR or a similar venue. Speaking an African language helps but is not required.
 
 ## How to apply
 
