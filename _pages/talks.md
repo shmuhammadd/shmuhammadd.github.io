@@ -13,8 +13,11 @@ I regularly give invited talks, keynotes, and panel presentations on natural lan
 
 ## Keynotes & Invited Talks
 
-**Keynote Talk**
-*[5th Workshop on NLP for Positive Impact (NLP4PI)](https://sites.google.com/view/nlp4positiveimpact), EMNLP 2026, Budapest, Hungary · 28 October 2026*
+**Keynote Talk (upcoming)**
+*[Fifth International Conference on Speech and Language Technologies for Low-Resource Languages (SPELLL 2026)](https://www.spelll.org), Amrita Vishwa Vidyapeetham, Coimbatore, India · 17–19 December 2026*
+
+**The Illusion of Inclusion**
+*Keynote · [5th Workshop on NLP for Positive Impact (NLP4PI)](https://sites.google.com/view/nlp4positiveimpact), EMNLP 2026, Budapest, Hungary · 28 October 2026*
 
 **AI for Literature Review and Academic Writing**
 *[2026 Webinar Series #7](https://www.dri.buk.edu.ng/), Directorate of Research, Innovation and Partnership (DRIP), Bayero University, Kano, Nigeria · 27 July 2026*
